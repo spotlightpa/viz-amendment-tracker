@@ -36,34 +36,6 @@ export function once(ev, qs, cb) {
   });
 }
 
-export function storeItem(name, obj, { useSession = false } = {}) {
-  let store = useSession ? window.sessionStorage : window.localStorage;
-  let data = JSON.stringify(obj);
-  store.setItem(name, data);
-}
-
-export function loadItem(name, { useSession = false } = {}) {
-  let store = useSession ? window.sessionStorage : window.localStorage;
-  let data = store.getItem(name);
-  if (!data) {
-    return null;
-  }
-  return JSON.parse(data);
-}
-
-export function storeDate(name, date, { useSession = false } = {}) {
-  let data = +date;
-  storeItem(name, data, { useSession });
-}
-
-export function loadDate(name, { useSession = false } = {}) {
-  let date = loadItem(name, { useSession });
-  if (!date) {
-    return null;
-  }
-  return new Date(date);
-}
-
 export function polyfillClosest() {
   // Source: https://developer.mozilla.org/en-US/docs/Web/API/Element/closest#Polyfill
   if (!Element.prototype.matches) {

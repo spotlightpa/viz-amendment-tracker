@@ -36,6 +36,11 @@ module.exports = {
       darkblue: "#22416e",
       goldenrod: "#fff1bd",
       cyan: "#e5f6ff",
+      "chart-red": "#d7191c",
+      "chart-orange": "#F59E0B",
+      "chart-green": "#059669",
+      "chart-blue": "#2b83ba",
+      "chart-purple": "#7b3294",
     },
     extend: {
       boxShadow: {
@@ -57,9 +62,6 @@ module.exports = {
       },
       screens: {
         sm: "640px",
-        md: "850px",
-        lg: "1080px",
-        xl: "1280px",
       },
       maxWidth: {
         content: "730px",

@@ -12,16 +12,23 @@
   {{ partial "header/meta.html" . }}
   {{ partial "header/google-analytics-async.html" . }}
 
+  <link rel="preload" as="font" href="/css/fonts/raleway-v13/raleway-v13-latin-ext_latin-regular.woff2" crossorigin>
+  <link rel="preload" as="font" href="/css/fonts/raleway-v13/raleway-v13-latin-ext_latin-600.woff2" crossorigin>
+  <link rel="dns-prefetch" href="https://a.basemaps.cartocdn.com" >
+  <link rel="dns-prefetch" href="https://b.basemaps.cartocdn.com" >
+  <link rel="dns-prefetch" href="https://c.basemaps.cartocdn.com" >
+  <link rel="dns-prefetch" href="https://d.basemaps.cartocdn.com" >
   {{ $cssFonts := resources.Get "css/fonts.css" }}
   {{ $cssTW := resources.Get "css/main.css" }}
-  {{ $css := slice $cssFonts $cssTW | resources.Concat "styles.css" }}
+  {{ $cssLeaflet := resources.Get "@leaflet/leaflet.css" }}
+  {{ $css := slice $cssFonts $cssTW $cssLeaflet | resources.Concat "styles.css" }}
   {{ $css = $css | postCSS }}
   {{ if ne hugo.Environment "development" }}
-    {{ $css = $css | minify | fingerprint | resources.PostProcess }}
+    {{ $css = $css | minify | resources.PostProcess }}
     <style type="text/css">
       {{ $css.Content }}
     </style>
-  {{ else }}
+{{ else }}
     <link rel="stylesheet" href="{{ $css.RelPermalink }}">
   {{ end }}
   {{ $minify := not site.IsServer }}
@@ -34,7 +41,7 @@
       "ALPINE_VERSION" `"spl-dev"`
     )
     "params" (dict
-      "apiKey" (getenv "GOOGLE_MAPS_API_KEY" | default "xxx")
+      "apiBaseURL" (.Param "api-base-url")
   )}}
   {{ $js := resources.Get "js/main.js" | js.Build $jsOpts }}
   {{ if $minify }}
@@ -62,40 +69,34 @@
 {{ $pageCat := printf "%s:%s" (.Section | default .Type) .Kind }}
 {{ if eq .Kind "home" }}{{ $pageCat = "home "}}{{ end }}
 <body
-  data-ga-label='interactive:redistricting-2020'
-  data-ga-category="interactive"
-  class="w-screen overflow-hidden flex flex-col bg-beige font-rale text-g-9 leading-normal"
+  data-ga-label='interactive:viz-redistricting-2020'
+  data-ga-category="interactive:viz-redistricting-2020"
+  class="w-screen overflow-x-hidden flex flex-col bg-beige text-g-9 font-rale leading-normal"
 >
   <main
     class="bg-white flex-grow p-1"
-    x-data="map">
-    <h1 class="text-black font-bold text-xl">
-      <svg
-        class="inline-block h-10 w-10 fill-current text-black"
-        role="img"
-        aria-label="Spotlight PA logo"
-      >
-        <use xlink:href="#logo-svg"></use>
-      </svg>
-      <span>
-        Redistricting
-      </span>
+    x-data="app">
+    <h1 class="text-2xl font-semibold">
+      Search for your district to see how it would change
     </h1>
-    <p class="text-sm">
-      Pennsylvania has new political maps. See which districts your home is in.
-    </p>
-
-    <form class="mt-4 flex gap-1 items-stretch" @submit.prevent>
+    <form
+      class="mt-4 flex gap-1 items-stretch"
+      autocomplete="on"
+      @submit.prevent="document.activeElement.blur()"
+    >
       <button
+        aria-label="Find my location"
         class="
           px-4 flex-shrink-0
           rounded-l-lg border-2 border-goldenrod
           bg-yellow
         "
         type="button"
-        @click="locate"
+        @click="byLocation"
+        data-ga-action="find-location"
       >
         <svg
+          aria-hidden="true"
           class="inline-block h-6 w-6 fill-current text-white"
           role="img"
           aria-label="Spotlight PA logo"
@@ -112,33 +113,195 @@
           placeholder-g-5 placeholder-opacity-100
           tracking-wider
         "
+        type="search"
+        name="address"
         placeholder="1723 Commonwealth Ave, Harrisburg"
-        x-model="address"
-        autofocus
+        autocomplete="postal-code"
+        x-model="$store.state.address"
       >
       <button
+        aria-label="Search"
         class="
           px-4
           rounded-r-lg border-2 border-goldenrod
           bg-yellow text-g-1
           font-bold tracking-widest uppercase
         "
-        @click="geolocate()"
+        @click="byAddress()"
+        data-ga-action="location-search"
       >
         <svg
+          aria-hidden="true"
           class="w-6 h-6 fill-current text-white"
-          :class="{ 'animate-bounce': isLoadingThrottled }"
+          :class="{ 'animate-spin': isLoadingThrottled }"
         >
-          <use xlink:href="#search-svg"></use>
+          <use x-show="!isLoadingThrottled" xlink:href="#search-svg"></use>
+          <use x-show="isLoadingThrottled" xlink:href="#spinner-svg"></use>
         </svg>
       </button>
     </form>
 
+    <p class="mt-2 text-sm text-g-6">
+      Address information is not collected or stored.
+    </p>
 
-    <template x-if="error">
-      <div x-text="error"></div>
-    </template>
-    <div x-text="`lat ${lat}, long ${long}`"></div>
+    <div
+      x-show="error && error.message"
+      class="text-orange font-semibold"
+      x-text="error && error.message || error"></div>
+
+    <p class="mt-8 text-base">
+      Not from Pennsylvania? Want to look at other districts? Try dragging the pin on a map or click on one of these suggestions:
+    </p>
+
+    <p class="mt-2 flex flex-wrap gap-x-8 gap-y-4 justify-center">
+      {{ $suggestions := slice
+        (dict
+          "name" "Harrisburg"
+          "lat" "40.26444"
+          "long" "-76.88375"
+          "oldHouse" "103"
+          "newHouse" "103"
+          "oldSenate" "15"
+          "newSenate" "15"
+        )
+        (dict
+          "name" "Lehigh Valley"
+          "lat" "40.6076972"
+          "long" "-75.4348623"
+          "newHouse" "22"
+          "newSenate" "14"
+          "oldHouse" "132"
+          "oldSenate" "16"
+        )
+        (dict
+          "name" "Philadelphia"
+          "lat" "39.9498857"
+          "long" "-75.145896"
+          "oldHouse" "175"
+          "newHouse" "175"
+          "oldSenate" "1"
+          "newSenate" "1"
+        )
+        (dict
+          "name" "Pittsburgh"
+          "lat" "40.4406248"
+          "long" "-79.9958864"
+          "newHouse" "19"
+          "newSenate" "42"
+          "oldHouse" "19"
+          "oldSenate" "42"
+        )
+        (dict
+          "name" "State College"
+          "lat" "40.7933949"
+          "long" "-77.8600012"
+          "newHouse" "77"
+          "newSenate" "25"
+          "oldHouse" "77"
+          "oldSenate" "34"
+        )
+      }}
+      {{ range $suggestions }}
+        <button
+          class="text-g-7 font-semibold"
+          @click="
+            $store.state.lat = $el.dataset.lat;
+            $store.state.long = $el.dataset.long;
+            $store.state.oldHouse = $el.dataset.oldHouse;
+            $store.state.newHouse = $el.dataset.newHouse;
+            $store.state.oldSenate = $el.dataset.oldSenate;
+            $store.state.newSenate = $el.dataset.newSenate;
+            $report($event);
+          "
+          data-lat="{{ .lat }}"
+          data-long="{{ .long }}"
+          data-old-house="{{ .oldHouse }}"
+          data-new-house="{{ .newHouse }}"
+          data-old-senate="{{ .oldSenate }}"
+          data-new-senate="{{ .newSenate }}"
+          data-ga-action="select-location:{{ .name | urlize }}"
+        >{{ .name }}</button>
+      {{ end }}
+    </p>
+
+    <h2 class="mt-16 text-center text-2xl font-semibold">
+      Pennsylvania House
+    </h2>
+
+    <p class="mt-2">
+      Republicans currently hold 113 seats in the Pennsylvania House while Democrats hold 90. The new map decreases the number of districts where Republican candidates are projected to win based on past election results. It maintains the number of districts that aren’t majority white.
+    </p>
+
+    <div
+      class="mt-8 sm:flex gap-8"
+    >
+      <div
+        class="sm:w-1/2"
+        x-data="map('oldHouse')"
+        x-init="urlPattern = '/geojson/house-2012-%%.json'"
+        x-effect="
+          district = $store.state.oldHouse;
+          latLong = $store.state.latLong
+        "
+        data-ga-category="old-house"
+      >
+        {{ partial "map.html" (dict "prior" true) }}
+      </div>
+      <div
+        class="sm:w-1/2"
+        x-data="map('newHouse')"
+        x-init="urlPattern = '/geojson/house-2022-%%.json'"
+        x-effect="
+          district = $store.state.newHouse;
+          latLong = $store.state.latLong
+        "
+        data-ga-category="new-house"
+      >
+        {{ partial "map.html" (dict "prior" false) }}
+      </div>
+    </div>
+
+    <section>
+      {{ partial "newsletter.html" . }}
+    </section>
+
+    <h2 class="mt-12 text-center text-2xl font-semibold">
+      Pennsylvania Senate
+    </h2>
+
+    <p class="mt-2">
+      Republicans currently hold 28 seats in the Pennsylvania Senate while Democrats hold 21. There is one independent senator. The new map maintains the number of seats that Republicans are projected to win based on past election results. It also maintains the number of districts that aren’t majority-white, while increasing the number of districts where minority communities account for 30%–40% of the voting-age population.
+    </p>
+
+    <div
+      class="mt-8 sm:flex gap-8"
+    >
+      <div
+        class="sm:w-1/2"
+        x-data="map('oldSenate')"
+        x-init="urlPattern = '/geojson/senate-2012-%%.json'"
+        x-effect="
+          district = $store.state.oldSenate;
+          latLong = $store.state.latLong
+        "
+        data-ga-category="old-senate"
+      >
+        {{ partial "map.html" (dict "prior" true) }}
+      </div>
+      <div
+        class="sm:w-1/2"
+        x-data="map('newSenate')"
+        x-init="urlPattern = '/geojson/senate-2022-%%.json'"
+        x-effect="
+          district = $store.state.newSenate;
+          latLong = $store.state.latLong
+        "
+        data-ga-category="new-senate"
+      >
+        {{ partial "map.html" (dict "prior" false) }}
+      </div>
+    </div>
 
     <footer>
       <p class="mt-2 text-right">
@@ -151,22 +314,15 @@
         </svg>
       </p>
     </footer>
-    <datalist>
-      {{ range site.Data.report }}
-        <option
-          x-ref="contact-{{ .County }}"
-          data-mailto="mailto:{{.warden}}<{{.email}}>"
-          data-phone="tel:{{.phone}}"
-        >
-      {{ end }}
-    </datalist>
   </main>
 
   {{ $svgs := dict
     "banner-svg" "/img/logos/banner-default-on-trans.svg"
     "logo-svg" "/img/logos/circle-default-on-trans.svg"
     "crosshairs-svg" "@fontawesome/solid/crosshairs.svg"
+    "email-svg" "@fontawesome/regular/envelope.svg"
     "search-svg" "@fontawesome/solid/search.svg"
+    "spinner-svg" "@fontawesome/solid/spinner.svg"
   }}
   <div hidden>
     {{ range $id, $rsc := $svgs }}

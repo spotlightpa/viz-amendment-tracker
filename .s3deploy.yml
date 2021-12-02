@@ -1,22 +1,22 @@
 routes:
-    - route: "^.+\\.(css|svg)$"
-      #  cache static assets for 20 years
-      headers:
-         Cache-Control: "max-age=630720000, no-transform, public"
-      gzip: true
-    - route: "^.+\\.(woff|woff2)$"
-      #  cache static assets for 20 years
-      headers:
-         Cache-Control: "public, max-age=630720000, immutable"
-      gzip: false
-    - route: "^.+\\.(js)$"
-      #  cache static assets for 15 minutes
-      headers:
-         Cache-Control: "public, max-age=900"
-      gzip: true
-    - route: "^.+\\.(png|jpg)$"
-      headers:
-         Cache-Control: "max-age=630720000, no-transform, public"
-      gzip: false
-    - route: "^.+\\.(html|xml|json)$"
-      gzip: true
+  - route: "^.+\\.(css|svg)$"
+    #  cache static assets for 20 years
+    headers:
+      Cache-Control: "max-age=630720000, no-transform, public"
+    gzip: true
+  - route: "^.+\\.(woff|woff2)$"
+    #  cache static assets for 20 years
+    headers:
+      Cache-Control: "public, max-age=630720000, immutable"
+    gzip: false
+  - route: "^.+\\.(js)$"
+    #  cache static assets for 15 minutes
+    headers:
+      Cache-Control: "public, max-age=900"
+    gzip: true
+  - route: "^.+\\.(png|jpg)$"
+    headers:
+      Cache-Control: "max-age=630720000, no-transform, public"
+    gzip: false
+  - route: "^.+\\.(html|xml|json)$"
+    gzip: true

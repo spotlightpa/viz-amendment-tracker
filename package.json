@@ -7,11 +7,12 @@
   "scripts": {
     "format": "yarn run format:eslint; yarn run format:prettier",
     "format:eslint": "eslint --fix --ext .js --ignore-path .gitignore .",
-    "format:prettier": "prettier --ignore-path .gitignore --write **/**/*.{css,js,yml}",
-    "build": "hugo --cleanDestinationDir",
+    "format:prettier": "prettier --ignore-path .gitignore --write **/*.{css,js,yml}",
+    "build:stage": "./build.sh && hugo --environment staging --baseURL ${DEPLOY_PRIME_URL:-https://viz-redistricting-2020.data.spotlightpa.org}",
+    "build:prod": "./build.sh && hugo --cleanDestinationDir",
     "test": "yarn run test:eslint && yarn run test:prettier",
     "test:eslint": "eslint --ext .js --ignore-path .gitignore .",
-    "test:prettier": "prettier --ignore-path .gitignore --check **/**/*.{css,js,yml}"
+    "test:prettier": "prettier --ignore-path .gitignore --check **/*.{css,js,yml}"
   },
   "dependencies": {
     "@babel/core": ">=7.16.0",

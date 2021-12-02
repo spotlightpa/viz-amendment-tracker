@@ -7,6 +7,9 @@ buildFuture = true
 
 googleAnalytics = "UA-141126362-3"
 
+[params]
+api-base-url = ""
+
 [build]
   writeStats = true
   noJSConfigInAssets = true
@@ -25,6 +28,10 @@ target = "assets/js"
 [[module.mounts]]
 source = "node_modules/@fortawesome/fontawesome-free/svgs"
 target = "assets/@fontawesome"
+
+[[module.mounts]]
+source = "node_modules/leaflet/dist"
+target = "assets/@leaflet"
 
 [[module.mounts]]
 source = "static"

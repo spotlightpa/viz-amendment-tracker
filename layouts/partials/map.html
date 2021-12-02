@@ -1,0 +1,147 @@
+<div
+  class="mt-4"
+>
+  <h3
+    class="text-center text-lg font-semibold tracking-wider uppercase"
+  >{{ cond .prior "Currently" "Proposed" }}</h3>
+  <template x-if="props">
+    <div>
+      <h2 class="text-center text-2xl font-semibold" x-template>
+          District ${props.district}
+      </h2>
+      {{ if not .prior }}
+        <p class='mt-4 leading-normal hidden sm:block sm:invisible'>&nbsp;</p>
+      {{ else }}
+        <p
+          class='mt-4 leading-normal {{ cond .prior "" "hidden sm:block sm:invisible" }}'
+        >
+          The current lawmaker is
+          <b
+            class='font-semibold'
+            :class="`text-${partyClass(props.lawmaker_party)}`"
+            x-text="`${props.lawmaker_name} (${props.lawmaker_party[0]})`"
+          ></b>.
+        </p>
+      {{ end }}
+
+      <p class="mt-6 leading-normal">
+        Of registered voters in this {{ cond .prior "" "new" }} district,
+        <span x-show="majorityParty">
+          a majority {{ cond .prior "are" "would be registered" }}
+          <span
+            class="font-semibold"
+            :class="
+              pluralityParty === 'per_rep'?
+              'text-chart-red':
+              pluralityParty === 'per_dem'?
+              'text-chart-blue':
+              'text-chart-purple'
+          "
+          x-text="propNames[pluralityParty]"
+          ></span>.
+        </span>
+        <span x-show="!majorityParty">
+          no party {{ cond .prior "had" "would have" }} more than 50% of registrations.
+        </span>
+      </p>
+      <div
+        class="
+          mt-4 h-8 flex justify-between
+          rounded overflow-hidden shadow-sm
+          bg-chart-purple text-white font-semibold leading-none
+        "
+        aria-hidden="true"
+      >
+      {{ define "bar-segment" }}
+        {{ $prop := index . 0 }}
+        {{ $label := index . 1 }}
+        {{ $class := index . 2 }}
+        <div
+          class="flex-none truncate flex justify-around items-center {{ $class }}"
+          data-prop="{{ $prop }}"
+          data-label="{{ $label }}"
+          :style="{width: props[$el.dataset.prop]}"
+          :title="$el.dataset.label + props[$el.dataset.prop]"
+        ></div>
+      {{ end }}
+      {{ $rows := slice
+        (slice "per_dem" "Democrats: " "bg-chart-blue")
+        (slice "per_other" "Others: " "bg-chart-purple")
+        (slice "per_rep" "Republicans: " "bg-chart-red")
+      }}
+      {{ range $rows }}
+        {{ template "bar-segment" . }}
+      {{ end }}
+    </div>
+      <p class="mt-2 flex flex-wrap gap-x-4 gap-y-2 font-semibold leading-none">
+        {{ define "label-entry" }}
+          <span class="block">
+            <span class="inline-block w-3 h-3 bg-{{ index . 0 }}"></span>
+            <span class="text-{{ index . 0 }} leading-none" x-template>{{ index . 1}}</span>
+          </span>
+        {{ end }}
+        {{ $rows = slice
+          (slice "chart-blue" "Democrats: ${props.per_dem}")
+          (slice "chart-purple" "Others: ${props.per_other}")
+          (slice "chart-red" "Republicans: ${props.per_rep}")
+        }}
+        {{ range $rows }}
+          {{ template "label-entry" . }}
+        {{ end }}
+
+      <p class="mt-12 leading-normal">
+        Among people who live here, this
+        {{ cond .prior "" "new" }}
+        district has
+        <span
+          x-text="
+            majorityRace?
+            `${propNames[majorityRace]} majority`:
+            'no race or ethnicity more than 50%'
+          "
+        ></span>.
+      </p>
+      <div
+        class="
+          mt-4 h-8 flex justify-start
+          rounded overflow-hidden shadow-sm
+          text-white font-semibold leading-none
+        "
+        aria-hidden="true"
+      >
+        {{ $rows = slice
+          (slice "per_asian" "Asian: " "bg-chart-blue")
+          (slice "per_black" "Black: " "bg-chart-purple")
+          (slice "per_hispanic" "Hispanic: " "bg-chart-red")
+          (slice "per_white" "White: " "bg-chart-green")
+        }}
+        {{ range $rows }}
+          {{ template "bar-segment" . }}
+        {{ end }}
+        <div
+          class="flex-grow truncate flex justify-around items-center bg-chart-orange"
+          :title="`Mixed race: ${props.per_mixed} Other: ${props.per_misc}`"
+        ></div>
+      </div>
+      <p class="mt-2 flex flex-wrap gap-x-4 gap-y-2 font-semibold leading-none">
+        {{ $rows = slice
+          (slice "chart-blue" "Asian: ${props.per_asian}")
+          (slice "chart-purple" "Black: ${props.per_black}")
+          (slice "chart-red" "Hispanic: ${props.per_hispanic}")
+          (slice "chart-green" "White: ${props.per_white}")
+          (slice "chart-orange" "Mixed race: ${props.per_mixed} Other: ${props.per_misc}")
+        }}
+        {{ range $rows }}
+          {{ template "label-entry" . }}
+        {{ end }}
+      </p>
+    </div>
+  </template>
+  <div class="mt-6 h-96 shadow bg-g-4">
+    <div
+      style="height: 384px;"
+      x-ref="leaflet"
+      data-ga-action="map-interaction"
+    ></div>
+  </div>
+</div>

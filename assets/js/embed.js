@@ -1,4 +1,4 @@
-import { Framer } from "@newswire/frames";
+import { Framer } from "js/framer/index.mjs";
 
 import { each, onLoad } from "./utils/dom-utils.js";
 
@@ -19,7 +19,7 @@ onLoad(() => {
     let container = el.attachShadow({ mode: "open" });
     let sandbox =
       "allow-scripts allow-same-origin allow-forms allow-popups allow-top-navigation";
-
-    new Framer({ container, src, sandbox });
+    let allow = "geolocation";
+    new Framer({ container, src, sandbox, allow });
   });
 });

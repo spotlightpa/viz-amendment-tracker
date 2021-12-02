@@ -1,0 +1,104 @@
+[build]
+command = "yarn build:prod"
+functions = "functions"
+publish = "public"
+
+[build.environment]
+NODE_VERSION = "17"
+NODE_ENV = "production"
+HUGO_VERSION = "0.89.4"
+HUGO_ENV = "production"
+TZ = "America/New_York"
+
+[context.deploy-preview]
+command = "yarn build:stage"
+
+[[redirects]]
+from = "/api/*"
+to = "/.netlify/functions/geolocator/:splat"
+status = 200
+
+[[headers]]
+for = "/*"
+[headers.values]
+X-Content-Type-Options = "nosniff"
+
+[[headers]]
+for = "/*.css"
+[headers.values]
+Cache-Control = "public, max-age=31536000, immutable" # 1 year
+
+[[headers]]
+for = "/*.gif"
+[headers.values]
+Cache-Control = "public, max-age=1209600" # 2 weeks
+
+[[headers]]
+for = "/*.ico"
+[headers.values]
+Cache-Control = "public, max-age=1209600" # 2 weeks
+
+[[headers]]
+for = "/*.jpeg"
+[headers.values]
+Cache-Control = "public, max-age=1209600" # 2 weeks
+
+[[headers]]
+for = "/*.jpg"
+[headers.values]
+Cache-Control = "public, max-age=1209600" # 2 weeks
+
+[[headers]]
+for = "/*.js"
+[headers.values]
+Cache-Control = "public, max-age=300" # 5 minutes
+
+[[headers]]
+for = "/*.json"
+[headers.values]
+Cache-Control = "public, max-age=3600" # 1 hour
+
+[[headers]]
+for = "/*.map"
+[headers.values]
+Cache-Control = "public, max-age=300" # 5 minutes
+
+[[headers]]
+for = "/*.pdf"
+[headers.values]
+Cache-Control = "public, max-age=1209600" # 2 weeks
+
+[[headers]]
+for = "/*.png"
+[headers.values]
+Cache-Control = "public, max-age=1209600" # 2 weeks
+
+[[headers]]
+for = "/*.svg"
+[headers.values]
+Cache-Control = "public, max-age=1209600" # 2 weeks
+
+[[headers]]
+for = "/*.txt"
+[headers.values]
+Cache-Control = "public, max-age=300" # 5 minutes
+
+[[headers]]
+for = "/*.webm"
+[headers.values]
+Cache-Control = "public, max-age=1209600" # 2 weeks
+
+[[headers]]
+for = "/*.woff"
+[headers.values]
+Access-Control-Allow-Origin = "*"
+Cache-Control = "public, max-age=31536000, immutable" # 1 year
+
+[[headers]]
+for = "/*.woff2"
+[headers.values]
+Access-Control-Allow-Origin = "*"
+Cache-Control = "public, max-age=31536000, immutable" # 1 year
+
+[[plugins]]
+package = "netlify-plugin-hugo-cache-resources"

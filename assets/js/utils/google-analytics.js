@@ -1,14 +1,12 @@
 import galite from "ga-lite/src/ga-lite.js";
-import { each, on, storeItem, loadItem, allClosest } from "./dom-utils.js";
+import { each, on, allClosest } from "./dom-utils.js";
 
 // Ensure a Google Analytics window func
 if (!window.ga) {
   window.ga = galite;
 }
 
-export const DO_NOT_TRACK_KEY = "do-not-track";
-
-let dnt = loadItem(DO_NOT_TRACK_KEY);
+const dnt = !window.location.host.match(/spotlightpa\.org$/);
 
 export function callGA(...args) {
   if (dnt) {
@@ -87,14 +85,6 @@ export function reportClick(ev) {
 }
 
 export function addGAListeners() {
-  const onDNTPage = !!window.location.href.match(/debug=do-not-track/);
-  const onProdSite = !!window.location.host.match(/spotlightpa\.org$/);
-
-  if (onDNTPage || (dnt === null && !onProdSite)) {
-    dnt = true;
-    storeItem(DO_NOT_TRACK_KEY, true);
-  }
-
   let el = document.querySelector("[data-ga-settings]");
   if (!el) {
     // eslint-disable-next-line no-console
