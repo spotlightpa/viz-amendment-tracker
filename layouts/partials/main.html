@@ -1,0 +1,10 @@
+<div x-data="app">
+  <template x-for="(row, i) of rows" :key="row.RowID">
+    <h1>
+      <span x-text="row.BillNumber"></span>
+      <span x-text="row.Sponsor"></span>
+      <span x-text="row.Party"></span>
+      <span x-text="row.OpenStatesInfo?.latest_action_description ?? ''"></span>
+    </h1>
+  </template>
+</div>

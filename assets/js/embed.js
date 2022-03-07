@@ -1,9 +1,9 @@
-import { Framer } from "js/framer/index.mjs";
+import { Framer } from "@newswire/frames";
 
 import { each, onLoad } from "./utils/dom-utils.js";
 
 onLoad(() => {
-  each("[data-spl-interactive=viz-redistricting-2020]", (el) => {
+  each("[data-spl-interactive=viz-amendment-tracker]", (el) => {
     // Bail if we were already attached or old JS
     if (el.shadowRoot || !("attachShadow" in el)) {
       return;
@@ -19,7 +19,8 @@ onLoad(() => {
     let container = el.attachShadow({ mode: "open" });
     let sandbox =
       "allow-scripts allow-same-origin allow-forms allow-popups allow-top-navigation";
-    let allow = "geolocation";
-    new Framer({ container, src, sandbox, allow });
+    let attributes = { sandbox };
+
+    new Framer(container, { src, attributes });
   });
 });
