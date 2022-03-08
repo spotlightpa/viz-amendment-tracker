@@ -23,6 +23,7 @@ module.exports = {
       "g-7": "#5d5d5d",
       "g-8": "#2d3748",
       "g-9": "#1a202c",
+      red: "#ac130d",
       beige: "#f4f1ee",
       robin: "#99d9f1",
       blue: "#009edb",
@@ -70,6 +71,7 @@ module.exports = {
   },
   variants: {
     extend: {
+      backgroundColor: ["odd"],
       boxShadow: ["active", "group-focus"],
       ringWidth: ["hover", "active"],
     },

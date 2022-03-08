@@ -31,6 +31,7 @@
     {{ $css = $css | postCSS }}
     {{ if ne hugo.Environment "development" }}
       {{ $css = $css | minify | resources.PostProcess }}
+
       <style type="text/css">
         {{ $css.Content }}
       </style>
@@ -72,15 +73,18 @@
   <body
     data-ga-label="interactive:viz-amendment-tracker"
     data-ga-category="interactive:viz-amendment-tracker"
-    class="w-screen overflow-x-hidden flex flex-col bg-beige text-g-9 font-rale leading-normal"
+    class="w-screen overflow-x-hidden flex flex-col bg-beige text-g-9 font-rale leading-none"
   >
     <main>{{ partial "main.html" . }}</main>
-    {{ $svgs := dict "banner-svg" "/img/logos/banner-default-on-trans.svg"
-      "logo-svg" "/img/logos/circle-default-on-trans.svg" "crosshairs-svg"
-      "@fontawesome/solid/crosshairs.svg" "email-svg"
-      "@fontawesome/regular/envelope.svg" "search-svg"
-      "@fontawesome/solid/search.svg" "spinner-svg"
-      "@fontawesome/solid/spinner.svg"
+    {{ $svgs := dict
+      "banner-svg" "/img/logos/banner-default-on-trans.svg"
+      "logo-svg" "/img/logos/circle-default-on-trans.svg"
+      "check-svg" "@fontawesome/solid/check-circle.svg"
+      "times-svg" "@fontawesome/solid/times-circle.svg"
+      "dem-svg"  "@fontawesome/solid/democrat.svg"
+      "rep-svg" "@fontawesome/solid/republican.svg"
+      "gavel-svg" "@fontawesome/solid/gavel.svg"
+      "shield-svg" "@fontawesome/solid/shield-alt.svg"
     }}
     <div hidden>
       {{ range $id, $rsc := $svgs }}

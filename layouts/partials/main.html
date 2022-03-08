@@ -1,10 +1,189 @@
-<div x-data="app">
-  <template x-for="(row, i) of rows" :key="row.RowID">
-    <h1>
-      <span x-text="row.BillNumber"></span>
-      <span x-text="row.Sponsor"></span>
-      <span x-text="row.Party"></span>
-      <span x-text="row.OpenStatesInfo?.latest_action_description ?? ''"></span>
-    </h1>
-  </template>
+<div x-data="app" class="bg-white text-g-9">
+  <div class="mx-auto max-w-screen-sm p-1">
+    <div class="flex space-x-2">
+      <div class="w-full">
+        <label class="block font-semibold" for="filter-text">Search</label>
+        <input
+          x-model="filterText"
+          type="search"
+          id="filter-text"
+          class="
+            mt-2 mb-0 block
+            pl-4 py-1 appearance-none
+            w-full h-10 rounded-lg border border-g-5
+            bg-white text-g-8 placeholder-g-5 placeholder-opacity-100
+            tracking-wider
+            focus:outline-none focus:border-blue
+          "
+          placeholder="Search"
+        />
+      </div>
+      <div class="w-full">
+        <label class="block font-semibold" for="sort-by">Sort By</label>
+        <select
+          x-model="sortBy"
+          id="sort-by"
+          class="
+            mt-2 appearance-none
+            w-full h-10 rounded-lg border border-g-5
+            pl-4 bg-white text-g-7 font-semibold tracking-wider
+            focus:outline-none focus:border-blue
+          "
+        >
+          <option value="activity" selected>Recent Activity</option>
+          <option value="name">Name</option>
+          <option value="progress">Progress</option>
+          <option value="proposed">Date proposed</option>
+        </select>
+      </div>
+    </div>
+    <div class="mt-4 space-y-2">
+      <template x-for="(row, i) of rows" :key="row.id">
+        <div class="p-2 rounded shadow odd:bg-beige">
+          <h1 class="flex items-start justify-between items-end">
+            <span
+              class="text-xl text-black whitespace-nowrap font-semibold leading-none"
+              x-text="row.name"
+            ></span>
+            <span class="text-sm leading-tight">
+              <a
+                class="inline-block rounded px-2 py-1 bg-g-5 font-semibold hover:shadow"
+                :href="row.openStatesURL"
+                x-show="row.openStatesURL"
+                target="_blank"
+                >
+                <svg class="inline-block w-3 h-3">
+                    <use href="#shield-svg" />
+                </svg>
+
+                Open States
+                </a>
+              <a
+                class="inline-block rounded px-2 py-1 bg-g-5 font-semibold hover:shadow"
+                :href="row.legisURL"
+                x-show="row.legisURL"
+                target="_blank"
+              >
+                <svg class="inline-block w-3 h-3">
+                    <use href="#gavel-svg" />
+                </svg>
+                General Assembly
+              </a>
+            </span>
+          </h1>
+          <p
+            class="mt-1 text-base text-g-9 font-semibold leading-tight "
+            x-text="row.description"
+          ></p>
+
+          <p class="mt-1 leading-none">
+            Sponsored
+            <span
+              x-show="row.firstActionDate"
+              x-text="$date(row.firstActionDate)"
+            ></span>
+            by
+            <span x-text="row.sponsor"></span>
+            <svg
+              class="ml-1 inline-block w-4 h-4 fill-current"
+              :style="`margin-bottom: ${row.isRep ? '3' : '4'}px`"
+              :class="row.isRep ? 'text-red' : 'text-darkblue'"
+            >
+              <use :href="row.isRep ? '#rep-svg' : '#dem-svg'" />
+            </svg>
+          </p>
+          <p class="mt-3 text-base italic leading-tight" x-text="row.title"></p>
+          <p class="mt-2 text-base leading-tight" x-text="row.description"></p>
+          <div class="mt-2" x-show="row.notes">
+            <details class="leading-tight">
+              <summary class="font-semibold">Notes</summary>
+              <span class="block" x-text="row.notes"></span>
+            </details>
+          </div>
+          <h2
+            class="mt-4"
+            x-show="row.latestAction"
+            x-text="row.latestAction"
+          ></h2>
+          <p class="mt-6 font-semibold">Status</p>
+          <p class="mt-2">
+            <span x-show="row.houseCommittee === 'none'">
+              <svg class="inline-block w-4 h-4 fill-current text-g-5">
+                <use href="#check-svg" />
+              </svg>
+              House Committee
+            </span>
+            <span x-show="row.houseCommittee === 'fail'">
+              <svg class="inline-block w-4 h-4 fill-current text-red">
+                <use href="#times-svg" />
+              </svg>
+              House Committee Failed
+            </span>
+            <span x-show="row.houseCommittee === 'pass'">
+              <svg class="inline-block w-4 h-4 fill-current text-green">
+                <use href="#check-svg" />
+              </svg>
+              House Committee Passed
+            </span>
+
+            <span x-show="row.houseVote === 'none'">
+              <svg class="inline-block w-4 h-4 fill-current text-g-5">
+                <use href="#check-svg" />
+              </svg>
+              House Vote
+            </span>
+            <span x-show="row.houseVote === 'fail'">
+              <svg class="inline-block w-4 h-4 fill-current text-red">
+                <use href="#times-svg" />
+              </svg>
+              House Vote Failed
+            </span>
+            <span x-show="row.houseVote === 'pass'">
+              <svg class="inline-block w-4 h-4 fill-current text-green">
+                <use href="#check-svg" />
+              </svg>
+              House Vote Passed
+            </span>
+            <span x-show="row.houseCommittee === 'none'">
+              <svg class="inline-block w-4 h-4 fill-current text-g-5">
+                <use href="#check-svg" />
+              </svg>
+              Senate Committee
+            </span>
+            <span x-show="row.senateCommittee === 'fail'">
+              <svg class="inline-block w-4 h-4 fill-current text-red">
+                <use href="#times-svg" />
+              </svg>
+              Senate Committee Failed
+            </span>
+            <span x-show="row.senateCommittee === 'pass'">
+              <svg class="inline-block w-4 h-4 fill-current text-green">
+                <use href="#check-svg" />
+              </svg>
+              Senate Committee Passed
+            </span>
+
+            <span x-show="row.senateVote === 'none'">
+              <svg class="inline-block w-4 h-4 fill-current text-g-5">
+                <use href="#check-svg" />
+              </svg>
+              Senate Vote
+            </span>
+            <span x-show="row.senateVote === 'fail'">
+              <svg class="inline-block w-4 h-4 fill-current text-red">
+                <use href="#times-svg" />
+              </svg>
+              Senate Vote Failed
+            </span>
+            <span x-show="row.senateVote === 'pass'">
+              <svg class="inline-block w-4 h-4 fill-current text-green">
+                <use href="#check-svg" />
+              </svg>
+              Senate Vote Passed
+            </span>
+          </p>
+        </div>
+      </template>
+    </div>
+  </div>
 </div>
