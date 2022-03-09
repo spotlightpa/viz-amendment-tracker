@@ -3,6 +3,7 @@
     {
       "BillLink": "Senate Bill 8",
       "BillNumber": "Senate Bill 8",
+      "FormerSessionUrl": "",
       "Notes": "An identical version of this proposal passed both chambers in the 2019-20 session, but was invalidated after the Department of State failed to advertise the proposed amendment as required. The legislature has advanced a similar House proposal this session, restarting the process.",
       "OpenStatesId": "ocd-bill/ba81cbb5-c42c-45f9-bcf5-a1b8b030e752",
       "OpenStatesInfo": {
@@ -134,11 +135,13 @@
       "Status": "Waiting for a vote in the Senate",
       "Topics": "Criminal justice",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0008",
-      "WhatWouldItDo": "Create a two-year window for victims of childhood sexual abuse to file civil suits"
+      "WhatWouldItDo": "Create a two-year window for victims of childhood sexual abuse to file civil suits",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 14",
       "BillNumber": "House Bill 14",
+      "FormerSessionUrl": "",
       "Notes": "An identical version of this proposal passed both chambers in the 2019-20 session. This session's proposal was approved by the House, poised for a vote in the Senate, and on track to appear on the May 2021 ballot. But because the Department of State failed to follow the proper advertisement procedures, it was no longer eligible to appear on the ballot. The House voted on this proposal again to restart the process. Now, an identical version of this proposal must pass in the 2023-24 session.",
       "OpenStatesId": "ocd-bill/d8b569d3-3668-49bd-9e9a-dabd2cfa784a",
       "OpenStatesInfo": {
@@ -483,11 +486,13 @@
       "Status": "Passed both the House and Senate.",
       "Topics": "Criminal justice",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0014",
-      "WhatWouldItDo": "Create a two-year window for victims of childhood sexual abuse to file civil suits"
+      "WhatWouldItDo": "Create a two-year window for victims of childhood sexual abuse to file civil suits",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 38",
       "BillNumber": "House Bill 38",
+      "FormerSessionUrl": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2019\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0133",
       "Notes": "",
       "OpenStatesId": "ocd-bill/c5d6944d-72b8-4358-8ea9-785fc0140f45",
       "OpenStatesInfo": {
@@ -622,11 +627,13 @@
       "Status": "Waiting for a vote in the House",
       "Topics": "Judiciary",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0038",
-      "WhatWouldItDo": "Create judicial districts for appellate judges drawn by the legislature"
+      "WhatWouldItDo": "Create judicial districts for appellate judges drawn by the legislature",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 551",
       "BillNumber": "Senate Bill 551",
+      "FormerSessionUrl": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2019\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0413",
       "Notes": "",
       "OpenStatesId": "ocd-bill/91095ba9-f8bf-442f-9858-b651f5f9ab65",
       "OpenStatesInfo": {
@@ -732,11 +739,13 @@
       "Status": "Waiting for a vote in the Senate",
       "Topics": "Judiciary, elections",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0551",
-      "WhatWouldItDo": "Eliminate the separate ballot or column for judicial retention elections"
+      "WhatWouldItDo": "Eliminate the separate ballot or column for judicial retention elections",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 106",
       "BillNumber": "Senate Bill 106",
+      "FormerSessionUrl": "",
       "Notes": "Originally, this bill proposed to change how Pennsylvania's lieutenant governor is selected. An identical version passed the House and Senate in the 2019-20 session, and it passed the Senate in that form again this session. It was then amended in the House to contain four more proposed changes to the constitution, restarting the process. Those changes are now awaiting consideration in the Senate.",
       "OpenStatesId": "ocd-bill/fe1bda02-7782-4268-868f-90b3cd384e84",
       "OpenStatesInfo": {
@@ -1040,11 +1049,13 @@
       "Status": "Amended and passed in the House, waiting for consideration in the Senate",
       "Topics": "Executive power, elections",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0106",
-      "WhatWouldItDo": "Expand the General Assembly's power to reject executive orders and regulations; Require government-issued ID to vote; Require the auditor general to audit elections; Change the way the lieutenant governor is selected."
+      "WhatWouldItDo": "Expand the General Assembly's power to reject executive orders and regulations; Require government-issued ID to vote; Require the auditor general to audit elections; Change the way the lieutenant governor is selected.",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 1032",
       "BillNumber": "House Bill 1032",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/ee531720-ed78-4886-83e2-e4eba83aa694",
       "OpenStatesInfo": {
@@ -1098,11 +1109,13 @@
       "Status": "Introduced",
       "Topics": "Taxes",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=1032",
-      "WhatWouldItDo": "Expand property tax relief to disabled veterans"
+      "WhatWouldItDo": "Expand property tax relief to disabled veterans",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 1158",
       "BillNumber": "House Bill 1158",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/caa7296a-53ba-4f3e-8b0f-a972642a8302",
       "OpenStatesInfo": {
@@ -1156,11 +1169,13 @@
       "Status": "Introduced",
       "Topics": "Education, Budget",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=1158",
-      "WhatWouldItDo": "Base funding for public schools on student enrollment rather than prior year funding level"
+      "WhatWouldItDo": "Base funding for public schools on student enrollment rather than prior year funding level",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 1159",
       "BillNumber": "House Bill 1159",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/e8e33d39-84b6-4094-8376-9eddd0f27462",
       "OpenStatesInfo": {
@@ -1214,11 +1229,13 @@
       "Status": "Introduced",
       "Topics": "Education, Taxes",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=1159",
-      "WhatWouldItDo": "Allow the legislature to make laws exempting residential property taxes levied by school districts"
+      "WhatWouldItDo": "Allow the legislature to make laws exempting residential property taxes levied by school districts",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 1219",
       "BillNumber": "House Bill 1219",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/cb640cff-aebf-4631-bb0d-2f1c8d3f96f2",
       "OpenStatesInfo": {
@@ -1272,11 +1289,13 @@
       "Status": "Introduced",
       "Topics": "Redistricting",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=1219",
-      "WhatWouldItDo": "Create a Congressional Reapportionment Commission, similar to the Legislative Reapportionment Commission that already exists"
+      "WhatWouldItDo": "Create a Congressional Reapportionment Commission, similar to the Legislative Reapportionment Commission that already exists",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 1269",
       "BillNumber": "House Bill 1269",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/d23a3cb4-3ac9-45fc-90b0-f9859442f8a1",
       "OpenStatesInfo": {
@@ -1330,11 +1349,13 @@
       "Status": "Introduced",
       "Topics": "Elections",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=1269",
-      "WhatWouldItDo": "Allow government employees to serve as poll workers in the jurisdictions where they live"
+      "WhatWouldItDo": "Allow government employees to serve as poll workers in the jurisdictions where they live",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 1326",
       "BillNumber": "House Bill 1326",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/e2ad6213-9fb8-47bf-bc5f-cc4278c2a8b6",
       "OpenStatesInfo": {
@@ -1388,11 +1409,13 @@
       "Status": "Introduced",
       "Topics": "Government",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=1326",
-      "WhatWouldItDo": "Implement policies to keep the government funded in the case of a budget impasse"
+      "WhatWouldItDo": "Implement policies to keep the government funded in the case of a budget impasse",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 1391",
       "BillNumber": "House Bill 1391",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/a83f2cb0-35d1-40b9-b8f7-6ccc736eeee8",
       "OpenStatesInfo": {
@@ -1446,11 +1469,13 @@
       "Status": "Introduced",
       "Topics": "Judiciary",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=1391",
-      "WhatWouldItDo": "Allow the legislature to pass laws to change family court procedures"
+      "WhatWouldItDo": "Allow the legislature to pass laws to change family court procedures",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 1673",
       "BillNumber": "House Bill 1673",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/1c940741-ce36-4f92-8391-dd8c6a0d3f84",
       "OpenStatesInfo": {
@@ -1504,11 +1529,13 @@
       "Status": "Introduced",
       "Topics": "Redistricting",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=1673",
-      "WhatWouldItDo": "Create restrictions on dividing municipalities in the redistricting process"
+      "WhatWouldItDo": "Create restrictions on dividing municipalities in the redistricting process",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 1716",
       "BillNumber": "House Bill 1716",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/e396490d-7567-4022-8533-b963a29c2f4d",
       "OpenStatesInfo": {
@@ -1562,11 +1589,13 @@
       "Status": "Introduced",
       "Topics": "Government",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=1716",
-      "WhatWouldItDo": "Give municipalities the right to self-govern, protecting local governments from state and federal preemption"
+      "WhatWouldItDo": "Give municipalities the right to self-govern, protecting local governments from state and federal preemption",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 1717",
       "BillNumber": "House Bill 1717",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/51c055d8-950e-421e-bc90-049347544cda",
       "OpenStatesInfo": {
@@ -1620,11 +1649,13 @@
       "Status": "Introduced",
       "Topics": "Elections",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=1717",
-      "WhatWouldItDo": "Repeal mail-in voting"
+      "WhatWouldItDo": "Repeal mail-in voting",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 1719",
       "BillNumber": "House Bill 1719",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/b77475e6-17eb-481a-a23e-95f86eb48c78",
       "OpenStatesInfo": {
@@ -1678,11 +1709,13 @@
       "Status": "Introduced",
       "Topics": "Criminal justice",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=1719",
-      "WhatWouldItDo": "Increase opportunity for pardons in Pennsylvania"
+      "WhatWouldItDo": "Increase opportunity for pardons in Pennsylvania",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 1772",
       "BillNumber": "House Bill 1772",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/91e0d7d6-2084-40c6-875e-5ecfa4faac69",
       "OpenStatesInfo": {
@@ -1736,11 +1769,13 @@
       "Status": "Introduced",
       "Topics": "Elections",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=1772",
-      "WhatWouldItDo": "Create ranked choice voting in Pennsylvania."
+      "WhatWouldItDo": "Create ranked choice voting in Pennsylvania.",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 1815",
       "BillNumber": "House Bill 1815",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/823b8829-95bc-4ec9-a1b8-09fa47d7f608",
       "OpenStatesInfo": {
@@ -1794,11 +1829,13 @@
       "Status": "Introduced",
       "Topics": "Taxes",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=1815",
-      "WhatWouldItDo": "Expand a property tax exemption for disabled veterans"
+      "WhatWouldItDo": "Expand a property tax exemption for disabled veterans",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 1851",
       "BillNumber": "House Bill 1851",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/10c846ef-3d06-46e3-988e-e58559018afb",
       "OpenStatesInfo": {
@@ -1852,11 +1889,13 @@
       "Status": "Introduced",
       "Topics": "Taxes",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=1851",
-      "WhatWouldItDo": "Exempt some property owners from portion of taxes based on household income"
+      "WhatWouldItDo": "Exempt some property owners from portion of taxes based on household income",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 1881",
       "BillNumber": "House Bill 1881",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/a2194664-ae68-4099-8028-3e19a2f329bc",
       "OpenStatesInfo": {
@@ -1910,11 +1949,13 @@
       "Status": "Introduced",
       "Topics": "Judiciary",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=1881",
-      "WhatWouldItDo": "Allow the legislature to decide how much judges are paid"
+      "WhatWouldItDo": "Allow the legislature to decide how much judges are paid",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 1898",
       "BillNumber": "House Bill 1898",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/34296477-6018-4f76-a828-a3ec49bd716e",
       "OpenStatesInfo": {
@@ -1968,11 +2009,13 @@
       "Status": "Introduced",
       "Topics": "Judiciary",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=1898",
-      "WhatWouldItDo": "Reduce the term of judges and justices from 10 years to six years"
+      "WhatWouldItDo": "Reduce the term of judges and justices from 10 years to six years",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 1904",
       "BillNumber": "House Bill 1904",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/c66e3c60-d09d-4def-8222-8135f6b1ca76",
       "OpenStatesInfo": {
@@ -2026,11 +2069,13 @@
       "Status": "Introduced",
       "Topics": "Elections, judiciary",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=1904",
-      "WhatWouldItDo": "Abolish retention elections for judges"
+      "WhatWouldItDo": "Abolish retention elections for judges",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 1910",
       "BillNumber": "House Bill 1910",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/d8e942bc-99c3-4195-85f4-aa6880a5ed24",
       "OpenStatesInfo": {
@@ -2084,11 +2129,13 @@
       "Status": "Introduced",
       "Topics": "Judiciary",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=1910",
-      "WhatWouldItDo": "Limit the state Supreme Court's rulemaking abilities"
+      "WhatWouldItDo": "Limit the state Supreme Court's rulemaking abilities",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 1934",
       "BillNumber": "House Bill 1934",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/8136c947-9631-44b0-81b2-0f6091600709",
       "OpenStatesInfo": {
@@ -2142,11 +2189,13 @@
       "Status": "Introduced",
       "Topics": "Taxes",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=1934",
-      "WhatWouldItDo": "Expand a property tax exemption for disabled veterans"
+      "WhatWouldItDo": "Expand a property tax exemption for disabled veterans",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 1953",
       "BillNumber": "House Bill 1953",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/4812a2dc-036e-4ed0-a6fd-97a57a549acf",
       "OpenStatesInfo": {
@@ -2200,11 +2249,13 @@
       "Status": "Introduced",
       "Topics": "Taxes",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=1953",
-      "WhatWouldItDo": "Expand a property tax exemption for disabled veterans. This is a corrected version of H.B. 1934."
+      "WhatWouldItDo": "Expand a property tax exemption for disabled veterans. This is a corrected version of H.B. 1934.",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 2149",
       "BillNumber": "House Bill 2149",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/71174d8b-bb0d-4958-bbd7-349d3b012d62",
       "OpenStatesInfo": {
@@ -2258,11 +2309,13 @@
       "Status": "Introduced",
       "Topics": "Government",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=2149",
-      "WhatWouldItDo": "Require elected officials to resign after being convicted of certain crimes"
+      "WhatWouldItDo": "Require elected officials to resign after being convicted of certain crimes",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 263",
       "BillNumber": "House Bill 263",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/b160f55c-2c05-4565-8ce1-73ca7cdcf7ce",
       "OpenStatesInfo": {
@@ -2316,11 +2369,13 @@
       "Status": "Introduced",
       "Topics": "Judiciary",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0263",
-      "WhatWouldItDo": "Creates judicial districts and a merit-selection system for appointing appellate judges instead of an election"
+      "WhatWouldItDo": "Creates judicial districts and a merit-selection system for appointing appellate judges instead of an election",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 302",
       "BillNumber": "House Bill 302",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/bfb012dd-16ec-4f41-9473-598630dd70c0",
       "OpenStatesInfo": {
@@ -2374,11 +2429,13 @@
       "Status": "Introduced",
       "Topics": "Taxes",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0302",
-      "WhatWouldItDo": "Eliminate all property taxes"
+      "WhatWouldItDo": "Eliminate all property taxes",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 482",
       "BillNumber": "House Bill 482",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/a98bcdf9-edbf-4b58-884d-2ac9438ef1b7",
       "OpenStatesInfo": {
@@ -2432,11 +2489,13 @@
       "Status": "Introduced",
       "Topics": "Government",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0482",
-      "WhatWouldItDo": "Reduce the size of the Pennsylvania House of Representatives from 203 members to 151"
+      "WhatWouldItDo": "Reduce the size of the Pennsylvania House of Representatives from 203 members to 151",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 50",
       "BillNumber": "House Bill 50",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/530960b7-6bca-47e5-b89f-340414ad8831",
       "OpenStatesInfo": {
@@ -2490,11 +2549,13 @@
       "Status": "Introduced",
       "Topics": "Procedural",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0050",
-      "WhatWouldItDo": "Clarify rules for introducing supplemental appropriations bills"
+      "WhatWouldItDo": "Clarify rules for introducing supplemental appropriations bills",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 53",
       "BillNumber": "House Bill 53",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/c39dc03e-133a-47c9-a7bf-7c532731dd14",
       "OpenStatesInfo": {
@@ -2548,11 +2609,13 @@
       "Status": "Introduced",
       "Topics": "Budget",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0053",
-      "WhatWouldItDo": "Change state budget financial policies"
+      "WhatWouldItDo": "Change state budget financial policies",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 620",
       "BillNumber": "House Bill 620",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/68db83d9-88cd-4fe0-97f9-8abc102b05b1",
       "OpenStatesInfo": {
@@ -2606,11 +2669,13 @@
       "Status": "Introduced",
       "Topics": "Government",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0620",
-      "WhatWouldItDo": "Abolish the office of lieutenant governor"
+      "WhatWouldItDo": "Abolish the office of lieutenant governor",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 720",
       "BillNumber": "House Bill 720",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/b57b0dad-a77d-44cf-ae5c-169ac3865d17",
       "OpenStatesInfo": {
@@ -2664,11 +2729,13 @@
       "Status": "Introduced",
       "Topics": "Budget",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0720",
-      "WhatWouldItDo": "Mandate the state pass a budget every two years, instead of every year"
+      "WhatWouldItDo": "Mandate the state pass a budget every two years, instead of every year",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 735",
       "BillNumber": "House Bill 735",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/1765e2bd-e6d1-4863-a6a5-a5e28af44653",
       "OpenStatesInfo": {
@@ -2722,11 +2789,13 @@
       "Status": "Introduced",
       "Topics": "Government",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0735",
-      "WhatWouldItDo": "Extend term length for state lawmakers, institute term limits"
+      "WhatWouldItDo": "Extend term length for state lawmakers, institute term limits",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 910",
       "BillNumber": "House Bill 910",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/5144e8f4-1a99-49d8-a8dc-ab02de1c8d62",
       "OpenStatesInfo": {
@@ -2780,11 +2849,13 @@
       "Status": "Introduced",
       "Topics": "Taxes",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0910",
-      "WhatWouldItDo": "Expand a property tax exemption for disabled veterans"
+      "WhatWouldItDo": "Expand a property tax exemption for disabled veterans",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 927",
       "BillNumber": "House Bill 927",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/6c48695c-3f41-4cb4-ac99-137e5d6d3223",
       "OpenStatesInfo": {
@@ -2838,11 +2909,13 @@
       "Status": "Introduced",
       "Topics": "Taxes",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0927",
-      "WhatWouldItDo": "Eliminate property taxes imposed by school districts"
+      "WhatWouldItDo": "Eliminate property taxes imposed by school districts",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 246",
       "BillNumber": "Senate Bill 246",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/3fbe8bcd-7426-404d-bff1-00111cec483c",
       "OpenStatesInfo": {
@@ -2896,11 +2969,13 @@
       "Status": "Introduced",
       "Topics": "Procedural",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0246",
-      "WhatWouldItDo": "Create a process for residents to call a constitutional convention for government reform"
+      "WhatWouldItDo": "Create a process for residents to call a constitutional convention for government reform",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 30",
       "BillNumber": "Senate Bill 30",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/1b85afb3-ab3e-404f-8bc1-e36c22bcbeae",
       "OpenStatesInfo": {
@@ -2954,11 +3029,13 @@
       "Status": "Introduced",
       "Topics": "Elections",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0030",
-      "WhatWouldItDo": "Lower the voting age to 16"
+      "WhatWouldItDo": "Lower the voting age to 16",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 41",
       "BillNumber": "Senate Bill 41",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/6923d8c7-c484-4075-b3ea-026af2b958b3",
       "OpenStatesInfo": {
@@ -3012,11 +3089,13 @@
       "Status": "Introduced",
       "Topics": "Education",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0041",
-      "WhatWouldItDo": "Prohibit the legislature from placing new responsibilities on school districts without providing additional funding"
+      "WhatWouldItDo": "Prohibit the legislature from placing new responsibilities on school districts without providing additional funding",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 424",
       "BillNumber": "Senate Bill 424",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/b9560507-06aa-4617-b6ce-bc1ce8ec54ad",
       "OpenStatesInfo": {
@@ -3070,11 +3149,13 @@
       "Status": "Introduced",
       "Topics": "Taxes",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0424",
-      "WhatWouldItDo": "Eliminate property taxes imposed by school districts"
+      "WhatWouldItDo": "Eliminate property taxes imposed by school districts",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 443",
       "BillNumber": "Senate Bill 443",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/53c68a52-5489-4293-a685-96aa10081833",
       "OpenStatesInfo": {
@@ -3128,11 +3209,13 @@
       "Status": "Introduced",
       "Topics": "Procedural",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0443",
-      "WhatWouldItDo": "Require a standalone bill to approve supplemental spending"
+      "WhatWouldItDo": "Require a standalone bill to approve supplemental spending",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 529",
       "BillNumber": "Senate Bill 529",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/5bd2971c-f4d8-4bce-8656-2f159e62a6dd",
       "OpenStatesInfo": {
@@ -3186,11 +3269,13 @@
       "Status": "Introduced",
       "Topics": "Procedural",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0529",
-      "WhatWouldItDo": "Prevent Pennsylvania from entering into interstate compacts that last longer than 10 years"
+      "WhatWouldItDo": "Prevent Pennsylvania from entering into interstate compacts that last longer than 10 years",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 537",
       "BillNumber": "Senate Bill 537",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/37206119-7762-465a-9360-0ad3ba876cc5",
       "OpenStatesInfo": {
@@ -3244,11 +3329,13 @@
       "Status": "Introduced",
       "Topics": "Taxes",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0537",
-      "WhatWouldItDo": "Eliminate taxes imposed by school districts on homesteads or farmsteads by June 2026, require the legislature to provide funding from lost taxes"
+      "WhatWouldItDo": "Eliminate taxes imposed by school districts on homesteads or farmsteads by June 2026, require the legislature to provide funding from lost taxes",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 538",
       "BillNumber": "Senate Bill 538",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/b9e14425-98d3-45cf-b47a-b5a5eb205186",
       "OpenStatesInfo": {
@@ -3302,11 +3389,13 @@
       "Status": "Introduced",
       "Topics": "Procedural",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0538",
-      "WhatWouldItDo": "Create a process for residents to amend the constitution via direct ballot initiative"
+      "WhatWouldItDo": "Create a process for residents to amend the constitution via direct ballot initiative",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 584",
       "BillNumber": "Senate Bill 584",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/43a50d13-dee6-4648-a667-df7d170d020e",
       "OpenStatesInfo": {
@@ -3360,11 +3449,13 @@
       "Status": "Introduced",
       "Topics": "Redistricting",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0584",
-      "WhatWouldItDo": "Create redistricting commission made up of appointed citizens to draw congressional and legislative maps"
+      "WhatWouldItDo": "Create redistricting commission made up of appointed citizens to draw congressional and legislative maps",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 585",
       "BillNumber": "Senate Bill 585",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/d402b291-69e3-43db-9441-51849451ba8d",
       "OpenStatesInfo": {
@@ -3418,11 +3509,13 @@
       "Status": "Introduced",
       "Topics": "Redistricting",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0585",
-      "WhatWouldItDo": "Create redistricting commission made up of randomly selected citizens to draw congressional and legislative maps"
+      "WhatWouldItDo": "Create redistricting commission made up of randomly selected citizens to draw congressional and legislative maps",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 631",
       "BillNumber": "Senate Bill 631",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/cadc7224-7c75-409b-bf7e-7158d910a348",
       "OpenStatesInfo": {
@@ -3476,11 +3569,13 @@
       "Status": "Introduced",
       "Topics": "Government",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0631",
-      "WhatWouldItDo": "Require the legislature to create a law providing for the removal of local elected officials"
+      "WhatWouldItDo": "Require the legislature to create a law providing for the removal of local elected officials",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 694",
       "BillNumber": "Senate Bill 694",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/21f4c126-b641-4e39-a3be-05e54b5a46ed",
       "OpenStatesInfo": {
@@ -3534,11 +3629,13 @@
       "Status": "Introduced",
       "Topics": "Criminal justice",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0694",
-      "WhatWouldItDo": "Allow someone serving a life sentence to be pardoned by a four-fifths vote from the Board of Pardons, rather than by unanimous consent"
+      "WhatWouldItDo": "Allow someone serving a life sentence to be pardoned by a four-fifths vote from the Board of Pardons, rather than by unanimous consent",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 774",
       "BillNumber": "Senate Bill 774",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/f2f6a183-37ef-4eb0-a34c-11e252679b29",
       "OpenStatesInfo": {
@@ -3592,11 +3689,13 @@
       "Status": "Introduced",
       "Topics": "Budget",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0774",
-      "WhatWouldItDo": "Mandate the state pass a budget every two years, instead of every year"
+      "WhatWouldItDo": "Mandate the state pass a budget every two years, instead of every year",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 842",
       "BillNumber": "Senate Bill 842",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/ff0be54b-df55-4b5d-920d-a073896847f8",
       "OpenStatesInfo": {
@@ -3650,11 +3749,13 @@
       "Status": "Introduced",
       "Topics": "Civil liberty",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0842",
-      "WhatWouldItDo": "Prohibit discrimination based on sexual orientation or gender identity"
+      "WhatWouldItDo": "Prohibit discrimination based on sexual orientation or gender identity",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 882",
       "BillNumber": "Senate Bill 882",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/93f73089-f2db-4d19-b2fa-9732f96cf53e",
       "OpenStatesInfo": {
@@ -3708,11 +3809,13 @@
       "Status": "Introduced",
       "Topics": "Procedural",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0882",
-      "WhatWouldItDo": "Require proposed constitutional amendments to appear only on general election ballots"
+      "WhatWouldItDo": "Require proposed constitutional amendments to appear only on general election ballots",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 946",
       "BillNumber": "Senate Bill 946",
+      "FormerSessionUrl": "",
       "Notes": "The purpose of this amendment also appears in SB 106, a package of constitutional amendments.",
       "OpenStatesId": "ocd-bill/d01b7792-b32d-40c0-a776-0dfbdc9029f6",
       "OpenStatesInfo": {
@@ -3766,11 +3869,13 @@
       "Status": "Introduced",
       "Topics": "Executive power",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0946",
-      "WhatWouldItDo": "Limit the governor's or an executive agency's power to sustain orders or proclamations with the force of law."
+      "WhatWouldItDo": "Limit the governor's or an executive agency's power to sustain orders or proclamations with the force of law.",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 947",
       "BillNumber": "Senate Bill 947",
+      "FormerSessionUrl": "",
       "Notes": "The purpose of this amendment also appears in SB 106, a package of constitutional amendments.",
       "OpenStatesId": "ocd-bill/786e48e0-e464-4e70-80a0-f89345c1e7db",
       "OpenStatesInfo": {
@@ -3824,11 +3929,13 @@
       "Status": "Introduced",
       "Topics": "Executive power",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0947",
-      "WhatWouldItDo": "Remove governor's power to veto resolutions disapproving a state regulation."
+      "WhatWouldItDo": "Remove governor's power to veto resolutions disapproving a state regulation.",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 956",
       "BillNumber": "Senate Bill 956",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/a31f1765-2642-4994-9d75-5dc9483a4f14",
       "OpenStatesInfo": {
@@ -3908,11 +4015,13 @@
       "Status": "Introduced",
       "Topics": "Abortion",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0956",
-      "WhatWouldItDo": "Establish there is no right to abortion under Pennsylvania law"
+      "WhatWouldItDo": "Establish there is no right to abortion under Pennsylvania law",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 959",
       "BillNumber": "Senate Bill 959",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/c61db995-06e9-462a-b1e0-ad87bf91ce9b",
       "OpenStatesInfo": {
@@ -3966,11 +4075,13 @@
       "Status": "Introduced",
       "Topics": "Executive power",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0959",
-      "WhatWouldItDo": "Remove emergency authority of state departments upon expiration of a disaster emergency declaration"
+      "WhatWouldItDo": "Remove emergency authority of state departments upon expiration of a disaster emergency declaration",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 1010",
       "BillNumber": "House Bill 1010",
+      "FormerSessionUrl": "",
       "Notes": "This amendment was introduced after the Department of the State failed to properly advertise another amendment, one that would allow victims of childhood sexual abuse to sue their attackers.",
       "OpenStatesId": "ocd-bill/e49ab674-c9db-4929-a3af-3aae29143d3c",
       "OpenStatesInfo": {
@@ -4190,11 +4301,13 @@
       "Status": "Passed the House. Waiting for a vote in the Senate.",
       "Topics": "Procedural",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=1010",
-      "WhatWouldItDo": "Transfer responsibility for advertising proposed constitutional amendments from Department of State to Legislative Reference Bureau."
+      "WhatWouldItDo": "Transfer responsibility for advertising proposed constitutional amendments from Department of State to Legislative Reference Bureau.",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 735",
       "BillNumber": "Senate Bill 735",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/d13735ae-37e6-4f31-85f9-5d1dd554da8f",
       "OpenStatesInfo": {
@@ -4352,11 +4465,13 @@
       "Status": "Passed the Senate. Waiting for consideration in the House.",
       "Topics": "Elections",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0735",
-      "WhatWouldItDo": "Require identification to vote"
+      "WhatWouldItDo": "Require identification to vote",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 1217",
       "BillNumber": "House Bill 1217",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/c8345070-7641-4760-a2d5-559a3e11f5a0",
       "OpenStatesInfo": {
@@ -4469,11 +4584,13 @@
       "Status": "Waiting for a vote in the House",
       "Topics": "Government",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=1217",
-      "WhatWouldItDo": "Allow the legislature to create laws allowing residents to removing negligent elected officials"
+      "WhatWouldItDo": "Allow the legislature to create laws allowing residents to removing negligent elected officials",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 1596",
       "BillNumber": "House Bill 1596",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/383a4173-4b1c-4f3a-83e8-f8f77a17d82d",
       "OpenStatesInfo": {
@@ -4598,11 +4715,13 @@
       "Status": "Waiting for a vote in the House",
       "Topics": "Elections",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=1596",
-      "WhatWouldItDo": "Require identification to vote"
+      "WhatWouldItDo": "Require identification to vote",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 1880",
       "BillNumber": "House Bill 1880",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/c6c78f52-4cbf-41f2-bb5b-1e40895d5524",
       "OpenStatesInfo": {
@@ -4694,11 +4813,13 @@
       "Status": "Waiting for a vote in the House",
       "Topics": "Judiciary",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=1880",
-      "WhatWouldItDo": "Create term limits for Pennsylvania Supreme Court justices"
+      "WhatWouldItDo": "Create term limits for Pennsylvania Supreme Court justices",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 2013",
       "BillNumber": "House Bill 2013",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/7832611d-74c0-473d-be6a-9c456cf88eb2",
       "OpenStatesInfo": {
@@ -4789,11 +4910,13 @@
       "Status": "Waiting for a vote in the House",
       "Topics": "Civil liberty",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=2013",
-      "WhatWouldItDo": "Establish a \"right to medical freedom,\" that would grant Pennsylvanians the right to refuse any medical treatment including vaccination"
+      "WhatWouldItDo": "Establish a \"right to medical freedom,\" that would grant Pennsylvanians the right to refuse any medical treatment including vaccination",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 2069",
       "BillNumber": "House Bill 2069",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/13a6b2ef-e9a2-450b-80fb-8a87c2ec0fd9",
       "OpenStatesInfo": {
@@ -4895,11 +5018,13 @@
       "Status": "Waiting for a vote in the House",
       "Topics": "Executive power",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=2069",
-      "WhatWouldItDo": "Limit the executive branch authority to issue regulations"
+      "WhatWouldItDo": "Limit the executive branch authority to issue regulations",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 2070",
       "BillNumber": "House Bill 2070",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/02356190-df22-4026-a634-8e7371037bb2",
       "OpenStatesInfo": {
@@ -5001,11 +5126,13 @@
       "Status": "Waiting for a vote in the House",
       "Topics": "Executive power",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=2070",
-      "WhatWouldItDo": "Limit the governor's authority to issue executive orders"
+      "WhatWouldItDo": "Limit the governor's authority to issue executive orders",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 2141",
       "BillNumber": "House Bill 2141",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/931e3613-8538-488a-9725-475c2c171c09",
       "OpenStatesInfo": {
@@ -5096,11 +5223,13 @@
       "Status": "Waiting for a vote in the House",
       "Topics": "Judiciary",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=2141",
-      "WhatWouldItDo": "Abolish retention elections for judges and establish reelections instead"
+      "WhatWouldItDo": "Abolish retention elections for judges and establish reelections instead",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 2207",
       "BillNumber": "House Bill 2207",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/0ee1ce9d-0d9f-4721-9e64-6de2ffb5ba74",
       "OpenStatesInfo": {
@@ -5202,11 +5331,13 @@
       "Status": "Waiting for a vote in the House",
       "Topics": "Redistricting",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=2207",
-      "WhatWouldItDo": "Create a legislative redistricting process that gives the legislature ultimate say over the maps"
+      "WhatWouldItDo": "Create a legislative redistricting process that gives the legislature ultimate say over the maps",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 51",
       "BillNumber": "House Bill 51",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/e84b1146-3525-471f-a779-5a97d0f6706d",
       "OpenStatesInfo": {
@@ -5320,11 +5451,13 @@
       "Status": "Waiting for a vote in the House",
       "Topics": "Budget",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0051",
-      "WhatWouldItDo": "Change state budget financial policies"
+      "WhatWouldItDo": "Change state budget financial policies",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 71",
       "BillNumber": "House Bill 71",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/482ab6cf-fe14-48b4-98ee-7eb1ac09f770",
       "OpenStatesInfo": {
@@ -5518,11 +5651,13 @@
       "Status": "Waiting for a vote in the House",
       "Topics": "Budget",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0071",
-      "WhatWouldItDo": "Place limits on state spending"
+      "WhatWouldItDo": "Place limits on state spending",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 822",
       "BillNumber": "House Bill 822",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/15ba6b63-8a1a-46f0-a214-da75e38409d9",
       "OpenStatesInfo": {
@@ -5662,11 +5797,13 @@
       "Status": "Waiting for a vote in the House",
       "Topics": "Government",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0822",
-      "WhatWouldItDo": "Create a process to recall the governor, attorney general, or a district attorney"
+      "WhatWouldItDo": "Create a process to recall the governor, attorney general, or a district attorney",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 881",
       "BillNumber": "House Bill 881",
+      "FormerSessionUrl": "",
       "Notes": "This is an emergency amendment, meaning it would only need to pass in one session, as opposed to two. It was moved after the Department of State failed to properly advertise an identical amendment in time for the May 2021 primary election. On March 22, 2021, the House debated voting on the bill before recessing for the day. The House ultimately adjourned without voting.",
       "OpenStatesId": "ocd-bill/3ddb2d3b-2e62-4305-b097-8d4fecb51d4f",
       "OpenStatesInfo": {
@@ -5794,11 +5931,13 @@
       "Status": "Waiting for a vote in the House",
       "Topics": "Criminal justice",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0881",
-      "WhatWouldItDo": "Create a two-year window for victims of childhood sexual abuse to file civil suits"
+      "WhatWouldItDo": "Create a two-year window for victims of childhood sexual abuse to file civil suits",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 286",
       "BillNumber": "Senate Bill 286",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/e83b59d6-11da-40b3-b7f1-8a551c645cb1",
       "OpenStatesInfo": {
@@ -5889,11 +6028,13 @@
       "Status": "Waiting for a vote in the Senate",
       "Topics": "Budget",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0286",
-      "WhatWouldItDo": "Limit the growth of state spending"
+      "WhatWouldItDo": "Limit the growth of state spending",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 457",
       "BillNumber": "Senate Bill 458",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/a90eac7a-4879-4cac-bd84-516e84ed417e",
       "OpenStatesInfo": {
@@ -5947,11 +6088,13 @@
       "Status": "Waiting for a vote in the Senate",
       "Topics": "Government",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0457",
-      "WhatWouldItDo": "Remove the attorney general from office if the person serving is disbarred"
+      "WhatWouldItDo": "Remove the attorney general from office if the person serving is disbarred",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 519",
       "BillNumber": "Senate Bill 519",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/f8c5b80e-7695-4e60-aac8-9ac221f5dda8",
       "OpenStatesInfo": {
@@ -6086,11 +6229,13 @@
       "Status": "Waiting for a vote in the Senate",
       "Topics": "Procedural",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0519",
-      "WhatWouldItDo": "Allow the legislature to meet in December at the end of two-year sessions, move start date for newly elected lawmakers from the first day of December to the first day of January"
+      "WhatWouldItDo": "Allow the legislature to meet in December at the end of two-year sessions, move start date for newly elected lawmakers from the first day of December to the first day of January",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 578",
       "BillNumber": "Senate Bill 578",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/41adf3cd-f519-4bc6-b529-e832ca3b8fe3",
       "OpenStatesInfo": {
@@ -6181,11 +6326,13 @@
       "Status": "Waiting for a vote in the Senate",
       "Topics": "Taxes",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0578",
-      "WhatWouldItDo": "Expand a property tax exemption for disabled veterans"
+      "WhatWouldItDo": "Expand a property tax exemption for disabled veterans",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 940",
       "BillNumber": "Senate Bill 940",
+      "FormerSessionUrl": "",
       "Notes": "This amendment was introduced after the Department of the State failed to properly advertise another amendment, one that would allow victims of childhood sexual abuse to sue their attackers.",
       "OpenStatesId": "ocd-bill/d665298a-3314-405c-ae26-f5d50bec8605",
       "OpenStatesInfo": {
@@ -6291,11 +6438,13 @@
       "Status": "Waiting for a vote in the Senate",
       "Topics": "Procedural",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0940",
-      "WhatWouldItDo": "Transfer responsibility for advertising proposed constitutional amendments from Department of State to Legislative Reference Bureau."
+      "WhatWouldItDo": "Transfer responsibility for advertising proposed constitutional amendments from Department of State to Legislative Reference Bureau.",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 2272",
       "BillNumber": "House Bill 2272",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/0c735e34-33ff-4937-a415-00cbc3b0f9d0",
       "OpenStatesInfo": {
@@ -6349,11 +6498,13 @@
       "Status": "Introduced",
       "Topics": "Liquor control",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=2272",
-      "WhatWouldItDo": "Privatize liquor sales in Pennsylvania"
+      "WhatWouldItDo": "Privatize liquor sales in Pennsylvania",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "House Bill 2340",
       "BillNumber": "House Bill 2340",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/1384302f-a7c7-4cda-8fcd-5a16d67a0c12",
       "OpenStatesInfo": {
@@ -6407,11 +6558,13 @@
       "Status": "Introduced",
       "Topics": "Procedural",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=1042",
-      "WhatWouldItDo": "Require 2/3 majority to pass a Constitutional Amendment"
+      "WhatWouldItDo": "Require 2/3 majority to pass a Constitutional Amendment",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "Senate Bill 1042",
       "BillNumber": "Senate Bill 1042",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "ocd-bill/00cb4f6a-3372-4ebe-abcf-81fc2d96dfaf",
       "OpenStatesInfo": {
@@ -6465,11 +6618,13 @@
       "Status": "Introduced",
       "Topics": "Government",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=1042",
-      "WhatWouldItDo": "Reduce the size of the Pennsylvania House of Representatives from 203 members to 150"
+      "WhatWouldItDo": "Reduce the size of the Pennsylvania House of Representatives from 203 members to 150",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "NO NUMBER YET",
       "BillNumber": "NO NUMBER YET",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "",
       "OpenStatesUrl": "",
@@ -6480,11 +6635,13 @@
       "Status": "Co-sponsorship memo circulated",
       "Topics": "Judiciary",
       "Url": "https://www.legis.state.pa.us/WU01/LI/CSM/2021/0/36911_29363.pdf",
-      "WhatWouldItDo": "Limiting the court's ability to draw congressional maps"
+      "WhatWouldItDo": "Limiting the court's ability to draw congressional maps",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "NO NUMBER YET",
       "BillNumber": "NO NUMBER YET",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "",
       "OpenStatesUrl": "",
@@ -6495,11 +6652,13 @@
       "Status": "Co-sponsorship memo circulated",
       "Topics": "Education",
       "Url": "https://www.legis.state.pa.us/cfdocs/Legis/CSM/showMemoPublic.cfm?chamber=H\u0026SPick=20210\u0026cosponId=36770",
-      "WhatWouldItDo": "Give families choice of school; not clear from memo"
+      "WhatWouldItDo": "Give families choice of school; not clear from memo",
+      "WillBeOnNextBallot": ""
     },
     {
       "BillLink": "NO NUMBER YET",
       "BillNumber": "NO NUMBER YET",
+      "FormerSessionUrl": "",
       "Notes": "",
       "OpenStatesId": "",
       "OpenStatesUrl": "",
@@ -6510,7 +6669,8 @@
       "Status": "Co-sponsorship memo circulated",
       "Topics": "Judiciary",
       "Url": "https://www.legis.state.pa.us/cfdocs/Legis/CSM/showMemoPublic.cfm?chamber=S\u0026SPick=20210\u0026cosponId=36779",
-      "WhatWouldItDo": "Change the way president judges are chosen"
+      "WhatWouldItDo": "Change the way president judges are chosen",
+      "WillBeOnNextBallot": ""
     }
   ]
 }
