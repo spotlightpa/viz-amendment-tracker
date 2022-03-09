@@ -134,7 +134,7 @@ Alpine.data("app", () => {
   const sortByName = (a, b) => cmp(a.name, b.name);
   const sortByProposedNew = (a, b) =>
     cmp(b.firstActionDate ?? now, a.firstActionDate ?? now);
- const sortByProposedOld = (a, b) =>
+  const sortByProposedOld = (a, b) =>
     cmp(a.firstActionDate ?? now, b.firstActionDate ?? now);
   const sortByProgress = (a, b) => cmp(b.progress, a.progress);
 
