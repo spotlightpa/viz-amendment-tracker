@@ -54,6 +54,7 @@ class Amendment {
     this.houseVote = "none";
     this.senateCommittee = "none";
     this.senateVote = "none";
+    this.progress = 0;
 
     if (!row.OpenStatesInfo) {
       this.actions = [];
@@ -107,21 +108,17 @@ class Amendment {
       }
     }
 
+    this.progress += this.houseVote === "pass" ? 3 : 0;
+    this.progress += this.senateVote === "pass" ? 3 : 0;
+    this.progress += this.houseCommittee === "pass" ? 1 : 0;
+    this.progress += this.senateCommittee === "pass" ? 1 : 0;
+
     this.searchFields +=
       `${this.title} ${this.shortName} ${this.session}`.toLowerCase();
   }
 
   get isRep() {
     return this.party === "R";
-  }
-
-  get progress() {
-    let progress = 0;
-    progress += this.houseVote === "pass" ? 3 : 0;
-    progress += this.senateVote === "pass" ? 3 : 0;
-    progress += this.houseCommittee === "pass" ? 1 : 0;
-    progress += this.senateCommittee === "pass" ? 1 : 0;
-    return progress;
   }
 }
 
@@ -135,13 +132,15 @@ Alpine.data("app", () => {
   const sortByActivity = (a, b) =>
     cmp(b.latestActionDate ?? now, a.latestActionDate ?? now);
   const sortByName = (a, b) => cmp(a.name, b.name);
-  const sortByProposed = (a, b) =>
+  const sortByProposedNew = (a, b) =>
     cmp(b.firstActionDate ?? now, a.firstActionDate ?? now);
+ const sortByProposedOld = (a, b) =>
+    cmp(a.firstActionDate ?? now, b.firstActionDate ?? now);
   const sortByProgress = (a, b) => cmp(b.progress, a.progress);
 
   return {
     showAll: true,
-    sortBy: "activity",
+    sortBy: "progress",
     filterText: "",
 
     get rows() {
@@ -153,7 +152,9 @@ Alpine.data("app", () => {
           ? sortByName
           : this.sortBy === "progress"
           ? sortByProgress
-          : sortByProposed;
+          : this.sortBy === "proposed-new"
+          ? sortByProposedNew
+          : sortByProposedOld;
       retRows.sort(sortFunc);
       if (this.filterText) {
         retRows = retRows.filter((row) =>
