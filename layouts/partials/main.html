@@ -90,7 +90,7 @@
             <span class="" x-text="row.notes"></span>
           </p>
           <p class="mt-4" x-show="row.latestAction">
-            <span class="text-g-8 font-semibold"> Latest: </span>
+            <span class="font-semibold"> Latest: </span>
             <span class="" x-text="$date(row.latestActionDate)"></span>
             <span class="mt-1 block" x-text="row.latestAction"></span>
           </p>
@@ -173,8 +173,26 @@
               </svg>
               Senate Vote Passed
             </span>
+            <span>
+              <!-- TODO -->
+              <svg class="inline-block w-4 h-4 fill-current text-g-5">
+                <use href="#check-svg" />
+              </svg>
+              On Upcoming Ballot
+            </span>
           </p>
-          <span class="block text-sm text-right">
+          <p class="mt-2 text-sm text-right">
+            <a
+              class="inline-block rounded px-2 py-1 bg-blue text-white font-semibold hover:shadow"
+              :href="row.formerSessionURL"
+              x-show="row.formerSessionURL"
+              target="_blank"
+            >
+              <svg class="inline-block mb-1 w-3 h-3 fill-current">
+                <use href="#history-svg" />
+              </svg>
+              Related bill last session
+            </a>
             <a
               class="inline-block rounded px-2 py-1 bg-blue text-white font-semibold hover:shadow"
               :href="row.openStatesURL"
@@ -201,7 +219,7 @@
               </svg>
               General Assembly
             </a>
-          </span>
+          </p>
         </li>
       </template>
     </ul>

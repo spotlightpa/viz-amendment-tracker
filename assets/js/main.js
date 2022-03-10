@@ -47,6 +47,7 @@ class Amendment {
     this.topics = row["Topics"];
     this.legisURL = row["Url"];
     this.openStatesURL = row["OpenStatesUrl"];
+    this.formerSessionURL = row["FormerSessionUrl"];
     this.description = row["WhatWouldItDo"];
     this.searchFields =
       `${this.name} ${this.sponsor} ${this.party} ${this.topics} ${this.notes} ${this.description}`.toLowerCase();
