@@ -6,17 +6,12 @@ publish = "public"
 [build.environment]
 NODE_VERSION = "17"
 NODE_ENV = "production"
-HUGO_VERSION = "0.89.4"
+HUGO_VERSION = "0.93.3"
 HUGO_ENV = "production"
 TZ = "America/New_York"
 
 [context.deploy-preview]
 command = "yarn build:stage"
-
-[[redirects]]
-from = "/api/*"
-to = "/.netlify/functions/geolocator/:splat"
-status = 200
 
 [[headers]]
 for = "/*"
