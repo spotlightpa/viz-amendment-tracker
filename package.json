@@ -13,8 +13,8 @@
     "test:html": "prettier --ignore-path prettier-html-ignore.rc --check 'layouts/**/*.html'",
     "format:html": "prettier --ignore-path prettier-html-ignore.rc --write 'layouts/**/*.html'",
     "format:prettier": "prettier --ignore-path .gitignore --write '**/*.{css,js,yml}'",
-    "build:stage": "./build.sh && hugo --environment staging --baseURL ${DEPLOY_PRIME_URL:-https://viz-amendment-tracker.data.spotlightpa.org}",
-    "build:prod": "./build.sh && hugo --cleanDestinationDir"
+    "build:stage": "hugo --environment staging --baseURL ${DEPLOY_PRIME_URL:-https://viz-amendment-tracker.data.spotlightpa.org}",
+    "build:prod": "hugo --cleanDestinationDir"
   },
   "dependencies": {
     "@babel/core": ">=7.17.5",
