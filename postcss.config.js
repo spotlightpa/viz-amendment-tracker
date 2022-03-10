@@ -5,12 +5,12 @@ const purgecss = require("@fullhuman/postcss-purgecss")({
     return [...els.tags, ...els.classes, ...els.ids];
   },
   safelist: {
-    standard: [/hidden|sm:block|sm:invisible/],
+    standard: [],
     deep: [
       // Don't purge attributes
-      /disabled|multiple|readonly|rows|type|x-cloak/,
+      /disabled|multiple|readonly|type|x-cloak/,
     ],
-    greedy: [/leaflet/],
+    greedy: [],
   },
 });
 
