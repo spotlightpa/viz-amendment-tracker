@@ -98,84 +98,85 @@
             <span class="font-semibold">Topics:</span>
             <span x-text="row.topics"></span>
           </p>
-          <p class="mt-6">
+          {{ $checkClass := `inline-block mr-1 w-4 h-4 fill-current relative -top-1` }}
+          <p class="mt-6 flex flex-wrap gap-2">
             <span x-show="row.houseCommittee === 'none'">
-              <svg class="inline-block w-4 h-4 fill-current text-g-5">
+              <svg class="{{ $checkClass }} text-g-5">
                 <use href="#check-svg" />
               </svg>
               House Committee
             </span>
             <span x-show="row.houseCommittee === 'fail'">
-              <svg class="inline-block w-4 h-4 fill-current text-red">
+              <svg class="{{ $checkClass }} text-red">
                 <use href="#times-svg" />
               </svg>
               House Committee Failed
             </span>
             <span x-show="row.houseCommittee === 'pass'">
-              <svg class="inline-block w-4 h-4 fill-current text-green">
+              <svg class="{{ $checkClass }} text-green">
                 <use href="#check-svg" />
               </svg>
               Passed House Committee
             </span>
 
             <span x-show="row.houseVote === 'none'">
-              <svg class="inline-block w-4 h-4 fill-current text-g-5">
+              <svg class="{{ $checkClass }} text-g-5">
                 <use href="#check-svg" />
               </svg>
               House Vote
             </span>
             <span x-show="row.houseVote === 'fail'">
-              <svg class="inline-block w-4 h-4 fill-current text-red">
+              <svg class="{{ $checkClass }} text-red">
                 <use href="#times-svg" />
               </svg>
               Failed House Vote
             </span>
             <span x-show="row.houseVote === 'pass'">
-              <svg class="inline-block w-4 h-4 fill-current text-green">
+              <svg class="{{ $checkClass }} text-green">
                 <use href="#check-svg" />
               </svg>
               Passed House Vote
             </span>
             <span x-show="row.senateCommittee === 'none'">
-              <svg class="inline-block w-4 h-4 fill-current text-g-5">
+              <svg class="{{ $checkClass }} text-g-5">
                 <use href="#check-svg" />
               </svg>
               Senate Committee
             </span>
             <span x-show="row.senateCommittee === 'fail'">
-              <svg class="inline-block w-4 h-4 fill-current text-red">
+              <svg class="{{ $checkClass }} text-red">
                 <use href="#times-svg" />
               </svg>
               Senate Committee Failed
             </span>
             <span x-show="row.senateCommittee === 'pass'">
-              <svg class="inline-block w-4 h-4 fill-current text-green">
+              <svg class="{{ $checkClass }} text-green">
                 <use href="#check-svg" />
               </svg>
               Passed Senate Committee
             </span>
 
             <span x-show="row.senateVote === 'none'">
-              <svg class="inline-block w-4 h-4 fill-current text-g-5">
+              <svg class="{{ $checkClass }} text-g-5">
                 <use href="#check-svg" />
               </svg>
               Senate Vote
             </span>
             <span x-show="row.senateVote === 'fail'">
-              <svg class="inline-block w-4 h-4 fill-current text-red">
+              <svg class="{{ $checkClass }} text-red">
                 <use href="#times-svg" />
               </svg>
               Failed Senate Vote
             </span>
             <span x-show="row.senateVote === 'pass'">
-              <svg class="inline-block w-4 h-4 fill-current text-green">
+              <svg class="{{ $checkClass }} text-green">
                 <use href="#check-svg" />
               </svg>
               Passed Senate Vote
             </span>
             <span>
               <!-- TODO -->
-              <svg class="inline-block w-4 h-4 fill-current text-g-5">
+              <svg class="{{ $checkClass }} text-g-5">
                 <use href="#check-svg" />
               </svg>
               On Upcoming Ballot
