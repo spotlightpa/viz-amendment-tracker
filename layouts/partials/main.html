@@ -174,12 +174,17 @@
               </svg>
               Passed Senate Vote
             </span>
-            <span>
-              <!-- TODO -->
+            <span x-show="!row.nextBallot">
               <svg class="{{ $checkClass }} text-g-5">
                 <use href="#check-svg" />
               </svg>
               On Upcoming Ballot
+            </span>
+            <span x-show="row.nextBallot">
+              <svg class="{{ $checkClass }} text-green">
+                <use href="#check-svg" />
+              </svg>
+              Will Be On Upcoming Ballot
             </span>
           </p>
           <p class="mt-2 text-sm text-right">

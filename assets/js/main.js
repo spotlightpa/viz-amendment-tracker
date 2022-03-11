@@ -49,13 +49,14 @@ class Amendment {
     this.openStatesURL = row["OpenStatesUrl"];
     this.formerSessionURL = row["FormerSessionUrl"];
     this.description = row["WhatWouldItDo"];
+    this.nextBallot = row["WillBeOnNextBallot"]?.toLowerCase() === "yes";
     this.searchFields =
       `${this.name} ${this.sponsor} ${this.party} ${this.topics} ${this.notes} ${this.description}`.toLowerCase();
     this.houseCommittee = "none";
     this.houseVote = "none";
     this.senateCommittee = "none";
     this.senateVote = "none";
-    this.progress = 0;
+    this.progress = this.nextBallot ? 9 : 0;
 
     if (!row.OpenStatesInfo) {
       this.actions = [];
