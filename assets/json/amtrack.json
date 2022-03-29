@@ -4843,10 +4843,10 @@
         "subject": [],
         "extras": {},
         "created_at": "2021-10-26T02:07:20.732618Z",
-        "updated_at": "2022-03-27T10:27:12.2857Z",
+        "updated_at": "2022-03-28T22:27:13.539057Z",
         "openstates_url": "https://openstates.org/pa/bills/2021-2022/HB2013/",
         "first_action_date": "2021-10-26T04:00:00Z",
-        "latest_action_date": "2021-11-16T05:00:00Z",
+        "latest_action_date": "2022-03-28T04:00:00Z",
         "latest_action_description": "Laid on the table",
         "latest_passage_date": "",
         "actions": [
@@ -4899,6 +4899,28 @@
             "date": "2021-11-16T05:00:00Z",
             "classification": [],
             "order": 3
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Removed from table",
+            "date": "2022-03-28T04:00:00Z",
+            "classification": [],
+            "order": 4
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Laid on the table",
+            "date": "2022-03-28T04:00:00Z",
+            "classification": [],
+            "order": 5
           }
         ]
       },
