@@ -2099,11 +2099,11 @@
         "subject": [],
         "extras": {},
         "created_at": "2021-09-25T07:29:54.750386Z",
-        "updated_at": "2021-11-11T02:43:31.271533Z",
+        "updated_at": "2022-03-30T22:35:08.001129Z",
         "openstates_url": "https://openstates.org/pa/bills/2021-2022/HB1910/",
         "first_action_date": "2021-09-27T04:00:00Z",
-        "latest_action_date": "2021-09-27T04:00:00Z",
-        "latest_action_description": "PN 2168 Referred to JUDICIARY",
+        "latest_action_date": "2022-03-30T04:00:00Z",
+        "latest_action_description": "Laid on the table",
         "latest_passage_date": "",
         "actions": [
           {
@@ -2118,6 +2118,43 @@
               "referral-committee"
             ],
             "order": 0
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Reported as committed",
+            "date": "2022-03-30T04:00:00Z",
+            "classification": [
+              "committee-passage"
+            ],
+            "order": 1
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "First consideration",
+            "date": "2022-03-30T04:00:00Z",
+            "classification": [
+              "reading-1"
+            ],
+            "order": 2
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Laid on the table",
+            "date": "2022-03-30T04:00:00Z",
+            "classification": [],
+            "order": 3
           }
         ]
       },
@@ -4745,10 +4782,10 @@
         "subject": [],
         "extras": {},
         "created_at": "2021-09-18T07:18:16.146597Z",
-        "updated_at": "2021-12-14T03:02:21.596745Z",
+        "updated_at": "2022-03-30T22:34:17.893897Z",
         "openstates_url": "https://openstates.org/pa/bills/2021-2022/HB1880/",
         "first_action_date": "2021-09-20T04:00:00Z",
-        "latest_action_date": "2021-12-13T05:00:00Z",
+        "latest_action_date": "2022-03-30T04:00:00Z",
         "latest_action_description": "Laid on the table",
         "latest_passage_date": "",
         "actions": [
@@ -4802,6 +4839,28 @@
             "date": "2021-12-13T05:00:00Z",
             "classification": [],
             "order": 3
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Removed from table",
+            "date": "2022-03-30T04:00:00Z",
+            "classification": [],
+            "order": 4
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Laid on the table",
+            "date": "2022-03-30T04:00:00Z",
+            "classification": [],
+            "order": 5
           }
         ]
       },
@@ -4843,7 +4902,7 @@
         "subject": [],
         "extras": {},
         "created_at": "2021-10-26T02:07:20.732618Z",
-        "updated_at": "2022-03-29T22:31:39.433945Z",
+        "updated_at": "2022-03-30T22:34:02.225204Z",
         "openstates_url": "https://openstates.org/pa/bills/2021-2022/HB2013/",
         "first_action_date": "2021-10-26T04:00:00Z",
         "latest_action_date": "2022-03-28T04:00:00Z",
@@ -5222,10 +5281,10 @@
         "subject": [],
         "extras": {},
         "created_at": "2021-12-07T02:55:18.155565Z",
-        "updated_at": "2021-12-14T03:01:49.062482Z",
+        "updated_at": "2022-03-30T22:34:19.61537Z",
         "openstates_url": "https://openstates.org/pa/bills/2021-2022/HB2141/",
         "first_action_date": "2021-12-07T05:00:00Z",
-        "latest_action_date": "2021-12-13T05:00:00Z",
+        "latest_action_date": "2022-03-30T04:00:00Z",
         "latest_action_description": "Laid on the table",
         "latest_passage_date": "",
         "actions": [
@@ -5278,6 +5337,28 @@
             "date": "2021-12-13T05:00:00Z",
             "classification": [],
             "order": 3
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Removed from table",
+            "date": "2022-03-30T04:00:00Z",
+            "classification": [],
+            "order": 4
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Laid on the table",
+            "date": "2022-03-30T04:00:00Z",
+            "classification": [],
+            "order": 5
           }
         ]
       },
