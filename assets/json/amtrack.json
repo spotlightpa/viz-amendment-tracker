@@ -6799,8 +6799,77 @@
       "BillNumber": "Senate Bill 1166",
       "FormerSessionUrl": "",
       "Notes": "",
-      "OpenStatesId": "",
-      "OpenStatesUrl": "",
+      "OpenStatesId": "ocd-bill/e5aba495-7d2f-4ee3-b0ce-85d454bf49fb",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/e5aba495-7d2f-4ee3-b0ce-85d454bf49fb",
+        "session": "2021-2022",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+          "name": "Senate",
+          "classification": "upper"
+        },
+        "identifier": "SB 1166",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, providing for redistricting by court.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2022-03-25T11:26:47.725085Z",
+        "updated_at": "2022-04-06T22:46:22.229814Z",
+        "openstates_url": "https://openstates.org/pa/bills/2021-2022/SB1166/",
+        "first_action_date": "2022-03-24T04:00:00Z",
+        "latest_action_date": "2022-04-06T04:00:00Z",
+        "latest_action_description": "First consideration",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "PN 1508 Referred to STATE GOVERNMENT",
+            "date": "2022-03-24T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "Reported as committed",
+            "date": "2022-04-06T04:00:00Z",
+            "classification": [
+              "committee-passage"
+            ],
+            "order": 1
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "First consideration",
+            "date": "2022-04-06T04:00:00Z",
+            "classification": [
+              "reading-1"
+            ],
+            "order": 2
+          }
+        ]
+      },
+      "OpenStatesUrl": "https://openstates.org/pa/bills/2021-2022/SB1166/",
       "Party": "R",
       "PassedLastSession": "No",
       "RowID": 77,
@@ -6816,8 +6885,51 @@
       "BillNumber": "House Bill 2413",
       "FormerSessionUrl": "",
       "Notes": "",
-      "OpenStatesId": "",
-      "OpenStatesUrl": "",
+      "OpenStatesId": "ocd-bill/9c5352ee-cfee-4c48-b559-5449f1495903",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/9c5352ee-cfee-4c48-b559-5449f1495903",
+        "session": "2021-2022",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 2413",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for the maintenance and support of public education.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2022-03-12T10:18:38.571625Z",
+        "updated_at": "2022-03-21T22:24:22.246201Z",
+        "openstates_url": "https://openstates.org/pa/bills/2021-2022/HB2413/",
+        "first_action_date": "2022-03-16T04:00:00Z",
+        "latest_action_date": "2022-03-16T04:00:00Z",
+        "latest_action_description": "PN 2825 Referred to EDUCATION",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 2825 Referred to EDUCATION",
+            "date": "2022-03-16T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesUrl": "https://openstates.org/pa/bills/2021-2022/HB2413/",
       "Party": "R",
       "PassedLastSession": "No",
       "RowID": 78,
@@ -6833,8 +6945,51 @@
       "BillNumber": "Senate Bill 1127",
       "FormerSessionUrl": "",
       "Notes": "",
-      "OpenStatesId": "",
-      "OpenStatesUrl": "",
+      "OpenStatesId": "ocd-bill/46b00363-2777-4624-a4d5-61ac83c9f2a9",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/46b00363-2777-4624-a4d5-61ac83c9f2a9",
+        "session": "2021-2022",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+          "name": "Senate",
+          "classification": "upper"
+        },
+        "identifier": "SB 1127",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for judicial administration.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2022-03-18T11:23:15.930073Z",
+        "updated_at": "2022-03-18T11:23:15.956999Z",
+        "openstates_url": "https://openstates.org/pa/bills/2021-2022/SB1127/",
+        "first_action_date": "2022-03-17T04:00:00Z",
+        "latest_action_date": "2022-03-17T04:00:00Z",
+        "latest_action_description": "PN 1491 Referred to STATE GOVERNMENT",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "PN 1491 Referred to STATE GOVERNMENT",
+            "date": "2022-03-17T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesUrl": "https://openstates.org/pa/bills/2021-2022/SB1127/",
       "Party": "R",
       "PassedLastSession": "No",
       "RowID": 79,
@@ -6867,8 +7022,51 @@
       "BillNumber": "House Bill 2500",
       "FormerSessionUrl": "",
       "Notes": "",
-      "OpenStatesId": "",
-      "OpenStatesUrl": "",
+      "OpenStatesId": "ocd-bill/31c141a9-3af3-4380-880a-1b43b58e2026",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/31c141a9-3af3-4380-880a-1b43b58e2026",
+        "session": "2021-2022",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 2500",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for special provisions for local taxing authorities.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2022-03-23T10:26:16.469055Z",
+        "updated_at": "2022-03-23T22:26:44.669453Z",
+        "openstates_url": "https://openstates.org/pa/bills/2021-2022/HB2500/",
+        "first_action_date": "2022-03-23T04:00:00Z",
+        "latest_action_date": "2022-03-23T04:00:00Z",
+        "latest_action_description": "PN 2865 Referred to FINANCE",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 2865 Referred to FINANCE",
+            "date": "2022-03-23T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesUrl": "https://openstates.org/pa/bills/2021-2022/HB2500/",
       "Party": "R",
       "PassedLastSession": "No",
       "RowID": 81,
