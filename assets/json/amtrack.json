@@ -4987,7 +4987,7 @@
         "subject": [],
         "extras": {},
         "created_at": "2021-10-26T02:07:20.732618Z",
-        "updated_at": "2022-04-18T23:06:54.41954Z",
+        "updated_at": "2022-04-25T23:10:06.65566Z",
         "openstates_url": "https://openstates.org/pa/bills/2021-2022/HB2013/",
         "first_action_date": "2021-10-26T04:00:00Z",
         "latest_action_date": "2022-03-28T04:00:00Z",
@@ -5485,10 +5485,10 @@
         "subject": [],
         "extras": {},
         "created_at": "2022-01-05T03:14:34.610668Z",
-        "updated_at": "2022-01-11T03:19:32.812649Z",
+        "updated_at": "2022-04-25T23:12:19.898365Z",
         "openstates_url": "https://openstates.org/pa/bills/2021-2022/HB2207/",
         "first_action_date": "2022-01-04T05:00:00Z",
-        "latest_action_date": "2022-01-10T05:00:00Z",
+        "latest_action_date": "2022-04-25T04:00:00Z",
         "latest_action_description": "Removed from table",
         "latest_passage_date": "",
         "actions": [
@@ -5552,6 +5552,28 @@
             "date": "2022-01-10T05:00:00Z",
             "classification": [],
             "order": 4
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Laid on the table",
+            "date": "2022-04-25T04:00:00Z",
+            "classification": [],
+            "order": 5
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Removed from table",
+            "date": "2022-04-25T04:00:00Z",
+            "classification": [],
+            "order": 6
           }
         ]
       },
@@ -5713,7 +5735,7 @@
         "subject": [],
         "extras": {},
         "created_at": "2021-01-09T05:09:40.240123Z",
-        "updated_at": "2022-04-15T23:04:48.497855Z",
+        "updated_at": "2022-04-25T23:10:05.879465Z",
         "openstates_url": "https://openstates.org/pa/bills/2021-2022/HB71/",
         "first_action_date": "2021-01-11T05:00:00Z",
         "latest_action_date": "2022-04-13T04:00:00Z",
