@@ -7155,18 +7155,61 @@
     },
     {
       "BillLink": "House Bill 2432",
-      "BillNumber": "House Bill 2532",
+      "BillNumber": "House Bill 2432",
       "FormerSessionUrl": "",
       "Notes": "",
-      "OpenStatesId": "",
-      "OpenStatesUrl": "",
+      "OpenStatesId": "ocd-bill/d74383df-41a6-43f2-a027-71d747120e15",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/d74383df-41a6-43f2-a027-71d747120e15",
+        "session": "2021-2022",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 2432",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, providing for tax and fee ballot questions.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2022-03-17T10:24:27.83717Z",
+        "updated_at": "2022-03-17T22:22:35.390333Z",
+        "openstates_url": "https://openstates.org/pa/bills/2021-2022/HB2432/",
+        "first_action_date": "2022-03-17T04:00:00Z",
+        "latest_action_date": "2022-03-17T04:00:00Z",
+        "latest_action_description": "PN 2846 Referred to FINANCE",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 2846 Referred to FINANCE",
+            "date": "2022-03-17T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesUrl": "https://openstates.org/pa/bills/2021-2022/HB2432/",
       "Party": "R",
       "PassedLastSession": "No",
       "RowID": 80,
       "Sponsor": "Rowe",
       "Status": "Introduced",
       "Topics": "Taxes",
-      "Url": "",
+      "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=2432",
       "WhatWouldItDo": "Mandate any new tax passed before a primary election appear on the ballot for voter approval",
       "WillBeOnNextBallot": ""
     },
@@ -7226,7 +7269,7 @@
       "Sponsor": "Hershey",
       "Status": "Introduced",
       "Topics": "Taxes",
-      "Url": "",
+      "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026BN=2500",
       "WhatWouldItDo": "Expand the jurisdictions that can enact tax relief programs, but prevent those jursidictions from raising property taxes to pay for the exemptions",
       "WillBeOnNextBallot": ""
     }
