@@ -7272,6 +7272,186 @@
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026BN=2500",
       "WhatWouldItDo": "Expand the jurisdictions that can enact tax relief programs, but prevent those jursidictions from raising property taxes to pay for the exemptions",
       "WillBeOnNextBallot": ""
+    },
+    {
+      "BillLink": "Senate Bill 1209",
+      "BillNumber": "Senate Bill 1209",
+      "FormerSessionUrl": "",
+      "Notes": "",
+      "OpenStatesId": "ocd-bill/c14628e5-d59c-4285-ad54-b3d89c8b39f7",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/c14628e5-d59c-4285-ad54-b3d89c8b39f7",
+        "session": "2021-2022",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+          "name": "Senate",
+          "classification": "upper"
+        },
+        "identifier": "SB 1209",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, prohibiting the Legislative Reapportionment Commission from adjusting the population data for the Commonwealth as determined by the Federal decennial census for any group quarters population.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2022-04-29T17:22:26.943734Z",
+        "updated_at": "2022-04-30T05:21:35.630238Z",
+        "openstates_url": "https://openstates.org/pa/bills/2021-2022/SB1209/",
+        "first_action_date": "2022-04-28T04:00:00Z",
+        "latest_action_date": "2022-04-28T04:00:00Z",
+        "latest_action_description": "PN 1621 Referred to STATE GOVERNMENT",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "PN 1621 Referred to STATE GOVERNMENT",
+            "date": "2022-04-28T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesUrl": "https://openstates.org/pa/bills/2021-2022/SB1209/",
+      "Party": "R",
+      "PassedLastSession": "No",
+      "RowID": 82,
+      "Sponsor": "Argall",
+      "Status": "Introduced",
+      "Topics": "Redistricting",
+      "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=1209",
+      "WhatWouldItDo": "Prohibiting the Legislative Reapportionment Commission from adjusting population data for group quarters (i.e. prisons)",
+      "WillBeOnNextBallot": ""
+    },
+    {
+      "BillLink": "Senate Bill 1182",
+      "BillNumber": "Senate Bill 1182",
+      "FormerSessionUrl": "",
+      "Notes": "",
+      "OpenStatesId": "ocd-bill/d85ab32a-64c5-4aad-849d-c85c7978f7bf",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/d85ab32a-64c5-4aad-849d-c85c7978f7bf",
+        "session": "2021-2022",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+          "name": "Senate",
+          "classification": "upper"
+        },
+        "identifier": "SB 1182",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for the selection of the chairman of the Legislative Reapportionment Commission.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2022-04-09T10:49:14.897617Z",
+        "updated_at": "2022-04-09T10:49:14.922676Z",
+        "openstates_url": "https://openstates.org/pa/bills/2021-2022/SB1182/",
+        "first_action_date": "2022-04-08T04:00:00Z",
+        "latest_action_date": "2022-04-08T04:00:00Z",
+        "latest_action_description": "PN 1568 Referred to STATE GOVERNMENT",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "PN 1568 Referred to STATE GOVERNMENT",
+            "date": "2022-04-08T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesUrl": "https://openstates.org/pa/bills/2021-2022/SB1182/",
+      "Party": "R",
+      "PassedLastSession": "No",
+      "RowID": 83,
+      "Sponsor": "Argall",
+      "Status": "Introduced",
+      "Topics": "Redistricting",
+      "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=1182",
+      "WhatWouldItDo": "Select the the Legislative Reapportionment Commission chairman at random from the  senior judges on the state appellate courts.",
+      "WillBeOnNextBallot": ""
+    },
+    {
+      "BillLink": "House Bill 2539",
+      "BillNumber": "House Bill 2539",
+      "FormerSessionUrl": "",
+      "Notes": "",
+      "OpenStatesId": "ocd-bill/b5fe854b-79f1-4887-adcb-03e59cfd6085",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/b5fe854b-79f1-4887-adcb-03e59cfd6085",
+        "session": "2021-2022",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 2539",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for absentee voting.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2022-04-23T11:10:50.14892Z",
+        "updated_at": "2022-04-25T23:09:37.441115Z",
+        "openstates_url": "https://openstates.org/pa/bills/2021-2022/HB2539/",
+        "first_action_date": "2022-04-25T04:00:00Z",
+        "latest_action_date": "2022-04-25T04:00:00Z",
+        "latest_action_description": "PN 3022 Referred to STATE GOVERNMENT",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 3022 Referred to STATE GOVERNMENT",
+            "date": "2022-04-25T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesUrl": "https://openstates.org/pa/bills/2021-2022/HB2539/",
+      "Party": "R",
+      "PassedLastSession": "No",
+      "RowID": 84,
+      "Sponsor": "Hershey",
+      "Status": "Introduced",
+      "Topics": "Elections",
+      "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=2539",
+      "WhatWouldItDo": "Abolish no-excuse mail-in ballots",
+      "WillBeOnNextBallot": ""
     }
   ]
 }
