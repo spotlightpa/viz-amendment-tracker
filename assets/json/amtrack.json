@@ -4018,11 +4018,11 @@
         "subject": [],
         "extras": {},
         "created_at": "2021-12-16T15:10:41.596017Z",
-        "updated_at": "2022-04-13T11:00:25.009405Z",
+        "updated_at": "2022-05-26T05:46:06.5934Z",
         "openstates_url": "https://openstates.org/pa/bills/2021-2022/SB956/",
         "first_action_date": "2021-12-15T05:00:00Z",
-        "latest_action_date": "2022-04-12T04:00:00Z",
-        "latest_action_description": "Laid on the table (Pursuant to Senate Rule 9)",
+        "latest_action_date": "2022-05-25T04:00:00Z",
+        "latest_action_description": "Removed from table",
         "latest_passage_date": "",
         "actions": [
           {
@@ -4074,6 +4074,39 @@
             "date": "2022-04-12T04:00:00Z",
             "classification": [],
             "order": 3
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "Removed from table",
+            "date": "2022-05-25T04:00:00Z",
+            "classification": [],
+            "order": 4
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "Vote by which this bill was removed from the table, reconsidered",
+            "date": "2022-05-25T04:00:00Z",
+            "classification": [],
+            "order": 5
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "Removed from table",
+            "date": "2022-05-25T04:00:00Z",
+            "classification": [],
+            "order": 6
           }
         ]
       },
@@ -7120,11 +7153,11 @@
         "subject": [],
         "extras": {},
         "created_at": "2022-03-18T11:23:15.930073Z",
-        "updated_at": "2022-03-18T11:23:15.956999Z",
+        "updated_at": "2022-05-26T05:48:19.506994Z",
         "openstates_url": "https://openstates.org/pa/bills/2021-2022/SB1127/",
         "first_action_date": "2022-03-17T04:00:00Z",
-        "latest_action_date": "2022-03-17T04:00:00Z",
-        "latest_action_description": "PN 1491 Referred to STATE GOVERNMENT",
+        "latest_action_date": "2022-05-25T04:00:00Z",
+        "latest_action_description": "First consideration",
         "latest_passage_date": "",
         "actions": [
           {
@@ -7139,6 +7172,33 @@
               "referral-committee"
             ],
             "order": 0
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "PN 1684 Reported as amended",
+            "date": "2022-05-25T04:00:00Z",
+            "classification": [
+              "amendment-passage",
+              "committee-passage"
+            ],
+            "order": 1
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "First consideration",
+            "date": "2022-05-25T04:00:00Z",
+            "classification": [
+              "reading-1"
+            ],
+            "order": 2
           }
         ]
       },
@@ -7300,11 +7360,11 @@
         "subject": [],
         "extras": {},
         "created_at": "2022-04-29T17:22:26.943734Z",
-        "updated_at": "2022-04-30T05:21:35.630238Z",
+        "updated_at": "2022-05-26T05:47:26.925595Z",
         "openstates_url": "https://openstates.org/pa/bills/2021-2022/SB1209/",
         "first_action_date": "2022-04-28T04:00:00Z",
-        "latest_action_date": "2022-04-28T04:00:00Z",
-        "latest_action_description": "PN 1621 Referred to STATE GOVERNMENT",
+        "latest_action_date": "2022-05-25T04:00:00Z",
+        "latest_action_description": "First consideration",
         "latest_passage_date": "",
         "actions": [
           {
@@ -7319,6 +7379,32 @@
               "referral-committee"
             ],
             "order": 0
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "Reported as committed",
+            "date": "2022-05-25T04:00:00Z",
+            "classification": [
+              "committee-passage"
+            ],
+            "order": 1
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "First consideration",
+            "date": "2022-05-25T04:00:00Z",
+            "classification": [
+              "reading-1"
+            ],
+            "order": 2
           }
         ]
       },
@@ -7360,11 +7446,11 @@
         "subject": [],
         "extras": {},
         "created_at": "2022-04-09T10:49:14.897617Z",
-        "updated_at": "2022-04-09T10:49:14.922676Z",
+        "updated_at": "2022-05-26T05:46:16.843173Z",
         "openstates_url": "https://openstates.org/pa/bills/2021-2022/SB1182/",
         "first_action_date": "2022-04-08T04:00:00Z",
-        "latest_action_date": "2022-04-08T04:00:00Z",
-        "latest_action_description": "PN 1568 Referred to STATE GOVERNMENT",
+        "latest_action_date": "2022-05-25T04:00:00Z",
+        "latest_action_description": "First consideration",
         "latest_passage_date": "",
         "actions": [
           {
@@ -7379,6 +7465,32 @@
               "referral-committee"
             ],
             "order": 0
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "Reported as committed",
+            "date": "2022-05-25T04:00:00Z",
+            "classification": [
+              "committee-passage"
+            ],
+            "order": 1
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "First consideration",
+            "date": "2022-05-25T04:00:00Z",
+            "classification": [
+              "reading-1"
+            ],
+            "order": 2
           }
         ]
       },
