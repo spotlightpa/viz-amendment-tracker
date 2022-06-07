@@ -4018,11 +4018,11 @@
         "subject": [],
         "extras": {},
         "created_at": "2021-12-16T15:10:41.596017Z",
-        "updated_at": "2022-06-02T05:50:51.568798Z",
+        "updated_at": "2022-06-07T07:54:14.72601Z",
         "openstates_url": "https://openstates.org/pa/bills/2021-2022/SB956/",
         "first_action_date": "2021-12-15T05:00:00Z",
-        "latest_action_date": "2022-05-25T04:00:00Z",
-        "latest_action_description": "Removed from table",
+        "latest_action_date": "2022-06-06T04:00:00Z",
+        "latest_action_description": "Second consideration",
         "latest_passage_date": "",
         "actions": [
           {
@@ -4107,6 +4107,19 @@
             "date": "2022-05-25T04:00:00Z",
             "classification": [],
             "order": 6
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "Second consideration",
+            "date": "2022-06-06T04:00:00Z",
+            "classification": [
+              "reading-2"
+            ],
+            "order": 7
           }
         ]
       },
