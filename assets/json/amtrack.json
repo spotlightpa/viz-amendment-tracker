@@ -1641,7 +1641,7 @@
         "subject": [],
         "extras": {},
         "created_at": "2021-06-26T08:47:44.099291Z",
-        "updated_at": "2022-06-14T08:16:17.809992Z",
+        "updated_at": "2022-06-16T06:28:44.427909Z",
         "openstates_url": "https://openstates.org/pa/bills/2021-2022/HB1717/",
         "first_action_date": "2021-06-28T04:00:00Z",
         "latest_action_date": "2021-06-28T04:00:00Z",
@@ -5174,10 +5174,10 @@
         "subject": [],
         "extras": {},
         "created_at": "2021-11-11T02:45:45.384462Z",
-        "updated_at": "2022-03-29T22:31:14.505119Z",
+        "updated_at": "2022-06-16T06:26:59.824159Z",
         "openstates_url": "https://openstates.org/pa/bills/2021-2022/HB2069/",
         "first_action_date": "2021-11-09T05:00:00Z",
-        "latest_action_date": "2022-03-29T04:00:00Z",
+        "latest_action_date": "2022-06-15T04:00:00Z",
         "latest_action_description": "Removed from table",
         "latest_passage_date": "",
         "actions": [
@@ -5263,6 +5263,28 @@
             "date": "2022-03-29T04:00:00Z",
             "classification": [],
             "order": 6
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Laid on the table",
+            "date": "2022-06-15T04:00:00Z",
+            "classification": [],
+            "order": 7
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Removed from table",
+            "date": "2022-06-15T04:00:00Z",
+            "classification": [],
+            "order": 8
           }
         ]
       },
@@ -5304,10 +5326,10 @@
         "subject": [],
         "extras": {},
         "created_at": "2021-11-11T02:46:38.717827Z",
-        "updated_at": "2022-03-29T22:30:42.035676Z",
+        "updated_at": "2022-06-16T06:30:26.531982Z",
         "openstates_url": "https://openstates.org/pa/bills/2021-2022/HB2070/",
         "first_action_date": "2021-11-09T05:00:00Z",
-        "latest_action_date": "2022-03-29T04:00:00Z",
+        "latest_action_date": "2022-06-15T04:00:00Z",
         "latest_action_description": "Removed from table",
         "latest_passage_date": "",
         "actions": [
@@ -5393,6 +5415,28 @@
             "date": "2022-03-29T04:00:00Z",
             "classification": [],
             "order": 6
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Laid on the table",
+            "date": "2022-06-15T04:00:00Z",
+            "classification": [],
+            "order": 7
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Removed from table",
+            "date": "2022-06-15T04:00:00Z",
+            "classification": [],
+            "order": 8
           }
         ]
       },
