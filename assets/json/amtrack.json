@@ -7739,6 +7739,105 @@
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=2539",
       "WhatWouldItDo": "Abolish no-excuse mail-in ballots",
       "WillBeOnNextBallot": ""
+    },
+    {
+      "BillLink": "House Bill 2660",
+      "BillNumber": "House Bill 2660",
+      "FormerSessionUrl": "",
+      "Notes": "",
+      "OpenStatesId": "ocd-bill/88925903-edc0-4d62-b6fd-6407df25b4fc",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/88925903-edc0-4d62-b6fd-6407df25b4fc",
+        "session": "2021-2022",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 2660",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for judicial administration.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2022-06-07T07:55:32.088741Z",
+        "updated_at": "2022-06-27T20:50:13.712742Z",
+        "openstates_url": "https://openstates.org/pa/bills/2021-2022/HB2660/",
+        "first_action_date": "2022-06-07T04:00:00Z",
+        "latest_action_date": "2022-06-21T04:00:00Z",
+        "latest_action_description": "Re-committed to RULES",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 3194 Referred to JUDICIARY",
+            "date": "2022-06-07T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Reported as committed",
+            "date": "2022-06-21T04:00:00Z",
+            "classification": [
+              "committee-passage"
+            ],
+            "order": 1
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "First consideration",
+            "date": "2022-06-21T04:00:00Z",
+            "classification": [
+              "reading-1"
+            ],
+            "order": 2
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Re-committed to RULES",
+            "date": "2022-06-21T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 3
+          }
+        ]
+      },
+      "OpenStatesUrl": "https://openstates.org/pa/bills/2021-2022/HB2660/",
+      "Party": "R",
+      "PassedLastSession": "No",
+      "RowID": 85,
+      "Sponsor": "Kauffman",
+      "Status": "Waiting for a vote in the House",
+      "Topics": "Procedural",
+      "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=H\u0026type=B\u0026bn=2660",
+      "WhatWouldItDo": "Allow the General Assembly to establish venue in civil cases",
+      "WillBeOnNextBallot": ""
     }
   ]
 }
