@@ -790,7 +790,7 @@
       "BillLink": "Senate Bill 106",
       "BillNumber": "Senate Bill 106",
       "FormerSessionUrl": "",
-      "Notes": "Originally, this bill proposed to change how Pennsylvania's lieutenant governor is selected. An identical version passed the House and Senate in the 2019-20 session, and it passed the Senate in that form again this session. It was then amended in the House to contain four more proposed changes to the constitution, restarting the process. Those changes are now awaiting consideration in the Senate.",
+      "Notes": "Originally, this bill proposed to change how Pennsylvania's lieutenant governor is selected. An identical version passed the House and Senate in the 2019-20 session, and it passed the Senate in that form again this session. It was then amended in the House to contain four more proposed changes to the constitution, restarting the process. The Senate added yet another amendment, in July 2022, this one relating to abortion.",
       "OpenStatesId": "ocd-bill/fe1bda02-7782-4268-868f-90b3cd384e84",
       "OpenStatesInfo": {
         "id": "ocd-bill/fe1bda02-7782-4268-868f-90b3cd384e84",
@@ -1090,10 +1090,10 @@
       "PassedLastSession": "See notes",
       "RowID": 4,
       "Sponsor": "Argall",
-      "Status": "Amended and passed in the House, waiting for consideration in the Senate",
-      "Topics": "Executive power, elections",
+      "Status": "Amended and passed in the House; reamended in the Senate and passed with amendments; awaiting action in the House",
+      "Topics": "Executive power, elections, abortion",
       "Url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2021\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0106",
-      "WhatWouldItDo": "Expand the General Assembly's power to reject executive orders and regulations; Require government-issued ID to vote; Require the auditor general to audit elections; Change the way the lieutenant governor is selected.",
+      "WhatWouldItDo": "Expand the General Assembly's power to reject regulations; Require government-issued ID to vote; Require the auditor general to audit elections; Change the way the lieutenant governor is selected; Add language declaring the state constitution does not grant any right relating to abortion.",
       "WillBeOnNextBallot": ""
     },
     {
