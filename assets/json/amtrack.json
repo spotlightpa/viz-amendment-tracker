@@ -813,11 +813,11 @@
         "subject": [],
         "extras": {},
         "created_at": "2021-01-22T22:32:03.03015Z",
-        "updated_at": "2022-07-09T14:28:50.303934Z",
+        "updated_at": "2022-07-10T07:28:44.488766Z",
         "openstates_url": "https://openstates.org/pa/bills/2021-2022/SB106/",
         "first_action_date": "2021-01-22T05:00:00Z",
         "latest_action_date": "2022-07-08T04:00:00Z",
-        "latest_action_description": "Re-reported on concurrence, as committed",
+        "latest_action_description": "Signed in House",
         "latest_passage_date": "2021-12-15T05:00:00+00:00",
         "actions": [
           {
@@ -1135,6 +1135,39 @@
               "committee-passage"
             ],
             "order": 24
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "House concurred in Senate amendments to House amendments",
+            "date": "2022-07-08T04:00:00Z",
+            "classification": [],
+            "order": 25
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Signed in Senate",
+            "date": "2022-07-08T04:00:00Z",
+            "classification": [],
+            "order": 26
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Signed in House",
+            "date": "2022-07-08T04:00:00Z",
+            "classification": [],
+            "order": 27
           }
         ]
       },
