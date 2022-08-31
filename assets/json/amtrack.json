@@ -165,11 +165,11 @@
         "subject": [],
         "extras": {},
         "created_at": "2021-01-07T05:06:21.117398Z",
-        "updated_at": "2021-11-11T02:42:21.251688Z",
+        "updated_at": "2022-08-30T21:38:22.616414Z",
         "openstates_url": "https://openstates.org/pa/bills/2021-2022/HB14/",
         "first_action_date": "2021-01-11T05:00:00Z",
         "latest_action_date": "2021-04-20T04:00:00Z",
-        "latest_action_description": "Filed in the Office of the Secretary of the Commonwealth",
+        "latest_action_description": "Pamphlet Laws Resolution No. 2 of 2021",
         "latest_passage_date": "2021-03-23T04:00:00+00:00",
         "actions": [
           {
@@ -475,6 +475,17 @@
             "date": "2021-04-20T04:00:00Z",
             "classification": [],
             "order": 23
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Pamphlet Laws Resolution No. 2 of 2021",
+            "date": "2021-04-20T04:00:00Z",
+            "classification": [],
+            "order": 24
           }
         ]
       },
