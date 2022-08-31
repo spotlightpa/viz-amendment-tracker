@@ -824,11 +824,11 @@
         "subject": [],
         "extras": {},
         "created_at": "2021-01-22T22:32:03.03015Z",
-        "updated_at": "2022-07-12T19:27:47.89858Z",
+        "updated_at": "2022-08-31T13:34:34.996694Z",
         "openstates_url": "https://openstates.org/pa/bills/2021-2022/SB106/",
         "first_action_date": "2021-01-22T05:00:00Z",
         "latest_action_date": "2022-07-11T04:00:00Z",
-        "latest_action_description": "Filed in the Office of the Secretary of the Commonwealth",
+        "latest_action_description": "Pamphlet Laws Resolution No. 1 of 2022",
         "latest_passage_date": "2021-12-15T05:00:00+00:00",
         "actions": [
           {
@@ -1190,6 +1190,17 @@
             "date": "2022-07-11T04:00:00Z",
             "classification": [],
             "order": 28
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Pamphlet Laws Resolution No. 1 of 2022",
+            "date": "2022-07-11T04:00:00Z",
+            "classification": [],
+            "order": 29
           }
         ]
       },
