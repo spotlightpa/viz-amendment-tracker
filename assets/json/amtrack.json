@@ -5381,10 +5381,10 @@
         "subject": [],
         "extras": {},
         "created_at": "2021-11-11T02:45:45.384462Z",
-        "updated_at": "2022-06-16T06:26:59.824159Z",
+        "updated_at": "2022-09-20T13:48:29.476805Z",
         "openstates_url": "https://openstates.org/pa/bills/2021-2022/HB2069/",
         "first_action_date": "2021-11-09T05:00:00Z",
-        "latest_action_date": "2022-06-15T04:00:00Z",
+        "latest_action_date": "2022-09-19T04:00:00Z",
         "latest_action_description": "Removed from table",
         "latest_passage_date": "",
         "actions": [
@@ -5492,6 +5492,28 @@
             "date": "2022-06-15T04:00:00Z",
             "classification": [],
             "order": 8
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Laid on the table",
+            "date": "2022-09-19T04:00:00Z",
+            "classification": [],
+            "order": 9
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Removed from table",
+            "date": "2022-09-19T04:00:00Z",
+            "classification": [],
+            "order": 10
           }
         ]
       },
@@ -5533,10 +5555,10 @@
         "subject": [],
         "extras": {},
         "created_at": "2021-11-11T02:46:38.717827Z",
-        "updated_at": "2022-06-16T06:30:26.531982Z",
+        "updated_at": "2022-09-20T13:49:01.605277Z",
         "openstates_url": "https://openstates.org/pa/bills/2021-2022/HB2070/",
         "first_action_date": "2021-11-09T05:00:00Z",
-        "latest_action_date": "2022-06-15T04:00:00Z",
+        "latest_action_date": "2022-09-19T04:00:00Z",
         "latest_action_description": "Removed from table",
         "latest_passage_date": "",
         "actions": [
@@ -5644,6 +5666,28 @@
             "date": "2022-06-15T04:00:00Z",
             "classification": [],
             "order": 8
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Laid on the table",
+            "date": "2022-09-19T04:00:00Z",
+            "classification": [],
+            "order": 9
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Removed from table",
+            "date": "2022-09-19T04:00:00Z",
+            "classification": [],
+            "order": 10
           }
         ]
       },
