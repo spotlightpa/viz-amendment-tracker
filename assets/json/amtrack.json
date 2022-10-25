@@ -4181,11 +4181,11 @@
         "subject": [],
         "extras": {},
         "created_at": "2021-12-16T15:10:41.596017Z",
-        "updated_at": "2022-06-29T19:01:03.124051Z",
+        "updated_at": "2022-10-25T08:24:25.757388Z",
         "openstates_url": "https://openstates.org/pa/bills/2021-2022/SB956/",
         "first_action_date": "2021-12-15T05:00:00Z",
-        "latest_action_date": "2022-06-28T04:00:00Z",
-        "latest_action_description": "Removed from table",
+        "latest_action_date": "2022-10-24T04:00:00Z",
+        "latest_action_description": "Laid on the table (Pursuant to Senate Rule 9)",
         "latest_passage_date": "",
         "actions": [
           {
@@ -4305,6 +4305,17 @@
             "date": "2022-06-28T04:00:00Z",
             "classification": [],
             "order": 9
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "Laid on the table (Pursuant to Senate Rule 9)",
+            "date": "2022-10-24T04:00:00Z",
+            "classification": [],
+            "order": 10
           }
         ]
       },
@@ -4967,10 +4978,10 @@
         "subject": [],
         "extras": {},
         "created_at": "2021-06-10T17:44:37.78699Z",
-        "updated_at": "2022-06-23T06:49:35.841641Z",
+        "updated_at": "2022-10-25T08:24:33.417054Z",
         "openstates_url": "https://openstates.org/pa/bills/2021-2022/HB1596/",
         "first_action_date": "2021-06-10T04:00:00Z",
-        "latest_action_date": "2022-06-22T04:00:00Z",
+        "latest_action_date": "2022-10-24T04:00:00Z",
         "latest_action_description": "Removed from table",
         "latest_passage_date": "",
         "actions": [
@@ -5101,6 +5112,28 @@
             "date": "2022-06-22T04:00:00Z",
             "classification": [],
             "order": 10
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Laid on the table",
+            "date": "2022-10-24T04:00:00Z",
+            "classification": [],
+            "order": 11
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Removed from table",
+            "date": "2022-10-24T04:00:00Z",
+            "classification": [],
+            "order": 12
           }
         ]
       },
