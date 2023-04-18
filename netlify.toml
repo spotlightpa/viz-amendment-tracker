@@ -4,9 +4,9 @@ functions = "functions"
 publish = "public"
 
 [build.environment]
-NODE_VERSION = "17"
+NODE_VERSION = "19"
 NODE_ENV = "production"
-HUGO_VERSION = "0.93.3"
+HUGO_VERSION = "0.111.3"
 HUGO_ENV = "production"
 TZ = "America/New_York"
 
