@@ -100,6 +100,12 @@
           </p>
           {{ $checkClass := `inline-block mr-1 w-4 h-4 fill-current relative -top-1` }}
           <p class="mt-6 flex flex-wrap gap-2">
+            <span x-show="row.passed === 'yes'">
+              <svg class="{{ $checkClass }} text-green">
+                <use href="#check-svg" />
+              </svg>
+              Passed Last Session
+            </span>
             <span x-show="row.houseCommittee === 'none'">
               <svg class="{{ $checkClass }} text-g-5">
                 <use href="#check-svg" />

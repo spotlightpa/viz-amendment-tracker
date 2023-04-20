@@ -40,7 +40,7 @@ class Amendment {
     this.name = row["BillNumber"];
     this.notes = row["Notes"];
     this.party = row["Party"];
-    this.passed = row["PassedLastSession"]?.toLowerCase() === "yes";
+    this.passed = row["PassedLastSession"]?.toLowerCase();
     this.id = row["RowID"];
     this.sponsor = row["Sponsor"];
     this.status = row["Status"];
