@@ -45,9 +45,9 @@ class Amendment {
     this.sponsor = row["Sponsor"];
     this.status = row["Status"];
     this.topics = row["Topics"];
-    this.legisURL = row["Url"];
-    this.openStatesURL = row["OpenStatesUrl"];
-    this.formerSessionURL = row["FormerSessionUrl"];
+    this.legisURL = row["URL"];
+    this.openStatesURL = row["OpenStatesURL"];
+    this.formerSessionURL = row["FormerSessionURL"];
     this.description = row["WhatWouldItDo"];
     this.nextBallot = row["WillBeOnNextBallot"]?.toLowerCase() === "yes";
     this.searchFields =
