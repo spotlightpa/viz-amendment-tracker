@@ -9,9 +9,9 @@
       </span>
     </h1>
     <p class="clear-left mt-1 leading-tight">
-      Since the latest two-year session began in January 2021, Pennsylvania
-      legislators have proposed more than 70 changes to the state constitution.
-      Here's where they are in the legislative process.
+      Since the latest two-year session began in January 2023, Pennsylvania legislators have 
+      proposed almost 40 changes to the state constitution. Here's where they are in the 
+      legislative process.
     </p>
     <div class="mt-6 flex space-x-2">
       <div class="w-full">
@@ -100,6 +100,12 @@
           </p>
           {{ $checkClass := `inline-block mr-1 w-4 h-4 fill-current relative -top-1` }}
           <p class="mt-6 flex flex-wrap gap-2">
+            <span x-show="row.passed === 'yes'">
+              <svg class="{{ $checkClass }} text-green">
+                <use href="#check-svg" />
+              </svg>
+              Passed Last Session
+            </span>
             <span x-show="row.houseCommittee === 'none'">
               <svg class="{{ $checkClass }} text-g-5">
                 <use href="#check-svg" />
@@ -194,7 +200,7 @@
               x-show="row.formerSessionURL"
               target="_blank"
             >
-              <svg class="inline-block mb-1 w-3 h-3 fill-current">
+              <svg class="inline-block mb-1 mr-1 w-3 h-3 fill-current">
                 <use href="#history-svg" />
               </svg>
               Related bill last session
@@ -206,7 +212,7 @@
               target="_blank"
             >
               <svg
-                class="inline-block w-3 h-3 fill-current"
+                class="inline-block mr-1 w-3 h-3 fill-current"
                 style="margin-bottom: 2px;"
               >
                 <use href="#open-states-svg" />
@@ -220,7 +226,7 @@
               x-show="row.legisURL"
               target="_blank"
             >
-              <svg class="inline-block mb-1 w-3 h-3 fill-current">
+              <svg class="inline-block mr-1 mb-1 w-3 h-3 fill-current">
                 <use href="#landmark-svg" />
               </svg>
               General Assembly
