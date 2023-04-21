@@ -1,19 +1,123 @@
 {
   "data": [
     {
-      "BillLink": "Senate Bill 1",
-      "BillNumber": "Senate Bill 1",
+      "BillLink": "House Bill 1",
+      "BillNumber": "House Bill 1",
       "FormerSessionURL": "HB 14",
-      "Notes": "Passed Senate in January 2023 combined with language to allow the General Assembly to override a regulation with a simple majority vote and to authorize a two year civil window for sex abuse survivors. House stripped out voter ID and regulatory language in committee in March 2023. Measure must be approved again by Senate to reach ballot. One of four current bills whose passage would trigger a constitutional referendum on sex abuse statute of limitations.",
-      "OpenStatesID": "ocd-bill/3fe67fef-0291-4675-9012-de1b410f0df1",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB1/",
-      "Party": "R",
+      "Notes": "One of four current bills whose passage would trigger a constitutional referendum on sex abuse statute of limitations.",
+      "OpenStatesId": "ocd-bill/f2259c3a-2d95-4ca1-80dc-16cd7fd33170",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/f2259c3a-2d95-4ca1-80dc-16cd7fd33170",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 1",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for courts to be open and suits against the Commonwealth.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-01T18:52:09.703337Z",
+        "updated_at": "2023-03-13T17:02:58.707656Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB1/",
+        "first_action_date": "2023-03-01T05:00:00Z",
+        "latest_action_date": "2023-03-13T04:00:00Z",
+        "latest_action_description": "Re-committed to JUDICIARY",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 0004 Referred to JUDICIARY",
+            "date": "2023-03-01T05:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Reported as committed",
+            "date": "2023-03-01T05:00:00Z",
+            "classification": [
+              "committee-passage"
+            ],
+            "order": 1
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "First consideration",
+            "date": "2023-03-01T05:00:00Z",
+            "classification": [
+              "reading-1"
+            ],
+            "order": 2
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Laid on the table",
+            "date": "2023-03-01T05:00:00Z",
+            "classification": [],
+            "order": 3
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Removed from table",
+            "date": "2023-03-02T05:00:00Z",
+            "classification": [],
+            "order": 4
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Re-committed to JUDICIARY",
+            "date": "2023-03-13T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 5
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB1/",
+      "Party": "D",
       "PassedLastSession": "Yes",
       "RowID": 0,
-      "Sponsor": "Dan Laughlin",
-      "Status": "Passed state Senate, awaiting vote in the state House",
-      "Topics": "Civil Liberties, Elections, Legislature, Executive, Government reform, Statute of Limitations",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0001",
+      "Sponsor": "Mark Rozzi",
+      "Status": "Introduced",
+      "Topics": "Civil Liberties, Statute of Limitations",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0001",
       "WhatWouldItDo": "Create a two year window for childhood victims of sexual abuse to file a lawsuit against their abusers or those who shielded them",
       "WillBeOnNextBallot": ""
     },
@@ -22,7 +126,114 @@
       "BillNumber": "House Bill 1 (SS)",
       "FormerSessionURL": "HB 14",
       "Notes": "Must be approved in special session to reach voters. One of four current bills whose passage would trigger a constitutional referendum on sex abuse statute of limitations.",
-      "OpenStatesID": "ocd-bill/1add8b99-90f0-4581-9ce2-529a8a6ae270",
+      "OpenStatesId": "ocd-bill/1add8b99-90f0-4581-9ce2-529a8a6ae270",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/1add8b99-90f0-4581-9ce2-529a8a6ae270",
+        "session": "2023-2024S1",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 1",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for courts to be open and suits against the Commonwealth.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-02-21T20:06:08.507491Z",
+        "updated_at": "2023-02-24T20:56:18.437255Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024S1/HB1/",
+        "first_action_date": "2023-02-21T05:00:00Z",
+        "latest_action_date": "2023-02-24T05:00:00Z",
+        "latest_action_description": "Third consideration and final passage",
+        "latest_passage_date": "2023-02-24T05:00:00+00:00",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 0006 Referred to THE COMMITTEE TO PROVIDE JUSTICE TO OTHERWISE BARRED VICTIMS OF CHILDHOOD SEXUAL ABUSE",
+            "date": "2023-02-21T05:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Reported as committed",
+            "date": "2023-02-21T05:00:00Z",
+            "classification": [
+              "committee-passage"
+            ],
+            "order": 1
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "First consideration",
+            "date": "2023-02-21T05:00:00Z",
+            "classification": [
+              "reading-1"
+            ],
+            "order": 2
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Laid on the table",
+            "date": "2023-02-21T05:00:00Z",
+            "classification": [],
+            "order": 3
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Second consideration",
+            "date": "2023-02-23T05:00:00Z",
+            "classification": [
+              "reading-2"
+            ],
+            "order": 4
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Third consideration and final passage",
+            "date": "2023-02-24T05:00:00Z",
+            "classification": [
+              "passage",
+              "reading-3"
+            ],
+            "order": 5
+          }
+        ]
+      },
       "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024S1/HB1/",
       "Party": "D",
       "PassedLastSession": "Yes",
@@ -35,292 +246,1023 @@
       "WillBeOnNextBallot": ""
     },
     {
-      "BillLink": "Senate Bill 570",
-      "BillNumber": "Senate Bill 570",
-      "FormerSessionURL": "SB 106",
-      "Notes": "Standalone amendment. Passed last year combined with amendments that would declare there's no legal right to an abortion, give new regulatory override powers to the legislature, impose new election audits, and create a universal voter ID requirement.",
-      "OpenStatesID": "ocd-bill/4fe5aa5d-76d3-474f-9104-38a6f7b8b959",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB570/",
-      "Party": "R",
-      "PassedLastSession": "Yes",
+      "BillLink": "House Bill 125",
+      "BillNumber": "House Bill 125",
+      "FormerSessionURL": "",
+      "Notes": "",
+      "OpenStatesId": "ocd-bill/c0abc4ea-bf72-4038-a503-e60470db44ae",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/c0abc4ea-bf72-4038-a503-e60470db44ae",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 125",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for proposal of amendments by the General Assembly and their adoption.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-07T23:05:44.195279Z",
+        "updated_at": "2023-03-17T17:21:50.684612Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB125/",
+        "first_action_date": "2023-03-07T05:00:00Z",
+        "latest_action_date": "2023-03-07T05:00:00Z",
+        "latest_action_description": "PN 0108 Referred to JUDICIARY",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 0108 Referred to JUDICIARY",
+            "date": "2023-03-07T05:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB125/",
+      "Party": "D",
+      "PassedLastSession": "No",
       "RowID": 2,
-      "Sponsor": "David Argall",
+      "Sponsor": "Ryan Bizzarro",
       "Status": "Introduced",
-      "Topics": "Elections, Government reform",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0570",
-      "WhatWouldItDo": "Allow the gubernatorial candidate to pick a candidate for lieutenant governor as a running mate, eliminating independent primaries for the two offices",
+      "Topics": "Government reform, Legislature",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0125",
+      "WhatWouldItDo": "Require constitutional amendments pass the General Assembly with a two-thirds vote, rather than the current simple majority",
       "WillBeOnNextBallot": ""
     },
     {
-      "BillLink": "Senate Bill 539",
-      "BillNumber": "Senate Bill 539",
+      "BillLink": "House Bill 276",
+      "BillNumber": "House Bill 276",
       "FormerSessionURL": "",
       "Notes": "",
-      "OpenStatesID": "ocd-bill/f8630ce8-6898-498d-9ce7-1729d4b011b7",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB539/",
+      "OpenStatesId": "ocd-bill/f5faa63d-99a5-4e22-816f-b5e0bc985cba",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/f5faa63d-99a5-4e22-816f-b5e0bc985cba",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 276",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for disqualifications for service as election officer.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-10T05:21:51.626314Z",
+        "updated_at": "2023-03-11T05:20:45.454888Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB276/",
+        "first_action_date": "2023-03-10T05:00:00Z",
+        "latest_action_date": "2023-03-10T05:00:00Z",
+        "latest_action_description": "PN 0239 Referred to STATE GOVERNMENT",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 0239 Referred to STATE GOVERNMENT",
+            "date": "2023-03-10T05:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB276/",
       "Party": "D",
       "PassedLastSession": "No",
       "RowID": 3,
-      "Sponsor": "Wayne Fontana",
+      "Sponsor": "Joe Webster",
       "Status": "Introduced",
-      "Topics": "Economy",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0539",
-      "WhatWouldItDo": "Set minimum wage at $15 effective Jan. 1, 2025, followed by automatic increases to keep pace with inflation",
+      "Topics": "Elections",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0276",
+      "WhatWouldItDo": "Allow government employees to serve as poll workers",
       "WillBeOnNextBallot": ""
     },
     {
-      "BillLink": "Senate Bill 535",
-      "BillNumber": "Senate Bill 535",
+      "BillLink": "House Bill 311",
+      "BillNumber": "House Bill 311",
       "FormerSessionURL": "",
       "Notes": "",
-      "OpenStatesID": "ocd-bill/208f3d00-ef32-409c-8ae4-4fb0aa00f4c7",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB535/",
-      "Party": "D",
+      "OpenStatesId": "ocd-bill/6c306ca8-ce39-48cc-9790-97723ab65cd1",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/6c306ca8-ce39-48cc-9790-97723ab65cd1",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 311",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for the maintenance and support of public education.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-11T05:24:49.493222Z",
+        "updated_at": "2023-03-11T05:24:49.533352Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB311/",
+        "first_action_date": "2023-03-10T05:00:00Z",
+        "latest_action_date": "2023-03-10T05:00:00Z",
+        "latest_action_description": "PN 0266 Referred to EDUCATION",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 0266 Referred to EDUCATION",
+            "date": "2023-03-10T05:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB311/",
+      "Party": "R",
       "PassedLastSession": "No",
       "RowID": 4,
-      "Sponsor": "Lisa Boscola",
+      "Sponsor": "Milou Mackenzie",
       "Status": "Introduced",
-      "Topics": "Civil Liberties",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0535",
-      "WhatWouldItDo": "Expand state non-discrimination protections to include sexual orientation and gender idenitity",
+      "Topics": "Taxes and Spending, Education",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0311",
+      "WhatWouldItDo": "Mandate state education dollars be allocated to students, not to school districts",
       "WillBeOnNextBallot": ""
     },
     {
-      "BillLink": "Senate Bill 510",
-      "BillNumber": "Senate Bill 510",
+      "BillLink": "House Bill 332",
+      "BillNumber": "House Bill 332",
       "FormerSessionURL": "",
       "Notes": "",
-      "OpenStatesID": "cd-bill/c6145e31-ecb1-49aa-a3b8-e728e4e73892",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB510/",
+      "OpenStatesId": "ocd-bill/c1849d05-eea8-4735-8ceb-27a23ffd84e5",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/c1849d05-eea8-4735-8ceb-27a23ffd84e5",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 332",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for terms of members.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-11T05:24:50.241326Z",
+        "updated_at": "2023-03-13T17:28:43.78416Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB332/",
+        "first_action_date": "2023-03-13T04:00:00Z",
+        "latest_action_date": "2023-03-13T04:00:00Z",
+        "latest_action_description": "PN 0295 Referred to STATE GOVERNMENT",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 0295 Referred to STATE GOVERNMENT",
+            "date": "2023-03-13T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB332/",
       "Party": "R",
       "PassedLastSession": "No",
       "RowID": 5,
-      "Sponsor": "Dan Laughlin",
+      "Sponsor": "Perry Stambaugh",
       "Status": "Introduced",
       "Topics": "Legislature, Government reform",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0510",
-      "WhatWouldItDo": "Shrink state House from 203 to 150 members; ensure each state Senate district contains three state House districts",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0332",
+      "WhatWouldItDo": "Term limit state senators to three consecutive four-year terms and state represenstatives to six consecutive two-year terms.",
       "WillBeOnNextBallot": ""
     },
     {
-      "BillLink": "Senate Bill 409",
-      "BillNumber": "Senate Bill 409",
+      "BillLink": "House Bill 393",
+      "BillNumber": "House Bill 393",
       "FormerSessionURL": "",
       "Notes": "",
-      "OpenStatesID": "ocd-bill/d107e702-7d3c-4b86-987f-0fe78af68dbf",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB409/",
+      "OpenStatesId": "ocd-bill/275612fa-5870-4b21-9e9b-9b5661f5546c",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/275612fa-5870-4b21-9e9b-9b5661f5546c",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 393",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for compensation and retirement of justices, judges and justices of the peace.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-14T15:31:49.993832Z",
+        "updated_at": "2023-03-14T21:49:15.35614Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB393/",
+        "first_action_date": "2023-03-14T04:00:00Z",
+        "latest_action_date": "2023-03-14T04:00:00Z",
+        "latest_action_description": "PN 0360 Referred to JUDICIARY",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 0360 Referred to JUDICIARY",
+            "date": "2023-03-14T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB393/",
       "Party": "R",
       "PassedLastSession": "No",
       "RowID": 6,
-      "Sponsor": "Kristin Phillips-Hill",
+      "Sponsor": "Rob Kauffman",
       "Status": "Introduced",
-      "Topics": "Taxes and Spending",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0409",
-      "WhatWouldItDo": "Require a gubernatorial request for a department budget supplement be made through a separate bill rather than in the next year's budget",
+      "Topics": "Judiciary, Legislature",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0393",
+      "WhatWouldItDo": "Allow the General Assembly to lower judicial salaries during the budget process independent of other public officials salaries",
       "WillBeOnNextBallot": ""
     },
     {
-      "BillLink": "Senate Bill 273",
-      "BillNumber": "Senate Bill 273",
+      "BillLink": "House Bill 396",
+      "BillNumber": "House Bill 396",
       "FormerSessionURL": "",
       "Notes": "",
-      "OpenStatesID": "ocd-bill/612fb627-2307-490e-9f09-d44fefc74af9",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB273/",
+      "OpenStatesId": "ocd-bill/9aabcf3b-05d7-43f7-a262-64e827dcefb4",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/9aabcf3b-05d7-43f7-a262-64e827dcefb4",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 396",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for tenure of justices, judges and justices of the peace.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-14T15:31:50.589692Z",
+        "updated_at": "2023-03-14T21:58:42.378236Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB396/",
+        "first_action_date": "2023-03-14T04:00:00Z",
+        "latest_action_date": "2023-03-14T04:00:00Z",
+        "latest_action_description": "PN 0363 Referred to JUDICIARY",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 0363 Referred to JUDICIARY",
+            "date": "2023-03-14T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB396/",
       "Party": "R",
       "PassedLastSession": "No",
       "RowID": 7,
-      "Sponsor": "Gene Yaw",
+      "Sponsor": "Rob Kauffman",
       "Status": "Introduced",
-      "Topics": "Judiciary",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0273",
-      "WhatWouldItDo": "Allow all state courts with more than two members, except the Supreme Court, to elect their president judge rather than using seniority",
+      "Topics": "Judiciary, Government reform",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0396",
+      "WhatWouldItDo": "Limit Supreme Court justices to two 10-year terms",
       "WillBeOnNextBallot": ""
     },
     {
-      "BillLink": "Senate Bill 234",
-      "BillNumber": "Senate Bill 234",
+      "BillLink": "House Bill 398",
+      "BillNumber": "House Bill 398",
       "FormerSessionURL": "",
       "Notes": "",
-      "OpenStatesID": "ocd-bill/20157ab2-d99a-4048-8c5f-dbbf5c9f3c40",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB234/",
+      "OpenStatesId": "ocd-bill/35b5334a-b8b0-4c68-addf-c3d93346f023",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/35b5334a-b8b0-4c68-addf-c3d93346f023",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 398",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for judicial administration.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-14T15:31:52.070772Z",
+        "updated_at": "2023-03-14T21:49:13.552073Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB398/",
+        "first_action_date": "2023-03-14T04:00:00Z",
+        "latest_action_date": "2023-03-14T04:00:00Z",
+        "latest_action_description": "PN 0365 Referred to JUDICIARY",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 0365 Referred to JUDICIARY",
+            "date": "2023-03-14T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB398/",
       "Party": "R",
       "PassedLastSession": "No",
       "RowID": 8,
-      "Sponsor": "Doug Mastriano",
+      "Sponsor": "Rob Kauffman",
       "Status": "Introduced",
-      "Topics": "Judiciary, Government reform",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0234",
-      "WhatWouldItDo": "Limit state Supreme, Superior and Commonwealth Court justices to two ten-year terms.",
+      "Topics": "Judiciary, Legislature, Civil Liberties",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0398",
+      "WhatWouldItDo": "Allow the General Assembly to choose which county's courts hear civil cases",
       "WillBeOnNextBallot": ""
     },
     {
-      "BillLink": "Senate Bill 227",
-      "BillNumber": "Senate Bill 227",
+      "BillLink": "House Bill 430",
+      "BillNumber": "House Bill 430",
       "FormerSessionURL": "",
       "Notes": "",
-      "OpenStatesID": "ocd-bill/0a80e923-3e2d-47e8-8e30-dc1a6c3317c9",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB227/",
+      "OpenStatesId": "ocd-bill/458507ae-62c9-4dd8-af78-878cc50f9bb7",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/458507ae-62c9-4dd8-af78-878cc50f9bb7",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 430",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for sessions of the General Assembly.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-14T21:58:44.810779Z",
+        "updated_at": "2023-03-17T17:44:31.213837Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB430/",
+        "first_action_date": "2023-03-15T04:00:00Z",
+        "latest_action_date": "2023-03-15T04:00:00Z",
+        "latest_action_description": "PN 0397 Referred to STATE GOVERNMENT",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 0397 Referred to STATE GOVERNMENT",
+            "date": "2023-03-15T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB430/",
       "Party": "R",
       "PassedLastSession": "No",
       "RowID": 9,
-      "Sponsor": "Kristin Phillips-Hill",
+      "Sponsor": "Russ DIamond",
       "Status": "Introduced",
-      "Topics": "Taxes and Spending, Education",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0227",
-      "WhatWouldItDo": "Require the state to fund any new education program established by statute, regulation or executive order that costs school districts money",
+      "Topics": "Legislature, Government reform",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0430",
+      "WhatWouldItDo": "Move legislative swearing-in day from the first Tuesday in January to Dec. 1 after each election.",
       "WillBeOnNextBallot": ""
     },
     {
-      "BillLink": "Senate Bill 201",
-      "BillNumber": "Senate Bill 201",
+      "BillLink": "House Bill 435",
+      "BillNumber": "House Bill 435",
       "FormerSessionURL": "",
       "Notes": "",
-      "OpenStatesID": "ocd-bill/a1f845c8-b909-4ca1-8647-68ef13b6e8c1",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB201/",
+      "OpenStatesId": "ocd-bill/ef4ef76c-2757-4e80-ac91-dee5ab92e9d0",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/ef4ef76c-2757-4e80-ac91-dee5ab92e9d0",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 435",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, providing for right to medical freedom.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-14T22:01:06.764967Z",
+        "updated_at": "2023-03-16T01:55:21.800522Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB435/",
+        "first_action_date": "2023-03-15T04:00:00Z",
+        "latest_action_date": "2023-03-15T04:00:00Z",
+        "latest_action_description": "PN 0402 Referred to HEALTH",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 0402 Referred to HEALTH",
+            "date": "2023-03-15T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB435/",
       "Party": "R",
       "PassedLastSession": "No",
       "RowID": 10,
-      "Sponsor": "Camera Bartolotta",
+      "Sponsor": "Russ DIamond",
       "Status": "Introduced",
-      "Topics": "Taxes and Spending",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0201",
-      "WhatWouldItDo": "Restrict state budget increases to the rate of inflation plus average population change, or the average state personal income unless two-thirds of the General Assembly agrees to waive the cap",
+      "Topics": "Civil Liberties",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0435",
+      "WhatWouldItDo": "Guarantee a right to refuse any medical treatment, including vaccines",
       "WillBeOnNextBallot": ""
     },
     {
-      "BillLink": "Senate Bill 197",
-      "BillNumber": "Senate Bill 197",
+      "BillLink": "House Bill 444",
+      "BillNumber": "House Bill 444",
       "FormerSessionURL": "",
       "Notes": "",
-      "OpenStatesID": "ocd-bill/528c14a9-b1ae-4539-95c1-ab9e93a38bee",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB197/",
+      "OpenStatesId": "ocd-bill/6f325408-d07e-4ed2-a06d-2b60e821e738",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/6f325408-d07e-4ed2-a06d-2b60e821e738",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 444",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for legislative districts.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-16T01:57:47.04179Z",
+        "updated_at": "2023-04-10T22:16:37.962817Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB444/",
+        "first_action_date": "2023-03-16T04:00:00Z",
+        "latest_action_date": "2023-03-16T04:00:00Z",
+        "latest_action_description": "PN 0412 Referred to STATE GOVERNMENT",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 0412 Referred to STATE GOVERNMENT",
+            "date": "2023-03-16T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB444/",
       "Party": "R",
       "PassedLastSession": "No",
       "RowID": 11,
-      "Sponsor": "Camera Bartolotta",
+      "Sponsor": "Valerie Gaydos",
       "Status": "Introduced",
-      "Topics": "Civil Liberties",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0197",
-      "WhatWouldItDo": "Reduce the vote requirement for Pennsylvania's Board of Pardons to pardon a prisoner, from unanimous to four out of five members",
+      "Topics": "Legislature, Government reform",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0444",
+      "WhatWouldItDo": "Shrink the state House from 203 to 151 members",
       "WillBeOnNextBallot": ""
     },
     {
-      "BillLink": "Senate Bill 183",
-      "BillNumber": "Senate Bill 183",
+      "BillLink": "House Bill 459",
+      "BillNumber": "House Bill 459",
       "FormerSessionURL": "",
       "Notes": "",
-      "OpenStatesID": "ocd-bill/95cbdd85-952b-4385-bf4e-1e03ea7636d3",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB183/",
-      "Party": "D",
+      "OpenStatesId": "ocd-bill/df7f9092-dce4-4625-ab26-41c99ec7c964",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/df7f9092-dce4-4625-ab26-41c99ec7c964",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 459",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, providing for expiration of authority to levy or collect real property taxes.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-16T02:02:19.159146Z",
+        "updated_at": "2023-03-16T17:54:11.118872Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB459/",
+        "first_action_date": "2023-03-16T04:00:00Z",
+        "latest_action_date": "2023-03-16T04:00:00Z",
+        "latest_action_description": "PN 0427 Referred to FINANCE",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 0427 Referred to FINANCE",
+            "date": "2023-03-16T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB459/",
+      "Party": "R",
       "PassedLastSession": "No",
       "RowID": 12,
-      "Sponsor": "Lisa Boscola",
+      "Sponsor": "Perry Stambaugh",
       "Status": "Introduced",
       "Topics": "Taxes and Spending",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0183",
-      "WhatWouldItDo": "Eliminate local property taxes on homesteads and farmsteads by June 2028, replacing them with state or local sales and income taxes",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0459",
+      "WhatWouldItDo": "Eliminate all local property taxes by June 2027, replacing them with state or local sales and income taxes",
       "WillBeOnNextBallot": ""
     },
     {
-      "BillLink": "Senate Bill 177",
-      "BillNumber": "Senate Bill 177",
+      "BillLink": "House Bill 485",
+      "BillNumber": "House Bill 485",
       "FormerSessionURL": "",
       "Notes": "",
-      "OpenStatesID": "ocd-bill/b67e41f1-cf66-4f5f-81ea-b0f29c34d5e2",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB177/",
-      "Party": "R",
+      "OpenStatesId": "ocd-bill/7e850e58-5e3a-4b61-80bb-417831bb2d29",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/7e850e58-5e3a-4b61-80bb-417831bb2d29",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 485",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for removal of civil officers.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-16T02:01:58.869102Z",
+        "updated_at": "2023-03-16T17:56:41.924434Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB485/",
+        "first_action_date": "2023-03-16T04:00:00Z",
+        "latest_action_date": "2023-03-16T04:00:00Z",
+        "latest_action_description": "PN 0453 Referred to STATE GOVERNMENT",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 0453 Referred to STATE GOVERNMENT",
+            "date": "2023-03-16T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB485/",
+      "Party": "D",
       "PassedLastSession": "No",
       "RowID": 13,
-      "Sponsor": "Camera Bartolotta",
+      "Sponsor": "Jared Solomon",
       "Status": "Introduced",
-      "Topics": "Taxes and Spending",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0177",
-      "WhatWouldItDo": "Remove restrictions on an existing state property tax exemption for 100% disabled veterans and remove a requirement that the disability must stem from war time",
+      "Topics": "Government reform, Legislative, Executive, Judiciary",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0485",
+      "WhatWouldItDo": "Require lawmakers to resign upon being convicted of a crime, rather than upon being sentenced as under current law",
       "WillBeOnNextBallot": ""
     },
     {
-      "BillLink": "Senate Bill 130",
-      "BillNumber": "Senate Bill 130",
-      "FormerSessionURL": "SB 106",
-      "Notes": "Standalone amendment. Passed last year combined with amendments that would declare there's no legal right to an abortion, give new regulatory override powers to the legislature, allow the governor to pick a running mate, and create a universal voter ID requirement.",
-      "OpenStatesID": "ocd-bill/f116bbae-a205-42d6-a265-d7b87f97fe65",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB130/",
-      "Party": "R",
-      "PassedLastSession": "Yes",
-      "RowID": 14,
-      "Sponsor": "Jarrett Coleman",
-      "Status": "Introduced",
-      "Topics": "Elections",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0130",
-      "WhatWouldItDo": "Require that Pennsylvania's auditor general conduct annual election audits",
-      "WillBeOnNextBallot": ""
-    },
-    {
-      "BillLink": "Senate Bill 23",
-      "BillNumber": "Senate Bill 23",
-      "FormerSessionURL": "HB 14",
-      "Notes": "One of four current bills whose passage would trigger a constitutional referendum on sex abuse statute of limitations.",
-      "OpenStatesID": "ocd-bill/810b280e-2d04-4506-83cb-091c15f5538e",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB23/",
-      "Party": "R",
-      "PassedLastSession": "Yes",
-      "RowID": 15,
-      "Sponsor": "Lisa Baker",
-      "Status": "Introduced",
-      "Topics": "Civil Liberties, Statute of Limitations",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0023",
-      "WhatWouldItDo": "Create a two year window for childhood victims of sexual abuse to file a lawsuit against their abusers or those who shielded them",
-      "WillBeOnNextBallot": ""
-    },
-    {
-      "BillLink": "Senate Bill 2",
-      "BillNumber": "Senate Bill 2",
-      "FormerSessionURL": "SB 106",
-      "Notes": "Standalone amendment. Passed last year combined with amendments that would declare there's no legal right to an abortion, allow the governor to pick a running mate, impose new election audits, and create a universal voter ID requirement.",
-      "OpenStatesID": "ocd-bill/621a1cc8-5e67-4c31-8246-e206ab627338",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB2/",
-      "Party": "R",
-      "PassedLastSession": "Yes",
-      "RowID": 16,
-      "Sponsor": "Ryan Aument",
-      "Status": "Introduced",
-      "Topics": "Executive, Legislative, Government reform",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0002",
-      "WhatWouldItDo": "Allow the General Assembly to override a regulation with a simple majority vote",
-      "WillBeOnNextBallot": ""
-    },
-    {
-      "BillLink": "House Bill 803",
-      "BillNumber": "House Bill 803",
+      "BillLink": "House Bill 54",
+      "BillNumber": "House Bill 54",
       "FormerSessionURL": "",
       "Notes": "",
-      "OpenStatesID": "ocd-bill/46d77e9e-7e04-4a0b-bed3-ab91fcbd4d16",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB803/",
+      "OpenStatesId": "ocd-bill/107a2302-c610-49d4-ac6f-8e8ea0b534da",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/107a2302-c610-49d4-ac6f-8e8ea0b534da",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 54",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for tenure of justices, judges and justices of the peace.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-03T13:04:36.183753Z",
+        "updated_at": "2023-03-08T08:57:21.08526Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB54/",
+        "first_action_date": "2023-03-07T05:00:00Z",
+        "latest_action_date": "2023-03-07T05:00:00Z",
+        "latest_action_description": "PN 0043 Referred to JUDICIARY",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 0043 Referred to JUDICIARY",
+            "date": "2023-03-07T05:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB54/",
+      "Party": "R",
+      "PassedLastSession": "No",
+      "RowID": 14,
+      "Sponsor": "Clint Owlett",
+      "Status": "Introduced",
+      "Topics": "Judiciary, Government reform",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0054",
+      "WhatWouldItDo": "Reduce all judicial terms to six years",
+      "WillBeOnNextBallot": ""
+    },
+    {
+      "BillLink": "House Bill 554",
+      "BillNumber": "House Bill 554",
+      "FormerSessionURL": "",
+      "Notes": "While voter ID language passed last year in SB 106, Zimmerman's language is different from last year's language",
+      "OpenStatesId": "ocd-bill/115c2f99-78fe-4790-b1b3-75f7213a5099",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/115c2f99-78fe-4790-b1b3-75f7213a5099",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 554",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for qualifications of electors.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-17T21:59:49.812969Z",
+        "updated_at": "2023-04-10T22:23:33.143985Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB554/",
+        "first_action_date": "2023-03-20T04:00:00Z",
+        "latest_action_date": "2023-03-20T04:00:00Z",
+        "latest_action_description": "PN 0527 Referred to STATE GOVERNMENT",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 0527 Referred to STATE GOVERNMENT",
+            "date": "2023-03-20T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB554/",
+      "Party": "R",
+      "PassedLastSession": "No",
+      "RowID": 15,
+      "Sponsor": "Dave Zimmerman",
+      "Status": "Introduced",
+      "Topics": "Elections",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0554",
+      "WhatWouldItDo": "Require all voters to show ID every time they vote in person and by mail; require signature verification of mail ballots; require voters be registered 30 days before an election rather than the current 15",
+      "WillBeOnNextBallot": ""
+    },
+    {
+      "BillLink": "House Bill 656",
+      "BillNumber": "House Bill 656",
+      "FormerSessionURL": "",
+      "Notes": "",
+      "OpenStatesId": "ocd-bill/989e7602-b62d-4cc2-a467-70a4bb342298",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/989e7602-b62d-4cc2-a467-70a4bb342298",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 656",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for exemptions and special provisions relating to taxation.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-21T22:08:06.376034Z",
+        "updated_at": "2023-03-21T22:08:06.421159Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB656/",
+        "first_action_date": "2023-03-21T04:00:00Z",
+        "latest_action_date": "2023-03-21T04:00:00Z",
+        "latest_action_description": "PN 0595 Referred to FINANCE",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 0595 Referred to FINANCE",
+            "date": "2023-03-21T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB656/",
+      "Party": "D",
+      "PassedLastSession": "No",
+      "RowID": 16,
+      "Sponsor": "Robert Freeman",
+      "Status": "Introduced",
+      "Topics": "Taxes and Spending",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0656",
+      "WhatWouldItDo": "Allow the General Assembly to set up a program to reduce the property tax burden on certain individuals",
+      "WillBeOnNextBallot": ""
+    },
+    {
+      "BillLink": "House Bill 674",
+      "BillNumber": "House Bill 674",
+      "FormerSessionURL": "",
+      "Notes": "",
+      "OpenStatesId": "ocd-bill/5d2bb582-893d-4918-9572-0d203bf89921",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/5d2bb582-893d-4918-9572-0d203bf89921",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 674",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for exemptions and special provisions.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-22T22:08:30.48734Z",
+        "updated_at": "2023-03-24T18:07:27.001463Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB674/",
+        "first_action_date": "2023-03-23T04:00:00Z",
+        "latest_action_date": "2023-03-23T04:00:00Z",
+        "latest_action_description": "PN 0617 Referred to FINANCE",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 0617 Referred to FINANCE",
+            "date": "2023-03-23T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB674/",
       "Party": "D",
       "PassedLastSession": "No",
       "RowID": 17,
-      "Sponsor": "Danielle Otten",
+      "Sponsor": "Tarah Probst",
       "Status": "Introduced",
-      "Topics": "Civil Liberties",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0803",
-      "WhatWouldItDo": "Guarantee a right to abortion and all other forms of reproductive health care",
+      "Topics": "Taxes and Spending",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0674",
+      "WhatWouldItDo": "Extend an existing state property tax exemption for 100% disabled veterans to include those who are 50% disabled, and remove a requirement that the disability must stem from war time",
       "WillBeOnNextBallot": ""
     },
     {
-      "BillLink": "House Bill 786",
-      "BillNumber": "House Bill 786",
+      "BillLink": "House Bill 700",
+      "BillNumber": "House Bill 700",
       "FormerSessionURL": "",
       "Notes": "",
-      "OpenStatesID": "ocd-bill/dc65f832-fe80-4ada-bdcf-6a62c0cef50b",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB786/",
+      "OpenStatesId": "ocd-bill/48c32f74-cf11-468e-95fc-42c32983efb5",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/48c32f74-cf11-468e-95fc-42c32983efb5",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 700",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for method of elections and secrecy in voting.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-23T22:15:25.657692Z",
+        "updated_at": "2023-03-24T18:08:42.406261Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB700/",
+        "first_action_date": "2023-03-24T04:00:00Z",
+        "latest_action_date": "2023-03-24T04:00:00Z",
+        "latest_action_description": "PN 0644 Referred to STATE GOVERNMENT",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 0644 Referred to STATE GOVERNMENT",
+            "date": "2023-03-24T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB700/",
       "Party": "R",
       "PassedLastSession": "No",
       "RowID": 18,
-      "Sponsor": "Ryan Warner",
+      "Sponsor": "Russ Diamond",
       "Status": "Introduced",
-      "Topics": "Taxes and Spending",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0786",
-      "WhatWouldItDo": "Tie state budget increases to the rate of inflation and population growth unless two-thirds of the General Assembly agrees otherwise",
+      "Topics": "Elections",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0700",
+      "WhatWouldItDo": "Eliminate no excuse mail voting",
       "WillBeOnNextBallot": ""
     },
     {
@@ -328,7 +1270,50 @@
       "BillNumber": "House Bill 717",
       "FormerSessionURL": "",
       "Notes": "",
-      "OpenStatesID": "ocd-bill/a219b77b-9278-41d5-8bd4-ad49ab25dcfd",
+      "OpenStatesId": "ocd-bill/a219b77b-9278-41d5-8bd4-ad49ab25dcfd",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/a219b77b-9278-41d5-8bd4-ad49ab25dcfd",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 717",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for exemptions and special provisions.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-27T18:15:03.442919Z",
+        "updated_at": "2023-03-28T10:12:51.766312Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB717/",
+        "first_action_date": "2023-03-27T04:00:00Z",
+        "latest_action_date": "2023-03-27T04:00:00Z",
+        "latest_action_description": "PN 0663 Referred to FINANCE",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 0663 Referred to FINANCE",
+            "date": "2023-03-27T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
       "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB717/",
       "Party": "R",
       "PassedLastSession": "No",
@@ -341,309 +1326,123 @@
       "WillBeOnNextBallot": ""
     },
     {
-      "BillLink": "House Bill 700",
-      "BillNumber": "House Bill 700",
+      "BillLink": "House Bill 786",
+      "BillNumber": "House Bill 786",
       "FormerSessionURL": "",
       "Notes": "",
-      "OpenStatesID": "ocd-bill/48c32f74-cf11-468e-95fc-42c32983efb5",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB700/",
+      "OpenStatesId": "ocd-bill/dc65f832-fe80-4ada-bdcf-6a62c0cef50b",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/dc65f832-fe80-4ada-bdcf-6a62c0cef50b",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 786",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, providing for spending limitations on the Commonwealth.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-30T18:26:51.471799Z",
+        "updated_at": "2023-03-30T18:26:51.542571Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB786/",
+        "first_action_date": "2023-03-30T04:00:00Z",
+        "latest_action_date": "2023-03-30T04:00:00Z",
+        "latest_action_description": "PN 0735 Referred to FINANCE",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 0735 Referred to FINANCE",
+            "date": "2023-03-30T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB786/",
       "Party": "R",
       "PassedLastSession": "No",
       "RowID": 20,
-      "Sponsor": "Russ Diamond",
+      "Sponsor": "Ryan Warner",
       "Status": "Introduced",
-      "Topics": "Elections",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0700",
-      "WhatWouldItDo": "Eliminate no excuse mail voting",
+      "Topics": "Taxes and Spending",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0786",
+      "WhatWouldItDo": "Tie state budget increases to the rate of inflation and population growth unless two-thirds of the General Assembly agrees otherwise",
       "WillBeOnNextBallot": ""
     },
     {
-      "BillLink": "House Bill 674",
-      "BillNumber": "House Bill 674",
+      "BillLink": "House Bill 803",
+      "BillNumber": "House Bill 803",
       "FormerSessionURL": "",
       "Notes": "",
-      "OpenStatesID": "ocd-bill/5d2bb582-893d-4918-9572-0d203bf89921",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB674/",
+      "OpenStatesId": "ocd-bill/46d77e9e-7e04-4a0b-bed3-ab91fcbd4d16",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/46d77e9e-7e04-4a0b-bed3-ab91fcbd4d16",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 803",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, providing for personal reproductive liberty.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-31T22:29:59.502278Z",
+        "updated_at": "2023-04-17T14:31:36.823439Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB803/",
+        "first_action_date": "2023-04-03T04:00:00Z",
+        "latest_action_date": "2023-04-03T04:00:00Z",
+        "latest_action_description": "PN 0761 Referred to HEALTH",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 0761 Referred to HEALTH",
+            "date": "2023-04-03T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB803/",
       "Party": "D",
       "PassedLastSession": "No",
       "RowID": 21,
-      "Sponsor": "Tarah Probst",
-      "Status": "Introduced",
-      "Topics": "Taxes and Spending",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0674",
-      "WhatWouldItDo": "Extend an existing state property tax exemption for 100% disabled veterans to include those who are 50% disabled, and remove a requirement that the disability must stem from war time",
-      "WillBeOnNextBallot": ""
-    },
-    {
-      "BillLink": "House Bill 656",
-      "BillNumber": "House Bill 656",
-      "FormerSessionURL": "",
-      "Notes": "",
-      "OpenStatesID": "ocd-bill/989e7602-b62d-4cc2-a467-70a4bb342298",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB656/",
-      "Party": "D",
-      "PassedLastSession": "No",
-      "RowID": 22,
-      "Sponsor": "Robert Freeman",
-      "Status": "Introduced",
-      "Topics": "Taxes and Spending",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0656",
-      "WhatWouldItDo": "Allow the General Assembly to set up a program to reduce the property tax burden on certain individuals",
-      "WillBeOnNextBallot": ""
-    },
-    {
-      "BillLink": "House Bill 554",
-      "BillNumber": "House Bill 554",
-      "FormerSessionURL": "",
-      "Notes": "While voter ID language passed last year in SB 106, Zimmerman's language is different from last year's language",
-      "OpenStatesID": "ocd-bill/115c2f99-78fe-4790-b1b3-75f7213a5099",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB554/",
-      "Party": "R",
-      "PassedLastSession": "No",
-      "RowID": 23,
-      "Sponsor": "Dave Zimmerman",
-      "Status": "Introduced",
-      "Topics": "Elections",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0554",
-      "WhatWouldItDo": "Require all voters to show ID every time they vote in person and by mail; require signature verification of mail ballots; require voters be registered 30 days before an election rather than the current 15",
-      "WillBeOnNextBallot": ""
-    },
-    {
-      "BillLink": "House Bill 485",
-      "BillNumber": "House Bill 485",
-      "FormerSessionURL": "",
-      "Notes": "",
-      "OpenStatesID": "ocd-bill/7e850e58-5e3a-4b61-80bb-417831bb2d29",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB485/",
-      "Party": "D",
-      "PassedLastSession": "No",
-      "RowID": 24,
-      "Sponsor": "Jared Solomon",
-      "Status": "Introduced",
-      "Topics": "Government reform, Legislative, Executive, Judiciary",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0485",
-      "WhatWouldItDo": "Require lawmakers to resign upon being convicted of a crime, rather than upon being sentenced as under current law",
-      "WillBeOnNextBallot": ""
-    },
-    {
-      "BillLink": "House Bill 459",
-      "BillNumber": "House Bill 459",
-      "FormerSessionURL": "",
-      "Notes": "",
-      "OpenStatesID": "ocd-bill/df7f9092-dce4-4625-ab26-41c99ec7c964",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB459/",
-      "Party": "R",
-      "PassedLastSession": "No",
-      "RowID": 25,
-      "Sponsor": "Perry Stambaugh",
-      "Status": "Introduced",
-      "Topics": "Taxes and Spending",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0459",
-      "WhatWouldItDo": "Eliminate all local property taxes by June 2027, replacing them with state or local sales and income taxes",
-      "WillBeOnNextBallot": ""
-    },
-    {
-      "BillLink": "House Bill 444",
-      "BillNumber": "House Bill 444",
-      "FormerSessionURL": "",
-      "Notes": "",
-      "OpenStatesID": "ocd-bill/6f325408-d07e-4ed2-a06d-2b60e821e73",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB444/",
-      "Party": "R",
-      "PassedLastSession": "No",
-      "RowID": 26,
-      "Sponsor": "Valerie Gaydos",
-      "Status": "Introduced",
-      "Topics": "Legislature, Government reform",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0444",
-      "WhatWouldItDo": "Shrink the state House from 203 to 151 members",
-      "WillBeOnNextBallot": ""
-    },
-    {
-      "BillLink": "House Bill 435",
-      "BillNumber": "House Bill 435",
-      "FormerSessionURL": "",
-      "Notes": "",
-      "OpenStatesID": "ocd-bill/ef4ef76c-2757-4e80-ac91-dee5ab92e9d0",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB435/",
-      "Party": "R",
-      "PassedLastSession": "No",
-      "RowID": 27,
-      "Sponsor": "Russ DIamond",
+      "Sponsor": "Danielle Otten",
       "Status": "Introduced",
       "Topics": "Civil Liberties",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0435",
-      "WhatWouldItDo": "Guarantee a right to refuse any medical treatment, including vaccines",
-      "WillBeOnNextBallot": ""
-    },
-    {
-      "BillLink": "House Bill 430",
-      "BillNumber": "House Bill 430",
-      "FormerSessionURL": "",
-      "Notes": "",
-      "OpenStatesID": "ocd-bill/458507ae-62c9-4dd8-af78-878cc50f9bb7",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB430/",
-      "Party": "R",
-      "PassedLastSession": "No",
-      "RowID": 28,
-      "Sponsor": "Russ DIamond",
-      "Status": "Introduced",
-      "Topics": "Legislature, Government reform",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0430",
-      "WhatWouldItDo": "Move legislative swearing-in day from the first Tuesday in January to Dec. 1 after each election.",
-      "WillBeOnNextBallot": ""
-    },
-    {
-      "BillLink": "House Bill 398",
-      "BillNumber": "House Bill 398",
-      "FormerSessionURL": "",
-      "Notes": "",
-      "OpenStatesID": "ocd-bill/35b5334a-b8b0-4c68-addf-c3d93346f023",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB398/",
-      "Party": "R",
-      "PassedLastSession": "No",
-      "RowID": 29,
-      "Sponsor": "Rob Kauffman",
-      "Status": "Introduced",
-      "Topics": "Judiciary, Legislature, Civil Liberties",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0398",
-      "WhatWouldItDo": "Allow the General Assembly to choose which county's courts hear civil cases",
-      "WillBeOnNextBallot": ""
-    },
-    {
-      "BillLink": "House Bill 396",
-      "BillNumber": "House Bill 396",
-      "FormerSessionURL": "",
-      "Notes": "",
-      "OpenStatesID": "ocd-bill/9aabcf3b-05d7-43f7-a262-64e827dcefb4",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB396/",
-      "Party": "R",
-      "PassedLastSession": "No",
-      "RowID": 30,
-      "Sponsor": "Rob Kauffman",
-      "Status": "Introduced",
-      "Topics": "Judiciary, Government reform",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0396",
-      "WhatWouldItDo": "Limit Supreme Court justices to two 10-year terms",
-      "WillBeOnNextBallot": ""
-    },
-    {
-      "BillLink": "House Bill 393",
-      "BillNumber": "House Bill 393",
-      "FormerSessionURL": "",
-      "Notes": "",
-      "OpenStatesID": "ocd-bill/275612fa-5870-4b21-9e9b-9b5661f5546c",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB393/",
-      "Party": "R",
-      "PassedLastSession": "No",
-      "RowID": 31,
-      "Sponsor": "Rob Kauffman",
-      "Status": "Introduced",
-      "Topics": "Judiciary, Legislature",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0393",
-      "WhatWouldItDo": "Allow the General Assembly to lower judicial salaries during the budget process independent of other public officials salaries",
-      "WillBeOnNextBallot": ""
-    },
-    {
-      "BillLink": "House Bill 332",
-      "BillNumber": "House Bill 332",
-      "FormerSessionURL": "",
-      "Notes": "",
-      "OpenStatesID": "ocd-bill/c1849d05-eea8-4735-8ceb-27a23ffd84e5",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB332/",
-      "Party": "R",
-      "PassedLastSession": "No",
-      "RowID": 32,
-      "Sponsor": "Perry Stambaugh",
-      "Status": "Introduced",
-      "Topics": "Legislature, Government reform",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0332",
-      "WhatWouldItDo": "Term limit state senators to three consecutive four-year terms and state represenstatives to six consecutive two-year terms.",
-      "WillBeOnNextBallot": ""
-    },
-    {
-      "BillLink": "House Bill 311",
-      "BillNumber": "House Bill 311",
-      "FormerSessionURL": "",
-      "Notes": "",
-      "OpenStatesID": "ocd-bill/6c306ca8-ce39-48cc-9790-97723ab65cd1",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB311/",
-      "Party": "R",
-      "PassedLastSession": "No",
-      "RowID": 33,
-      "Sponsor": "Milou Mackenzie",
-      "Status": "Introduced",
-      "Topics": "Taxes and Spending, Education",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0311",
-      "WhatWouldItDo": "Mandate state education dollars be allocated to students, not to school districts",
-      "WillBeOnNextBallot": ""
-    },
-    {
-      "BillLink": "House Bill 276",
-      "BillNumber": "House Bill 276",
-      "FormerSessionURL": "",
-      "Notes": "",
-      "OpenStatesID": "ocd-bill/f5faa63d-99a5-4e22-816f-b5e0bc985cba",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB276/",
-      "Party": "D",
-      "PassedLastSession": "No",
-      "RowID": 34,
-      "Sponsor": "Joe Webster",
-      "Status": "Introduced",
-      "Topics": "Elections",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0276",
-      "WhatWouldItDo": "Allow government employees to serve as poll workers",
-      "WillBeOnNextBallot": ""
-    },
-    {
-      "BillLink": "House Bill 125",
-      "BillNumber": "House Bill 125",
-      "FormerSessionURL": "",
-      "Notes": "",
-      "OpenStatesID": "ocd-bill/c0abc4ea-bf72-4038-a503-e60470db44ae",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB125/",
-      "Party": "D",
-      "PassedLastSession": "No",
-      "RowID": 35,
-      "Sponsor": "Ryan Bizzarro",
-      "Status": "Introduced",
-      "Topics": "Government reform, Legislature",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0125",
-      "WhatWouldItDo": "Require constitutional amendments pass the General Assembly with a two-thirds vote, rather than the current simple majority",
-      "WillBeOnNextBallot": ""
-    },
-    {
-      "BillLink": "House Bill 54",
-      "BillNumber": "House Bill 54",
-      "FormerSessionURL": "",
-      "Notes": "",
-      "OpenStatesID": "ocd-bill/107a2302-c610-49d4-ac6f-8e8ea0b534da",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB54/",
-      "Party": "R",
-      "PassedLastSession": "No",
-      "RowID": 36,
-      "Sponsor": "Clint Owlett",
-      "Status": "Introduced",
-      "Topics": "Judiciary, Government reform",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0054",
-      "WhatWouldItDo": "Reduce all judicial terms to six years",
-      "WillBeOnNextBallot": ""
-    },
-    {
-      "BillLink": "House Bill 1",
-      "BillNumber": "House Bill 1",
-      "FormerSessionURL": "HB 14",
-      "Notes": "One of four current bills whose passage would trigger a constitutional referendum on sex abuse statute of limitations.",
-      "OpenStatesID": "ocd-bill/f2259c3a-2d95-4ca1-80dc-16cd7fd33170",
-      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB1/",
-      "Party": "D",
-      "PassedLastSession": "Yes",
-      "RowID": 37,
-      "Sponsor": "Mark Rozzi",
-      "Status": "Introduced",
-      "Topics": "Civil Liberties, Statute of Limitations",
-      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0001",
-      "WhatWouldItDo": "Create a two year window for childhood victims of sexual abuse to file a lawsuit against their abusers or those who shielded them",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0803",
+      "WhatWouldItDo": "Guarantee a right to abortion and all other forms of reproductive health care",
       "WillBeOnNextBallot": ""
     },
     {
@@ -651,16 +1450,1279 @@
       "BillNumber": "House Bill 950",
       "FormerSessionURL": "",
       "Notes": "",
-      "OpenStatesID": "",
-      "OpenStatesURL": "",
+      "OpenStatesId": "ocd-bill/1fff7f7e-0d02-4799-a770-79f113219bfb",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/1fff7f7e-0d02-4799-a770-79f113219bfb",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+          "name": "House",
+          "classification": "lower"
+        },
+        "identifier": "HB 950",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, providing for workers' rights.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-04-15T06:49:21.544675Z",
+        "updated_at": "2023-04-21T06:47:34.020914Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB950/",
+        "first_action_date": "2023-04-17T04:00:00Z",
+        "latest_action_date": "2023-04-17T04:00:00Z",
+        "latest_action_description": "PN 0937 Referred to LABOR AND INDUSTRY",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 0937 Referred to LABOR AND INDUSTRY",
+            "date": "2023-04-17T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/HB950/",
       "Party": "D",
-      "PassedLastSession": "",
-      "RowID": 38,
+      "PassedLastSession": "No",
+      "RowID": 22,
       "Sponsor": "Elizabeth Fiedler",
       "Status": "Introduced",
       "Topics": "Economy",
       "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=H\u0026type=B\u0026bn=0950",
       "WhatWouldItDo": "Add a right to organize a union and collectively bargain to the state constitution and prohibit the passage of any law interferring with that right",
+      "WillBeOnNextBallot": ""
+    },
+    {
+      "BillLink": "Senate Bill 1",
+      "BillNumber": "Senate Bill 1",
+      "FormerSessionURL": "HB 14",
+      "Notes": "Passed Senate in January 2023 combined with language to allow the General Assembly to override a regulation with a simple majority vote and to authorize a two year civil window for sex abuse survivors. House stripped out voter ID and regulatory language in committee in March 2023. Measure must be approved again by Senate to reach ballot. One of four current bills whose passage would trigger a constitutional referendum on sex abuse statute of limitations.",
+      "OpenStatesId": "ocd-bill/3fe67fef-0291-4675-9012-de1b410f0df1",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/3fe67fef-0291-4675-9012-de1b410f0df1",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+          "name": "Senate",
+          "classification": "upper"
+        },
+        "identifier": "SB 1",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for courts to be open and suits against the Commonwealth.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-01-07T08:03:57.14821Z",
+        "updated_at": "2023-03-13T18:05:30.680752Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/SB1/",
+        "first_action_date": "2023-01-06T05:00:00Z",
+        "latest_action_date": "2023-03-13T04:00:00Z",
+        "latest_action_description": "Re-committed to JUDICIARY",
+        "latest_passage_date": "2023-01-11T05:00:00+00:00",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "PN 0014 Referred to STATE GOVERNMENT",
+            "date": "2023-01-06T05:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "PN 0022 Reported as amended",
+            "date": "2023-01-09T05:00:00Z",
+            "classification": [
+              "amendment-passage",
+              "committee-passage"
+            ],
+            "order": 1
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "First consideration",
+            "date": "2023-01-09T05:00:00Z",
+            "classification": [
+              "reading-1"
+            ],
+            "order": 2
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "Second consideration",
+            "date": "2023-01-10T05:00:00Z",
+            "classification": [
+              "reading-2"
+            ],
+            "order": 3
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "Re-referred to RULES AND EXECUTIVE NOMINATIONS",
+            "date": "2023-01-10T05:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 4
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "PN 0026 Re-reported as amended",
+            "date": "2023-01-10T05:00:00Z",
+            "classification": [
+              "amendment-passage",
+              "committee-passage"
+            ],
+            "order": 5
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "Re-referred to APPROPRIATIONS",
+            "date": "2023-01-11T05:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 6
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "Re-reported as committed",
+            "date": "2023-01-11T05:00:00Z",
+            "classification": [
+              "committee-passage"
+            ],
+            "order": 7
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "Third consideration and final passage",
+            "date": "2023-01-11T05:00:00Z",
+            "classification": [
+              "passage",
+              "reading-3"
+            ],
+            "order": 8
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Referred to JUDICIARY",
+            "date": "2023-03-01T05:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 9
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "PN 0385 Reported as amended",
+            "date": "2023-03-01T05:00:00Z",
+            "classification": [
+              "amendment-passage",
+              "committee-passage"
+            ],
+            "order": 10
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "First consideration",
+            "date": "2023-03-01T05:00:00Z",
+            "classification": [
+              "reading-1"
+            ],
+            "order": 11
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Laid on the table",
+            "date": "2023-03-01T05:00:00Z",
+            "classification": [],
+            "order": 12
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Removed from table",
+            "date": "2023-03-02T05:00:00Z",
+            "classification": [],
+            "order": 13
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Re-committed to JUDICIARY",
+            "date": "2023-03-13T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 14
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB1/",
+      "Party": "R",
+      "PassedLastSession": "Yes",
+      "RowID": 23,
+      "Sponsor": "Dan Laughlin",
+      "Status": "Passed state Senate, awaiting vote in the state House, requires concurrence of the Senate",
+      "Topics": "Civil Liberties, Elections, Legislature, Executive, Government reform, Statute of Limitations",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0001",
+      "WhatWouldItDo": "Create a two year window for childhood victims of sexual abuse to file a lawsuit against their abusers or those who shielded them",
+      "WillBeOnNextBallot": ""
+    },
+    {
+      "BillLink": "Senate Bill 130",
+      "BillNumber": "Senate Bill 130",
+      "FormerSessionURL": "SB 106",
+      "Notes": "Standalone amendment. Passed last year combined with amendments that would declare there's no legal right to an abortion, give new regulatory override powers to the legislature, allow the governor to pick a running mate, and create a universal voter ID requirement.",
+      "OpenStatesId": "ocd-bill/f116bbae-a205-42d6-a265-d7b87f97fe65",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/f116bbae-a205-42d6-a265-d7b87f97fe65",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+          "name": "Senate",
+          "classification": "upper"
+        },
+        "identifier": "SB 130",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, providing for election audits.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-01-07T08:03:56.996795Z",
+        "updated_at": "2023-01-19T03:38:46.971112Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/SB130/",
+        "first_action_date": "2023-01-06T05:00:00Z",
+        "latest_action_date": "2023-01-11T05:00:00Z",
+        "latest_action_description": "Re-referred to RULES AND EXECUTIVE NOMINATIONS",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "PN 0015 Referred to STATE GOVERNMENT",
+            "date": "2023-01-06T05:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "Reported as committed",
+            "date": "2023-01-09T05:00:00Z",
+            "classification": [
+              "committee-passage"
+            ],
+            "order": 1
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "First consideration",
+            "date": "2023-01-09T05:00:00Z",
+            "classification": [
+              "reading-1"
+            ],
+            "order": 2
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "Second consideration",
+            "date": "2023-01-10T05:00:00Z",
+            "classification": [
+              "reading-2"
+            ],
+            "order": 3
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "Re-referred to RULES AND EXECUTIVE NOMINATIONS",
+            "date": "2023-01-10T05:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 4
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "Re-reported as committed",
+            "date": "2023-01-10T05:00:00Z",
+            "classification": [
+              "committee-passage"
+            ],
+            "order": 5
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "Re-referred to RULES AND EXECUTIVE NOMINATIONS",
+            "date": "2023-01-11T05:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 6
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB130/",
+      "Party": "R",
+      "PassedLastSession": "Yes",
+      "RowID": 24,
+      "Sponsor": "Jarrett Coleman",
+      "Status": "Introduced",
+      "Topics": "Elections",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0130",
+      "WhatWouldItDo": "Require that Pennsylvania's auditor general conduct annual election audits",
+      "WillBeOnNextBallot": ""
+    },
+    {
+      "BillLink": "Senate Bill 177",
+      "BillNumber": "Senate Bill 177",
+      "FormerSessionURL": "",
+      "Notes": "",
+      "OpenStatesId": "ocd-bill/b67e41f1-cf66-4f5f-81ea-b0f29c34d5e2",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/b67e41f1-cf66-4f5f-81ea-b0f29c34d5e2",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+          "name": "Senate",
+          "classification": "upper"
+        },
+        "identifier": "SB 177",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for exemptions and special provisions.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-01-20T12:30:28.768418Z",
+        "updated_at": "2023-02-17T20:22:07.975245Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/SB177/",
+        "first_action_date": "2023-01-19T05:00:00Z",
+        "latest_action_date": "2023-01-19T05:00:00Z",
+        "latest_action_description": "PN 0143 Referred to STATE GOVERNMENT",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "PN 0143 Referred to STATE GOVERNMENT",
+            "date": "2023-01-19T05:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB177/",
+      "Party": "R",
+      "PassedLastSession": "No",
+      "RowID": 25,
+      "Sponsor": "Camera Bartolotta",
+      "Status": "Introduced",
+      "Topics": "Taxes and Spending",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0177",
+      "WhatWouldItDo": "Remove restrictions on an existing state property tax exemption for 100% disabled veterans and remove a requirement that the disability must stem from war time",
+      "WillBeOnNextBallot": ""
+    },
+    {
+      "BillLink": "Senate Bill 183",
+      "BillNumber": "Senate Bill 183",
+      "FormerSessionURL": "",
+      "Notes": "",
+      "OpenStatesId": "ocd-bill/95cbdd85-952b-4385-bf4e-1e03ea7636d3",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/95cbdd85-952b-4385-bf4e-1e03ea7636d3",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+          "name": "Senate",
+          "classification": "upper"
+        },
+        "identifier": "SB 183",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, providing for expiration of authority to levy or collect real property taxes on homesteads and farmsteads.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-01-31T12:27:42.23814Z",
+        "updated_at": "2023-01-31T12:27:42.259161Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/SB183/",
+        "first_action_date": "2023-01-30T05:00:00Z",
+        "latest_action_date": "2023-01-30T05:00:00Z",
+        "latest_action_description": "PN 0166 Referred to FINANCE",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "PN 0166 Referred to FINANCE",
+            "date": "2023-01-30T05:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB183/",
+      "Party": "D",
+      "PassedLastSession": "No",
+      "RowID": 26,
+      "Sponsor": "Lisa Boscola",
+      "Status": "Introduced",
+      "Topics": "Taxes and Spending",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0183",
+      "WhatWouldItDo": "Eliminate local property taxes on homesteads and farmsteads by June 2028, replacing them with state or local sales and income taxes",
+      "WillBeOnNextBallot": ""
+    },
+    {
+      "BillLink": "Senate Bill 197",
+      "BillNumber": "Senate Bill 197",
+      "FormerSessionURL": "",
+      "Notes": "",
+      "OpenStatesId": "ocd-bill/528c14a9-b1ae-4539-95c1-ab9e93a38bee",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/528c14a9-b1ae-4539-95c1-ab9e93a38bee",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+          "name": "Senate",
+          "classification": "upper"
+        },
+        "identifier": "SB 197",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for pardoning power and Board of Pardons.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-01-20T12:33:25.289059Z",
+        "updated_at": "2023-02-16T20:27:08.104431Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/SB197/",
+        "first_action_date": "2023-01-19T05:00:00Z",
+        "latest_action_date": "2023-01-19T05:00:00Z",
+        "latest_action_description": "PN 0080 Referred to JUDICIARY",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "PN 0080 Referred to JUDICIARY",
+            "date": "2023-01-19T05:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB197/",
+      "Party": "R",
+      "PassedLastSession": "No",
+      "RowID": 27,
+      "Sponsor": "Camera Bartolotta",
+      "Status": "Introduced",
+      "Topics": "Civil Liberties",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0197",
+      "WhatWouldItDo": "Reduce the vote requirement for Pennsylvania's Board of Pardons to pardon a prisoner, from unanimous to four out of five members",
+      "WillBeOnNextBallot": ""
+    },
+    {
+      "BillLink": "Senate Bill 2",
+      "BillNumber": "Senate Bill 2",
+      "FormerSessionURL": "SB 106",
+      "Notes": "Standalone amendment. Passed last year combined with amendments that would declare there's no legal right to an abortion, allow the governor to pick a running mate, impose new election audits, and create a universal voter ID requirement.",
+      "OpenStatesId": "ocd-bill/621a1cc8-5e67-4c31-8246-e206ab627338",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/621a1cc8-5e67-4c31-8246-e206ab627338",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+          "name": "Senate",
+          "classification": "upper"
+        },
+        "identifier": "SB 2",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for action on concurrent orders and resolutions.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-01-10T05:05:22.814825Z",
+        "updated_at": "2023-01-12T20:03:22.417529Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/SB2/",
+        "first_action_date": "2023-01-09T05:00:00Z",
+        "latest_action_date": "2023-01-09T05:00:00Z",
+        "latest_action_description": "PN 0021 Referred to STATE GOVERNMENT",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "PN 0021 Referred to STATE GOVERNMENT",
+            "date": "2023-01-09T05:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB2/",
+      "Party": "R",
+      "PassedLastSession": "Yes",
+      "RowID": 28,
+      "Sponsor": "Ryan Aument",
+      "Status": "Introduced",
+      "Topics": "Executive, Legislative, Government reform",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0002",
+      "WhatWouldItDo": "Allow the General Assembly to override a regulation with a simple majority vote",
+      "WillBeOnNextBallot": ""
+    },
+    {
+      "BillLink": "Senate Bill 201",
+      "BillNumber": "Senate Bill 201",
+      "FormerSessionURL": "",
+      "Notes": "",
+      "OpenStatesId": "ocd-bill/a1f845c8-b909-4ca1-8647-68ef13b6e8c1",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/a1f845c8-b909-4ca1-8647-68ef13b6e8c1",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+          "name": "Senate",
+          "classification": "upper"
+        },
+        "identifier": "SB 201",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, providing for spending limitations.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-01-31T20:25:38.517315Z",
+        "updated_at": "2023-01-31T20:25:38.551187Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/SB201/",
+        "first_action_date": "2023-01-31T05:00:00Z",
+        "latest_action_date": "2023-01-31T05:00:00Z",
+        "latest_action_description": "PN 0174 Referred to STATE GOVERNMENT",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "PN 0174 Referred to STATE GOVERNMENT",
+            "date": "2023-01-31T05:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB201/",
+      "Party": "R",
+      "PassedLastSession": "No",
+      "RowID": 29,
+      "Sponsor": "Camera Bartolotta",
+      "Status": "Introduced",
+      "Topics": "Taxes and Spending",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0201",
+      "WhatWouldItDo": "Restrict state budget increases to the rate of inflation plus average population change, or the average state personal income unless two-thirds of the General Assembly agrees to waive the cap",
+      "WillBeOnNextBallot": ""
+    },
+    {
+      "BillLink": "Senate Bill 227",
+      "BillNumber": "Senate Bill 227",
+      "FormerSessionURL": "",
+      "Notes": "",
+      "OpenStatesId": "ocd-bill/0a80e923-3e2d-47e8-8e30-dc1a6c3317c9",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/0a80e923-3e2d-47e8-8e30-dc1a6c3317c9",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+          "name": "Senate",
+          "classification": "upper"
+        },
+        "identifier": "SB 227",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, prohibiting the passage of unfunded directives from the General Assembly concerning education passed through legislation.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-01-31T20:28:30.969651Z",
+        "updated_at": "2023-01-31T20:28:30.998757Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/SB227/",
+        "first_action_date": "2023-01-31T05:00:00Z",
+        "latest_action_date": "2023-01-31T05:00:00Z",
+        "latest_action_description": "PN 0196 Referred to STATE GOVERNMENT",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "PN 0196 Referred to STATE GOVERNMENT",
+            "date": "2023-01-31T05:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB227/",
+      "Party": "R",
+      "PassedLastSession": "No",
+      "RowID": 30,
+      "Sponsor": "Kristin Phillips-Hill",
+      "Status": "Introduced",
+      "Topics": "Taxes and Spending, Education",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0227",
+      "WhatWouldItDo": "Require the state to fund any new education program established by statute, regulation or executive order that costs school districts money",
+      "WillBeOnNextBallot": ""
+    },
+    {
+      "BillLink": "Senate Bill 23",
+      "BillNumber": "Senate Bill 23",
+      "FormerSessionURL": "HB 14",
+      "Notes": "One of four current bills whose passage would trigger a constitutional referendum on sex abuse statute of limitations.",
+      "OpenStatesId": "ocd-bill/810b280e-2d04-4506-83cb-091c15f5538e",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/810b280e-2d04-4506-83cb-091c15f5538e",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+          "name": "Senate",
+          "classification": "upper"
+        },
+        "identifier": "SB 23",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for courts to be open and suits against the Commonwealth.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-01-20T12:20:07.219116Z",
+        "updated_at": "2023-02-16T12:05:20.863705Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/SB23/",
+        "first_action_date": "2023-01-19T05:00:00Z",
+        "latest_action_date": "2023-01-19T05:00:00Z",
+        "latest_action_description": "PN 0127 Referred to STATE GOVERNMENT",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "PN 0127 Referred to STATE GOVERNMENT",
+            "date": "2023-01-19T05:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB23/",
+      "Party": "R",
+      "PassedLastSession": "Yes",
+      "RowID": 31,
+      "Sponsor": "Lisa Baker",
+      "Status": "Introduced",
+      "Topics": "Civil Liberties, Statute of Limitations",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0023",
+      "WhatWouldItDo": "Create a two year window for childhood victims of sexual abuse to file a lawsuit against their abusers or those who shielded them",
+      "WillBeOnNextBallot": ""
+    },
+    {
+      "BillLink": "Senate Bill 234",
+      "BillNumber": "Senate Bill 234",
+      "FormerSessionURL": "",
+      "Notes": "",
+      "OpenStatesId": "ocd-bill/20157ab2-d99a-4048-8c5f-dbbf5c9f3c40",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/20157ab2-d99a-4048-8c5f-dbbf5c9f3c40",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+          "name": "Senate",
+          "classification": "upper"
+        },
+        "identifier": "SB 234",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for tenure of justices, judges and justices of the peace.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-01-31T12:29:11.303208Z",
+        "updated_at": "2023-01-31T12:29:11.322926Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/SB234/",
+        "first_action_date": "2023-01-30T05:00:00Z",
+        "latest_action_date": "2023-01-30T05:00:00Z",
+        "latest_action_description": "PN 0171 Referred to STATE GOVERNMENT",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "PN 0171 Referred to STATE GOVERNMENT",
+            "date": "2023-01-30T05:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB234/",
+      "Party": "R",
+      "PassedLastSession": "No",
+      "RowID": 32,
+      "Sponsor": "Doug Mastriano",
+      "Status": "Introduced",
+      "Topics": "Judiciary, Government reform",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0234",
+      "WhatWouldItDo": "Limit state Supreme, Superior and Commonwealth Court justices to two ten-year terms.",
+      "WillBeOnNextBallot": ""
+    },
+    {
+      "BillLink": "Senate Bill 273",
+      "BillNumber": "Senate Bill 273",
+      "FormerSessionURL": "",
+      "Notes": "",
+      "OpenStatesId": "ocd-bill/612fb627-2307-490e-9f09-d44fefc74af9",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/612fb627-2307-490e-9f09-d44fefc74af9",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+          "name": "Senate",
+          "classification": "upper"
+        },
+        "identifier": "SB 273",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for judicial administration.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-02-01T00:33:21.483318Z",
+        "updated_at": "2023-02-01T00:33:21.510398Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/SB273/",
+        "first_action_date": "2023-01-31T05:00:00Z",
+        "latest_action_date": "2023-01-31T05:00:00Z",
+        "latest_action_description": "PN 0236 Referred to STATE GOVERNMENT",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "PN 0236 Referred to STATE GOVERNMENT",
+            "date": "2023-01-31T05:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB273/",
+      "Party": "R",
+      "PassedLastSession": "No",
+      "RowID": 33,
+      "Sponsor": "Gene Yaw",
+      "Status": "Introduced",
+      "Topics": "Judiciary",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0273",
+      "WhatWouldItDo": "Allow all state courts with more than two members, except the Supreme Court, to elect their president judge rather than using seniority",
+      "WillBeOnNextBallot": ""
+    },
+    {
+      "BillLink": "Senate Bill 409",
+      "BillNumber": "Senate Bill 409",
+      "FormerSessionURL": "",
+      "Notes": "",
+      "OpenStatesId": "ocd-bill/d107e702-7d3c-4b86-987f-0fe78af68dbf",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/d107e702-7d3c-4b86-987f-0fe78af68dbf",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+          "name": "Senate",
+          "classification": "upper"
+        },
+        "identifier": "SB 409",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for appropriation bills.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-02-21T20:49:18.430445Z",
+        "updated_at": "2023-02-21T20:49:18.466654Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/SB409/",
+        "first_action_date": "2023-02-21T05:00:00Z",
+        "latest_action_date": "2023-02-21T05:00:00Z",
+        "latest_action_description": "PN 0359 Referred to STATE GOVERNMENT",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "PN 0359 Referred to STATE GOVERNMENT",
+            "date": "2023-02-21T05:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB409/",
+      "Party": "R",
+      "PassedLastSession": "No",
+      "RowID": 34,
+      "Sponsor": "Kristin Phillips-Hill",
+      "Status": "Introduced",
+      "Topics": "Taxes and Spending",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0409",
+      "WhatWouldItDo": "Require a gubernatorial request for a department budget supplement be made through a separate bill rather than in the next year's budget",
+      "WillBeOnNextBallot": ""
+    },
+    {
+      "BillLink": "Senate Bill 510",
+      "BillNumber": "Senate Bill 510",
+      "FormerSessionURL": "",
+      "Notes": "",
+      "OpenStatesId": "ocd-bill/c6145e31-ecb1-49aa-a3b8-e728e4e73892",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/c6145e31-ecb1-49aa-a3b8-e728e4e73892",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+          "name": "Senate",
+          "classification": "upper"
+        },
+        "identifier": "SB 510",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for legislative districts.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-16T01:05:43.456617Z",
+        "updated_at": "2023-03-16T01:05:43.515625Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/SB510/",
+        "first_action_date": "2023-03-15T04:00:00Z",
+        "latest_action_date": "2023-03-15T04:00:00Z",
+        "latest_action_description": "PN 0476 Referred to STATE GOVERNMENT",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "PN 0476 Referred to STATE GOVERNMENT",
+            "date": "2023-03-15T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB510/",
+      "Party": "R",
+      "PassedLastSession": "No",
+      "RowID": 35,
+      "Sponsor": "Dan Laughlin",
+      "Status": "Introduced",
+      "Topics": "Legislature, Government reform",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0510",
+      "WhatWouldItDo": "Shrink state House from 203 to 150 members; ensure each state Senate district contains three state House districts",
+      "WillBeOnNextBallot": ""
+    },
+    {
+      "BillLink": "Senate Bill 535",
+      "BillNumber": "Senate Bill 535",
+      "FormerSessionURL": "",
+      "Notes": "",
+      "OpenStatesId": "ocd-bill/208f3d00-ef32-409c-8ae4-4fb0aa00f4c7",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/208f3d00-ef32-409c-8ae4-4fb0aa00f4c7",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+          "name": "Senate",
+          "classification": "upper"
+        },
+        "identifier": "SB 535",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for prohibition against denial or abridgment of equality of rights because of sex.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-28T21:09:38.698745Z",
+        "updated_at": "2023-03-28T21:09:38.73999Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/SB535/",
+        "first_action_date": "2023-03-28T04:00:00Z",
+        "latest_action_date": "2023-03-28T04:00:00Z",
+        "latest_action_description": "PN 0522 Referred to STATE GOVERNMENT",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "PN 0522 Referred to STATE GOVERNMENT",
+            "date": "2023-03-28T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB535/",
+      "Party": "D",
+      "PassedLastSession": "No",
+      "RowID": 36,
+      "Sponsor": "Lisa Boscola",
+      "Status": "Introduced",
+      "Topics": "Civil Liberties",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0535",
+      "WhatWouldItDo": "Expand state non-discrimination protections to include sexual orientation and gender idenitity",
+      "WillBeOnNextBallot": ""
+    },
+    {
+      "BillLink": "Senate Bill 539",
+      "BillNumber": "Senate Bill 539",
+      "FormerSessionURL": "",
+      "Notes": "",
+      "OpenStatesId": "ocd-bill/f8630ce8-6898-498d-9ce7-1729d4b011b7",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/f8630ce8-6898-498d-9ce7-1729d4b011b7",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+          "name": "Senate",
+          "classification": "upper"
+        },
+        "identifier": "SB 539",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, providing for minimum wage.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-28T21:06:36.633295Z",
+        "updated_at": "2023-03-28T21:06:36.752077Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/SB539/",
+        "first_action_date": "2023-03-28T04:00:00Z",
+        "latest_action_date": "2023-03-28T04:00:00Z",
+        "latest_action_description": "PN 0525 Referred to STATE GOVERNMENT",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "PN 0525 Referred to STATE GOVERNMENT",
+            "date": "2023-03-28T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB539/",
+      "Party": "D",
+      "PassedLastSession": "No",
+      "RowID": 37,
+      "Sponsor": "Wayne Fontana",
+      "Status": "Introduced",
+      "Topics": "Economy",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0539",
+      "WhatWouldItDo": "Set minimum wage at $15 effective Jan. 1, 2025, followed by automatic increases to keep pace with inflation",
+      "WillBeOnNextBallot": ""
+    },
+    {
+      "BillLink": "Senate Bill 570",
+      "BillNumber": "Senate Bill 570",
+      "FormerSessionURL": "SB 106",
+      "Notes": "Standalone amendment. Passed last year combined with amendments that would declare there's no legal right to an abortion, give new regulatory override powers to the legislature, impose new election audits, and create a universal voter ID requirement.",
+      "OpenStatesId": "ocd-bill/4fe5aa5d-76d3-474f-9104-38a6f7b8b959",
+      "OpenStatesInfo": {
+        "id": "ocd-bill/4fe5aa5d-76d3-474f-9104-38a6f7b8b959",
+        "session": "2023-2024",
+        "jurisdiction": {
+          "id": "ocd-jurisdiction/country:us/state:pa/government",
+          "name": "Pennsylvania",
+          "classification": "state"
+        },
+        "from_organization": {
+          "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+          "name": "Senate",
+          "classification": "upper"
+        },
+        "identifier": "SB 570",
+        "title": "A Joint Resolution proposing an amendment to the Constitution of the Commonwealth of Pennsylvania, further providing for Lieutenant Governor.",
+        "classification": [
+          "bill"
+        ],
+        "subject": [],
+        "extras": {},
+        "created_at": "2023-03-30T21:05:55.828565Z",
+        "updated_at": "2023-03-30T21:05:55.886162Z",
+        "openstates_url": "https://openstates.org/pa/bills/2023-2024/SB570/",
+        "first_action_date": "2023-03-30T04:00:00Z",
+        "latest_action_date": "2023-03-30T04:00:00Z",
+        "latest_action_description": "PN 0578 Referred to STATE GOVERNMENT",
+        "latest_passage_date": "",
+        "actions": [
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "PN 0578 Referred to STATE GOVERNMENT",
+            "date": "2023-03-30T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 0
+          }
+        ]
+      },
+      "OpenStatesURL": "https://openstates.org/pa/bills/2023-2024/SB570/",
+      "Party": "R",
+      "PassedLastSession": "Yes",
+      "RowID": 38,
+      "Sponsor": "David Argall",
+      "Status": "Introduced",
+      "Topics": "Elections, Government reform",
+      "URL": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2023\u0026sind=0\u0026body=S\u0026type=B\u0026bn=0570",
+      "WhatWouldItDo": "Allow the gubernatorial candidate to pick a candidate for lieutenant governor as a running mate, eliminating independent primaries for the two offices",
       "WillBeOnNextBallot": ""
     }
   ]
