@@ -46,3 +46,13 @@ When the main branch of the Github repo changes, Netlify deploys a new build.
   -write file path
         destination file path (default "amtrack.json")
 ```
+
+### Embed code
+
+The production embed code is:
+
+```html
+<script src="https://viz-amendment-tracker.data.spotlightpa.org/embed.js" defer></script><div data-spl-interactive="viz-amendment-tracker"></div><small><a href="https://viz-amendment-tracker.data.spotlightpa.org">Click here if you have trouble loading this visualization</a></small>
+```
+
+Alternative embed codes can be tested by changing the script URL.
