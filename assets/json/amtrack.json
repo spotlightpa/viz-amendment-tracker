@@ -27,11 +27,11 @@
         "subject": [],
         "extras": {},
         "created_at": "2023-03-01T18:52:09.703337Z",
-        "updated_at": "2023-04-22T13:38:13.511934Z",
+        "updated_at": "2023-04-24T21:31:15.890875Z",
         "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB1/",
         "first_action_date": "2023-03-01T05:00:00Z",
-        "latest_action_date": "2023-04-21T04:00:00Z",
-        "latest_action_description": "Re-reported as committed",
+        "latest_action_date": "2023-04-24T04:00:00Z",
+        "latest_action_description": "Re-committed to APPROPRIATIONS",
         "latest_passage_date": "",
         "actions": [
           {
@@ -120,6 +120,32 @@
               "committee-passage"
             ],
             "order": 6
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Second consideration",
+            "date": "2023-04-24T04:00:00Z",
+            "classification": [
+              "reading-2"
+            ],
+            "order": 7
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Re-committed to APPROPRIATIONS",
+            "date": "2023-04-24T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 8
           }
         ]
       },
@@ -1938,7 +1964,7 @@
         "subject": [],
         "extras": {},
         "created_at": "2023-01-20T12:30:28.768418Z",
-        "updated_at": "2023-02-17T20:22:07.975245Z",
+        "updated_at": "2023-04-24T20:28:43.325555Z",
         "openstates_url": "https://openstates.org/pa/bills/2023-2024/SB177/",
         "first_action_date": "2023-01-19T05:00:00Z",
         "latest_action_date": "2023-01-19T05:00:00Z",
