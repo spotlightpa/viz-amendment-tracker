@@ -518,7 +518,7 @@
         "subject": [],
         "extras": {},
         "created_at": "2023-03-11T05:24:50.241326Z",
-        "updated_at": "2023-03-13T17:28:43.78416Z",
+        "updated_at": "2023-05-04T06:20:54.318808Z",
         "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB332/",
         "first_action_date": "2023-03-13T04:00:00Z",
         "latest_action_date": "2023-03-13T04:00:00Z",
@@ -1672,11 +1672,11 @@
         "subject": [],
         "extras": {},
         "created_at": "2023-01-07T08:03:57.14821Z",
-        "updated_at": "2023-04-22T12:08:06.35583Z",
+        "updated_at": "2023-05-04T04:07:23.465353Z",
         "openstates_url": "https://openstates.org/pa/bills/2023-2024/SB1/",
         "first_action_date": "2023-01-06T05:00:00Z",
-        "latest_action_date": "2023-04-21T04:00:00Z",
-        "latest_action_description": "Re-reported as committed",
+        "latest_action_date": "2023-05-03T04:00:00Z",
+        "latest_action_description": "Second consideration",
         "latest_passage_date": "2023-01-11T05:00:00+00:00",
         "actions": [
           {
@@ -1886,6 +1886,30 @@
               "committee-passage"
             ],
             "order": 15
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Motion to revert to Prior Printer's No. 26",
+            "date": "2023-05-03T04:00:00Z",
+            "classification": [],
+            "order": 16
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/0f78429d-ec86-4333-9338-17708fe11914",
+              "name": "House",
+              "classification": "lower"
+            },
+            "description": "Second consideration",
+            "date": "2023-05-03T04:00:00Z",
+            "classification": [
+              "reading-2"
+            ],
+            "order": 17
           }
         ]
       },
