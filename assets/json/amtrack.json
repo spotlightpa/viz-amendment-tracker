@@ -27,11 +27,11 @@
         "subject": [],
         "extras": {},
         "created_at": "2023-03-01T18:52:09.703337Z",
-        "updated_at": "2023-04-26T01:46:06.257756Z",
+        "updated_at": "2023-05-08T17:42:38.631222Z",
         "openstates_url": "https://openstates.org/pa/bills/2023-2024/HB1/",
         "first_action_date": "2023-03-01T05:00:00Z",
-        "latest_action_date": "2023-04-25T04:00:00Z",
-        "latest_action_description": "Third consideration and final passage",
+        "latest_action_date": "2023-05-08T04:00:00Z",
+        "latest_action_description": "Referred to STATE GOVERNMENT",
         "latest_passage_date": "2023-04-25T04:00:00+00:00",
         "actions": [
           {
@@ -173,6 +173,19 @@
               "reading-3"
             ],
             "order": 10
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "Referred to STATE GOVERNMENT",
+            "date": "2023-05-08T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 11
           }
         ]
       },
