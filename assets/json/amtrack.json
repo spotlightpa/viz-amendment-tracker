@@ -1725,11 +1725,11 @@
         "subject": [],
         "extras": {},
         "created_at": "2023-01-07T08:03:57.14821Z",
-        "updated_at": "2023-05-23T04:03:57.166172Z",
+        "updated_at": "2023-06-06T12:08:52.930158Z",
         "openstates_url": "https://openstates.org/pa/bills/2023-2024/SB1/",
         "first_action_date": "2023-01-06T05:00:00Z",
-        "latest_action_date": "2023-05-22T04:00:00Z",
-        "latest_action_description": "Third consideration and final passage",
+        "latest_action_date": "2023-06-05T04:00:00Z",
+        "latest_action_description": "Referred to RULES AND EXECUTIVE NOMINATIONS",
         "latest_passage_date": "2023-05-22T04:00:00+00:00",
         "actions": [
           {
@@ -2003,6 +2003,19 @@
               "reading-3"
             ],
             "order": 20
+          },
+          {
+            "organization": {
+              "id": "ocd-organization/9443a886-8032-4502-b99d-551735ec9606",
+              "name": "Senate",
+              "classification": "upper"
+            },
+            "description": "Referred to RULES AND EXECUTIVE NOMINATIONS",
+            "date": "2023-06-05T04:00:00Z",
+            "classification": [
+              "referral-committee"
+            ],
+            "order": 21
           }
         ]
       },
