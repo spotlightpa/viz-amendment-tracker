@@ -2057,11 +2057,11 @@
         "subject": [],
         "extras": {},
         "created_at": "2023-01-07T08:03:56.996795Z",
-        "updated_at": "2023-01-19T03:38:46.971112Z",
+        "updated_at": "2023-07-18T00:26:16.728813Z",
         "openstates_url": "https://openstates.org/pa/bills/2023-2024/SB130/",
         "first_action_date": "2023-01-06T05:00:00Z",
         "latest_action_date": "2023-01-11T05:00:00Z",
-        "latest_action_description": "Re-referred to RULES AND EXECUTIVE NOMINATIONS",
+        "latest_action_description": "Re-committed to RULES AND EXECUTIVE NOMINATIONS",
         "latest_passage_date": "",
         "actions": [
           {
@@ -2148,7 +2148,7 @@
               "name": "Senate",
               "classification": "upper"
             },
-            "description": "Re-referred to RULES AND EXECUTIVE NOMINATIONS",
+            "description": "Re-committed to RULES AND EXECUTIVE NOMINATIONS",
             "date": "2023-01-11T05:00:00Z",
             "classification": [
               "referral-committee"
